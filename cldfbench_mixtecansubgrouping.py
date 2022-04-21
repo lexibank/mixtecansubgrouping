@@ -68,4 +68,3 @@ class Dataset(BaseDataset):
                         'concept']))
                     visited.add(wl[k, 'concept'])
 
-
