@@ -227,52 +227,15 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Spanish_Gloss,Number
 227_clothes,CLOTHES,1895,CLOTHES,ropa,227
 228_zapoteblack,ZAPOTE (BLACK),,,zapote negro,228
 229_fathervocative,FATHER VOCATIVE,1217,FATHER,"father!, dad!",229
-230_important,IMPORTANT,1285,IMPORTANT,important,230
-231_leaf,LEAF,2250,LEAF (LEAFLIKE OBJECT),leaf,231
-232_weed,WEED,3288,WEED,weeds,232
-233_fodder,FODDER,3046,FODDER,forraje,233
 234_sleepy,SLEEPY,3620,SLEEPY,sueño,234
-235_clay,CLAY,640,MUD,barro,235
 236_loose,LOOSE,2506,LOOSE,flojo (una cosa amarrado),236
 237_mezzanine,MEZZANINE,,,altillo,237
-238_shirt,SHIRT,1622,SHIRT,camisa,238
 239_coffin,COFFIN,2011,COFFIN,ataúd,239
-240_housesmall,HOUSE (SMALL),1252,HOUSE,casita,240
-241_plantedfield,PLANTED FIELD,,,planted field,241
-242_wattle,WATTLE,,,cañizo,242
-243_meadowfescue,MEADOW FESCUE,,,cañuela,243
 244_cornhusk,CORN HUSK,3686,CORN HUSK,chala,244
-245_corncob,CORN COB,,,mazorca,245
-246_tadpole,TADPOLE,,,renacuajo,246
-247_toad,TOAD,894,TOAD,sapo,247
-248_tube,TUBE,2956,TUBE,caños,248
-249_poultrymanure,POULTRY MANURE,,,cuita,249
 250_eagle,EAGLE,1905,EAGLE,á́guila,250
 252_falcon,FALCON,3258,FALCON,halcón,252
-253_field,FIELD,212,FIELD,campo,253
-254_hillwithgrass,HILL WITH GRASS,1683,BUSH,monte,254
-255_sugarcanehoney,SUGAR CANE HONEY,,,miel de caña,255
-256_insideperson,INSIDE (PERSON),1606,INSIDE,dentro,256
-257_stomach,STOMACH,819,STOMACH,estómago,257
-258_brand,BRAND,,,"insignia, marca",258
-259_hammock,HAMMOCK,2019,HAMMOCK,hamaca,259
-260_barbecue,BARBECUE,,,barbacoa,260
-261_smallpox,SMALLPOX,1054,SMALLPOX,viruela,261
 262_leg,LEG,1297,LEG,pierna,262
-263_thick,THICK,1244,THICK,espeso,263
-264_neutraltaste,NEUTRAL (TASTE),,,neutral,264
-265_horseshoe,HORSE SHOE,,,herradura,265
 266_slippery,SLIPPERY,3702,SLIPPERY,resbala,266
-267_altar,ALTAR,853,ALTAR,altar,267
-268_saddle,SADDLE,3065,SADDLE,montura,268
-269_brownsugarloaf,BROWN SUGAR LOAF,,,panela,269
-270_lush,LUSH,,,frondoso,270
 271_liquid,LIQUID,58,LIQUID,liquid,271
-272_flash,FLASH,,,flash,272
-273_herb,HERB,,,"herb, medicine",273
-274_bell,BELL,2246,BELL,campana,274
 275_sweet,SWEET,717,SWEET,dulce,275
-276_sisterofman,SISTER (OF MAN),,,hermana de hombre,276
 277_gavilucha,GAVILUCHA,,,gavilucha,277
-278_small,SMALL,1246,SMALL,pequeño,278
-279_forest,FOREST,420,FOREST,bosque,279

@@ -9,37 +9,48 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset supplementing Audersets's \"Mixteca\"",
+    "dcat:accessURL": "https://github.com/lexibank/mixtecansubgrouping",
     "prov:wasDerivedFrom": [
         {
+            "rdf:about": "https://github.com/lexibank/mixtecansubgrouping",
             "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
+            "dc:created": "1e6b675",
+            "dc:title": "Repository"
+        },
+        {
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.3-treedb-fixes-213-g17033193e9"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v4.5",
+            "dc:title": "Glottolog"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.4.0-17-ga0ae303"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v2.5.0",
+            "dc:title": "Concepticon"
         },
         {
+            "rdf:about": "https://github.com/cldf-clts/clts/",
             "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts",
-            "dc:created": "v1.4-161-g8b92f99"
+            "dc:created": "v2.1.0-26-gb12a7df",
+            "dc:title": "CLTS"
         }
     ],
     "prov:wasGeneratedBy": [
         {
+            "dc:title": "lingpy-rcParams",
+            "dc:relation": "lingpy-rcParams.json"
+        },
+        {
             "dc:title": "python",
-            "dc:description": "3.7.7"
+            "dc:description": "3.9.9"
         },
         {
             "dc:title": "python-packages",
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "mixteca",
+    "rdf:ID": "mixtecansubgrouping",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -47,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 21941,
+            "dc:extent": 13286,
             "tableSchema": {
                 "columns": [
                     {
@@ -124,6 +135,10 @@
                     {
                         "datatype": "string",
                         "name": "Loan_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Partial_Cognacy"
                     }
                 ],
                 "foreignKeys": [
@@ -158,7 +173,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 157,
+            "dc:extent": 96,
             "tableSchema": {
                 "columns": [
                     {
@@ -194,8 +209,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -90,
-                            "maximum": 90
+                            "minimum": "-90",
+                            "maximum": "90"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
                         "required": false,
@@ -204,8 +219,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -180,
-                            "maximum": 180
+                            "minimum": "-180",
+                            "maximum": "180"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
                         "required": false,
@@ -236,7 +251,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 277,
+            "dc:extent": 240,
             "tableSchema": {
                 "columns": [
                     {
