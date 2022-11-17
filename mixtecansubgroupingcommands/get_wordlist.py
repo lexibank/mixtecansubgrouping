@@ -2,7 +2,7 @@
 This script is designed to output the wordlist with partial cognate judgements from lexstat method
 """
 
-from lexibank_mixteca import Dataset
+from lexibank_mixtecansubgrouping import Dataset
 from lingpy import Wordlist
 from lingpy.compare.partial import Partial
 
