@@ -58,7 +58,7 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = id_
 
         errors = set()
-        for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
+        for k in wl:
             if wl[k, "doculect"] not in languages:
                 errors.add("language missing {0}".format(wl[k, "doculect"]))
             elif wl[k, "concept"] not in concepts:
