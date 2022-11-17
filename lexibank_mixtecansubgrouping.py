@@ -39,10 +39,12 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         wl = lingpy.Wordlist(str(self.raw_dir / 'sm3_mixtecan_cognates.tsv'))
         args.writer.add_sources()
+
         languages = {}
         for language in self.languages:
             args.writer.add_language(**language)
             languages[language["Name"]] = language["ID"]
+
         concepts = {}
         for concept in self.concepts:
             id_ = '{}_{}'.format(concept['NUMBER'], slug(concept['ENGLISH']))
@@ -54,10 +56,10 @@ class Dataset(BaseDataset):
                 Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                 Spanish_Gloss=concept['SPANISH'])
             concepts[concept['ENGLISH']] = id_
+
         errors = set()
         for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
-            if wl[k, "doculect"] not in languages:
-                errors.add("language missing {0}".format(wl[k, "doculect"]))
+            if wl[k, "doculect"] not in languages: errors.add("language missing {0}".format(wl[k, "doculect"]))
             elif wl[k, "concept"] not in concepts:
                 errors.add("concept missing {0}".format(wl[k, "concept"]))
             elif wl[k, 'form']:
@@ -73,5 +75,6 @@ class Dataset(BaseDataset):
                     Segments=wl[k, "tokens"],
                     Source=wl[k, 'source'],
                     Partial_Cognacy=wl[k, "cogids_broad"])
+
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
