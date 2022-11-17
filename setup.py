@@ -16,6 +16,7 @@ setup(
     },
     install_requires=[
         'pycldf>=1.24',
+        'pylexibank',
         'cldfbench',
         'cldfviz',
     ],
@@ -25,4 +26,3 @@ setup(
         ],
     },
 )
-
