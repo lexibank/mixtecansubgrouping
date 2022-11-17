@@ -59,7 +59,8 @@ class Dataset(BaseDataset):
 
         errors = set()
         for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
-            if wl[k, "doculect"] not in languages: errors.add("language missing {0}".format(wl[k, "doculect"]))
+            if wl[k, "doculect"] not in languages:
+                errors.add("language missing {0}".format(wl[k, "doculect"]))
             elif wl[k, "concept"] not in concepts:
                 errors.add("concept missing {0}".format(wl[k, "concept"]))
             elif wl[k, 'form']:
