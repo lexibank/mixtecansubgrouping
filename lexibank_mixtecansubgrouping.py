@@ -73,7 +73,7 @@ class Dataset(BaseDataset):
             else:
                 if wl[k, "concept"] not in concepts:
                     errors.add("concept missing {0}".format(wl[k, "concept"]))
-                elif wl[k, "doculect"] not in languages:
+                if wl[k, "doculect"] not in languages:
                     errors.add("language missing {0}".format(wl[k, "doculect"]))
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
