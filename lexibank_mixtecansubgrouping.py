@@ -56,10 +56,11 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = id_
         errors = set()
         for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
-            if (wl[k, 'concept'] in concepts
-                and wl[k, "doculect"] in languages
-                and wl[k, 'form']
-            ):
+            if wl[k, "doculect"] not in languages:
+                errors.add("language missing {0}".format(wl[k, "doculect"]))
+            elif wl[k, "concept"] not in concepts:
+                errors.add("concept missing {0}".format(wl[k, "concept"]))
+            elif wl[k, 'form']:
                 if len(wl[k, "tokens"].n) != len(wl[k, "cogids_broad"].split()):
                     errors.add("partial cognates: {0} / {1} / {2}".format(
                         k, str(wl[k, "tokens"]), wl[k, "cogids_broad"]))
@@ -72,10 +73,5 @@ class Dataset(BaseDataset):
                     Segments=wl[k, "tokens"],
                     Source=wl[k, 'source'],
                     Partial_Cognacy=wl[k, "cogids_broad"])
-            else:
-                if wl[k, "concept"] not in concepts:
-                    errors.add("concept missing {0}".format(wl[k, "concept"]))
-                if wl[k, "doculect"] not in languages:
-                    errors.add("language missing {0}".format(wl[k, "doculect"]))
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
