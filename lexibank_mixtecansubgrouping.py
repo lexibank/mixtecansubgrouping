@@ -1,6 +1,5 @@
 from pathlib import Path
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank import progressbar
 from pylexibank.models import Language, Concept, Lexeme
 from clldutils.misc import slug
 import attr
@@ -37,7 +36,8 @@ class Dataset(BaseDataset):
     lexeme_class = CustomLexeme
 
     def cmd_makecldf(self, args):
-        wl = lingpy.Wordlist(str(self.raw_dir / 'sm3_mixtecan_cognates.tsv'))
+        word_list = lingpy.Wordlist(
+            str(self.raw_dir / 'sm3_mixtecan_cognates.tsv'))
         args.writer.add_sources()
 
         languages = {}
@@ -58,24 +58,28 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = id_
 
         errors = set()
-        for k in wl:
-            if wl[k, "doculect"] not in languages:
-                errors.add("language missing {0}".format(wl[k, "doculect"]))
-            elif wl[k, "concept"] not in concepts:
-                errors.add("concept missing {0}".format(wl[k, "concept"]))
-            elif wl[k, 'form']:
-                if len(wl[k, "tokens"].n) != len(wl[k, "cogids_broad"].split()):
+        for key in word_list:
+            if word_list[key, "doculect"] not in languages:
+                errors.add("language missing {0}".format(
+                    word_list[key, "doculect"]))
+            elif word_list[key, "concept"] not in concepts:
+                errors.add("concept missing {0}".format(
+                    word_list[key, "concept"]))
+            elif word_list[key, 'form']:
+                if (len(word_list[key, "tokens"].n) != len(word_list[key, "cogids_broad"].split()):
                     errors.add("partial cognates: {0} / {1} / {2}".format(
-                        k, str(wl[k, "tokens"]), wl[k, "cogids_broad"]))
+                        key,
+                        str(word_list[key, "tokens"]),
+                        word_list[key, "cogids_broad"]))
                 args.writer.add_form_with_segments(
-                    Local_ID=k,
-                    Language_ID=languages[wl[k, 'doculect']],
-                    Parameter_ID=concepts[wl[k, 'concept']],
-                    Value=wl[k, 'value'],
-                    Form=wl[k, 'form'],
-                    Segments=wl[k, "tokens"],
-                    Source=wl[k, 'source'],
-                    Partial_Cognacy=wl[k, "cogids_broad"])
+                    Local_ID=key,
+                    Language_ID=languages[word_list[key, 'doculect']],
+                    Parameter_ID=concepts[word_list[key, 'concept']],
+                    Value=word_list[key, 'value'],
+                    Form=word_list[key, 'form'],
+                    Segments=word_list[key, "tokens"],
+                    Source=word_list[key, 'source'],
+                    Partial_Cognacy=word_list[key, "cogids_broad"])
 
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
