@@ -45,15 +45,15 @@ class Dataset(BaseDataset):
             languages[language["Name"]] = language["ID"]
         concepts = {}
         for concept in self.concepts:
-            idx = '{}_{}'.format(concept['NUMBER'], slug(concept['ENGLISH']))
+            id_ = '{}_{}'.format(concept['NUMBER'], slug(concept['ENGLISH']))
             args.writer.add_concept(
-                ID=idx,
+                ID=id_,
                 Name=concept['ENGLISH'],
                 Number=concept['NUMBER'],
                 Concepticon_ID=concept['CONCEPTICON_ID'],
                 Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                 Spanish_Gloss=concept['SPANISH'])
-            concepts[concept['ENGLISH']] = idx
+            concepts[concept['ENGLISH']] = id_
         errors = set()
         for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
             if wl[k, 'concept'] in concepts and wl[k, "doculect"] in languages:
