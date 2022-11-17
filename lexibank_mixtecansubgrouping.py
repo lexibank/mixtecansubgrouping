@@ -66,7 +66,9 @@ class Dataset(BaseDataset):
                 errors.add("concept missing {0}".format(
                     word_list[key, "concept"]))
             elif word_list[key, 'form']:
-                if (len(word_list[key, "tokens"].n) != len(word_list[key, "cogids_broad"].split()):
+                cognate_count = len(word_list[key, "tokens"].n)
+                cognate_id_count = len(word_list[key, "cogids_broad"].split())
+                if cognate_count != cognate_id_count:
                     errors.add("partial cognates: {0} / {1} / {2}".format(
                         key,
                         str(word_list[key, "tokens"]),
