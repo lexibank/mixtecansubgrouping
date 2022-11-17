@@ -56,20 +56,22 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = id_
         errors = set()
         for k in progressbar(wl, desc='wl-to-cldf', total=len(wl)):
-            if wl[k, 'concept'] in concepts and wl[k, "doculect"] in languages:
-                if wl[k, 'form']:
-                    if len(wl[k, "tokens"].n) != len(wl[k, "cogids_broad"].split()):
-                        errors.add("partial cognates: {0} / {1} / {2}".format(
-                            k, str(wl[k, "tokens"]), wl[k, "cogids_broad"]))
-                    args.writer.add_form_with_segments(
-                        Local_ID=k,
-                        Language_ID=languages[wl[k, 'doculect']],
-                        Parameter_ID=concepts[wl[k, 'concept']],
-                        Value=wl[k, 'value'],
-                        Form=wl[k, 'form'],
-                        Segments=wl[k, "tokens"],
-                        Source=wl[k, 'source'],
-                        Partial_Cognacy=wl[k, "cogids_broad"])
+            if (wl[k, 'concept'] in concepts
+                and wl[k, "doculect"] in languages
+                and wl[k, 'form']
+            ):
+                if len(wl[k, "tokens"].n) != len(wl[k, "cogids_broad"].split()):
+                    errors.add("partial cognates: {0} / {1} / {2}".format(
+                        k, str(wl[k, "tokens"]), wl[k, "cogids_broad"]))
+                args.writer.add_form_with_segments(
+                    Local_ID=k,
+                    Language_ID=languages[wl[k, 'doculect']],
+                    Parameter_ID=concepts[wl[k, 'concept']],
+                    Value=wl[k, 'value'],
+                    Form=wl[k, 'form'],
+                    Segments=wl[k, "tokens"],
+                    Source=wl[k, 'source'],
+                    Partial_Cognacy=wl[k, "cogids_broad"])
             else:
                 if wl[k, "concept"] not in concepts:
                     errors.add("concept missing {0}".format(wl[k, "concept"]))
