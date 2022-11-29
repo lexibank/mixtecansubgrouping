@@ -66,13 +66,13 @@ class Dataset(BaseDataset):
                 errors.add("concept missing {0}".format(
                     word_list[key, "concept"]))
             elif word_list[key, 'form']:
-                cognate_count = len(word_list[key, "tokens"].n)
-                cognate_id_count = len(word_list[key, "cogids_broad"].split())
-                if cognate_count != cognate_id_count:
+                segmented_word = word_list[key, "tokens"]
+                cognate_ids = word_list[key, "cogids_broad"]
+                form_count = len(segmented_word.n)
+                cognate_id_count = len(cognate_ids.split())
+                if form_count != cognate_id_count:
                     errors.add("partial cognates: {0} / {1} / {2}".format(
-                        key,
-                        str(word_list[key, "tokens"]),
-                        word_list[key, "cogids_broad"]))
+                        key, str(segmented_word), cognate_ids))
                 args.writer.add_form_with_segments(
                     Local_ID=key,
                     Language_ID=languages[word_list[key, 'doculect']],
