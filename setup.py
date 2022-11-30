@@ -10,9 +10,6 @@ setup(
         'cldfbench.dataset': [
             'mixtecansubgrouping=cldfbench_mixtecansubgrouping:Dataset',
         ],
-        'cldfbench.commands': [
-            'mixtecansubgrouping=mixtecansubgroupingcommands',
-        ],
     },
     install_requires=[
         'pycldf>=1.24',
