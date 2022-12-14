@@ -67,13 +67,14 @@ class Dataset(BaseDataset):
                     word_list[key, "concept"]))
             elif word_list[key, 'form']:
                 segmented_word = word_list[key, "tokens"]
-                cognate_ids = word_list[key, "cogids_broad"]
+                cognate_id_str = word_list[key, "cogids_broad"]
                 form_count = len(segmented_word.n)
-                cognate_id_count = len(cognate_ids.split())
+                cognate_ids = cognate_id_str.split()
+                cognate_id_count = len(cognate_ids)
                 if form_count != cognate_id_count:
                     errors.add("partial cognates: {0} / {1} / {2}".format(
-                        key, str(segmented_word), cognate_ids))
-                args.writer.add_form_with_segments(
+                        key, str(segmented_word), cognate_id_str))
+                lexeme = args.writer.add_form_with_segments(
                     Local_ID=key,
                     Language_ID=languages[word_list[key, 'doculect']],
                     Parameter_ID=concepts[word_list[key, 'concept']],
@@ -82,6 +83,10 @@ class Dataset(BaseDataset):
                     Segments=word_list[key, "tokens"],
                     Source=word_list[key, 'source'],
                     Partial_Cognacy=word_list[key, "cogids_broad"])
+                for cognate_id in cognate_ids:
+                    args.writer.add_cognate(
+                        lexeme=lexeme,
+                        Cognateset_ID=cognate_id)
 
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
