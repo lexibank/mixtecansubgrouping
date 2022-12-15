@@ -47,7 +47,7 @@ def get_cognates(cldf_dataset):
     Returns:
         - a set of language varieties
         - a dict of words to language sets (word -> {l1, l2, l3})
-        - a dict of cognates to language sets (cogset -> [l1, l2, l3])
+        - a dict of cognates to language sets (cogset -> {l1, l2, l3})
     """
     # TODO check if there is a parameter, form, and cognate table
     concepts = {
@@ -131,13 +131,6 @@ def make_nexus(doculects, cognates, words, ascertainment='none'):
     return nex
 
 
-def parse_cognates(cog):
-    """Parse out cognate sets from the tsv file."""
-    if not len(cog.strip()):
-        return []
-    return [c for c in cog.split(" ")]
-
-
 def get_partitions_from_nexus(nex):
     if not isinstance(nex, NexusWriter):
         raise TypeError('expected a NexusWriter instance')
@@ -173,11 +166,6 @@ def register(parser):
         '-o', '--output', type=Path, metavar='FILENAME',
         default=argparse.SUPPRESS,
         help='Output file [default: ./<id>.nex]')
-    # TODO will we need this when reading a CLDF cognate table?
-    parser.add_argument(
-        '-c', "--column", dest='column',
-        help="set cognate column (COGIDS_BROAD/COGIDS_FINE)", action='store',
-        default='COGIDS_BROAD')
     parser.add_argument(
         '-a', "--ascertainment", dest='ascertainment',
         help="set ascertainment correction mode", action='store',
