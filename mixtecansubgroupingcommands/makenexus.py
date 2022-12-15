@@ -5,10 +5,15 @@
 # TODO docstring
 """..."""
 
+import argparse
 from collections import defaultdict
 from pathlib import Path
+import sys
 
+from cldfbench.cli_util import with_dataset, add_dataset_spec
 import csvw
+from pycldf import iter_datasets
+
 from nexus import NexusWriter
 
 
@@ -35,7 +40,7 @@ def read_partitions(filename):
     return parts
 
 
-def get_cognates(filename, cognate_column='COGIDS_BROAD'):
+def get_cognates(cldf_dataset):
     """
     Collect cognate sets from column `cognate_column` in `filename`.
 
@@ -150,8 +155,12 @@ def add_to_nexus(filename, partitions):
 
 
 def register(parser):
-    parser.add_argument("filename", help='input filename (.tsv)', type=Path)
-    parser.add_argument("outfilename", help='output filename (.nex)', type=Path)
+    add_dataset_spec(parser)
+    parser.add_argument(
+        '-o', '--output', type=Path, metavar='FILENAME',
+        default=argparse.SUPPRESS,
+        help='Output file [default: ./<id>.nex]')
+    # TODO will we need this when reading a CLDF cognate table?
     parser.add_argument(
         '-c', "--column", dest='column',
         help="set cognate column (COGIDS_BROAD/COGIDS_FINE)", action='store',
@@ -162,7 +171,7 @@ def register(parser):
         default='none')
 
 
-def run(args):
+def makenexus(dataset, args):
     if args.ascertainment.lower() in ("none", "overall", "word"):
         asc = args.ascertainment.lower()
     elif Path(args.ascertainment).is_file():
@@ -170,15 +179,25 @@ def run(args):
     else:
         raise ValueError("Unknown Ascertainment type %s" % args.ascertainment)
 
-    if not args.filename.exists():
-        raise IOError("Unable to find filename %s" % args.filename)
+    try:
+        cldf_dataset = next(iter_datasets(dataset.cldf_dir))
+    except StopIteration:
+        print(
+            '{}: no cldf dataset found'.format(dataset.cldf_dir),
+            file=sys.stderr)
+        return
 
-    cogs = get_cognates(args.filename, args.column)
+    # TODO get cognates from cldf dataset
+    cogs = get_cognates(cldf_dataset)
     nex = make_nexus(*cogs, ascertainment=asc)
-    nex.write_to_file(args.outfilename, charblock=True)
+    nex.write_to_file(args.output, charblock=True)
 
     # add sets -- get partitions from nexus so we make sure to have
     # the correct character ids
     parts = get_partitions_from_nexus(nex)
     if parts:
-        add_to_nexus(args.outfilename, parts)
+        add_to_nexus(args.output, parts)
+
+
+def run(args):
+    with_dataset(args, makenexus)
