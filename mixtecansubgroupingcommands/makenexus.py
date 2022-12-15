@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # original script created by Simon J. Greenhill <simon@simon.net.nz>
-# edited by Johannes Englisch
+# cldfbench version by Johannes Englisch <johannes_englisch@eva.mpg.de>
 
 # TODO docstring
 """..."""
@@ -147,26 +147,22 @@ def add_to_nexus(filename, partitions):
             charids = ", ".join([str(i) for i in sorted(partitions[p])])
             handle.write("\tcharset %s = %s;\n" % (p, charids))
         handle.write("end;\n\n")
-    return
 
 
-if __name__ == '__main__':  # pragma: no cover
-    import argparse
-    parser = argparse.ArgumentParser(description='Does something.')
+def register(parser):
     parser.add_argument("filename", help='input filename (.tsv)', type=Path)
     parser.add_argument("outfilename", help='output filename (.nex)', type=Path)
     parser.add_argument(
         '-c', "--column", dest='column',
         help="set cognate column (COGIDS_BROAD/COGIDS_FINE)", action='store',
-        default='COGIDS_BROAD'
-    )
+        default='COGIDS_BROAD')
     parser.add_argument(
         '-a', "--ascertainment", dest='ascertainment',
         help="set ascertainment correction mode", action='store',
-        default='none'
-    )
-    args = parser.parse_args()
+        default='none')
 
+
+def run(args):
     if args.ascertainment.lower() in ("none", "overall", "word"):
         asc = args.ascertainment.lower()
     elif Path(args.ascertainment).is_file():
