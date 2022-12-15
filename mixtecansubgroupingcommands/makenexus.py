@@ -179,7 +179,10 @@ def run_makenexus(dataset, args):
     elif Path(args.ascertainment).is_file():
         asc = read_partitions(Path(args.ascertainment))
     else:
-        raise ValueError("Unknown Ascertainment type %s" % args.ascertainment)
+        print(
+            'Unknown Ascertainment type %s' % args.ascertainment,
+            file=sys.stderr)
+        return
 
     try:
         cldf_dataset = next(iter_datasets(dataset.cldf_dir))
