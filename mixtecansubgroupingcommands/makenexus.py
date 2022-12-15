@@ -2,8 +2,7 @@
 # original script created by Simon J. Greenhill <simon@simon.net.nz>
 # cldfbench version by Johannes Englisch <johannes_englisch@eva.mpg.de>
 
-# TODO docstring
-"""..."""
+"""Create a NEXUS file from the cognate table of a cldf dataset."""
 
 import argparse
 from collections import defaultdict
