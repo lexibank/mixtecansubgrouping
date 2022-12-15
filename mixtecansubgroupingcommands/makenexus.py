@@ -48,7 +48,6 @@ def get_cognates(cldf_dataset):
         - a dict of words to language sets (word -> {l1, l2, l3})
         - a dict of cognates to language sets (cogset -> {l1, l2, l3})
     """
-    # TODO check if there is a parameter, form, and cognate table
     # XXX What changes if there's a cognateset table?
     concepts = {
         row['id']: row['name']
@@ -183,12 +182,23 @@ def run_makenexus(dataset, args):
             file=sys.stderr)
         return
 
+
     try:
         cldf_dataset = next(iter_datasets(dataset.cldf_dir))
     except StopIteration:
         print(
             '{}: no cldf dataset found'.format(dataset.cldf_dir),
             file=sys.stderr)
+        return
+
+    if 'CognateTable' not in cldf_dataset:
+        print('{}: no CognateTable'.format(dataset.cldf_dir), file=sys.stderr)
+        return
+    if 'FormTable' not in cldf_dataset:
+        print('{}: no FormTable'.format(dataset.cldf_dir), file=sys.stderr)
+        return
+    if 'ParameterTable' not in cldf_dataset:
+        print('{}: no ParameterTable'.format(dataset.cldf_dir), file=sys.stderr)
         return
 
     cogs = get_cognates(cldf_dataset)
