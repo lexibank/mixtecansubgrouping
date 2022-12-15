@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-# coding=utf-8
+# original script created by Simon J. Greenhill <simon@simon.net.nz>
+# edited by Johannes Englisch
+
+# TODO docstring
 """..."""
-__author__ = 'Simon J. Greenhill <simon@simon.net.nz>'
-__copyright__ = 'Copyright (c) 2020 Simon J. Greenhill'
 
 from collections import defaultdict
 from pathlib import Path
@@ -15,7 +16,7 @@ def read(filename, delimiter="\t"):
     """Read `filename` returning an iterator of lines."""
     with csvw.UnicodeDictReader(filename, delimiter=delimiter) as reader:
         for row in reader:
-            yield(row)
+            yield row
 
 
 def read_partitions(filename):
@@ -79,7 +80,7 @@ def make_nexus(doculects, cognates, words, ascertainment='none'):
                 assert cognate not in partitionmap,\
                     'Cognate set %r in two partitions' % cognate
                 partitionmap[cognate] = partition
-        
+
         for s in ascertainment:
             for d in doculects:
                 # TODO ? or 0
@@ -117,7 +118,6 @@ def parse_cognates(cog):
     if not len(cog.strip()):
         return []
     return [c for c in cog.split(" ")]
-
 
 
 def get_partitions_from_nexus(nex):
@@ -186,4 +186,3 @@ if __name__ == '__main__':  # pragma: no cover
     parts = get_partitions_from_nexus(nex)
     if parts:
         add_to_nexus(args.outfilename, parts)
-
