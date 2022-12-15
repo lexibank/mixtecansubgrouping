@@ -50,6 +50,7 @@ def get_cognates(cldf_dataset):
         - a dict of cognates to language sets (cogset -> {l1, l2, l3})
     """
     # TODO check if there is a parameter, form, and cognate table
+    # XXX What changes if there's a cognateset table?
     concepts = {
         row['id']: row['name']
         for row in cldf_dataset.iter_rows(
