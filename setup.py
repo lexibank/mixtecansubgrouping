@@ -2,13 +2,13 @@ from setuptools import setup
 
 
 setup(
-    name='cldfbench_mixtecansubgrouping',
-    py_modules=['cldfbench_mixtecansubgrouping'],
+    name='lexibank_mixtecansubgrouping',
+    py_modules=['lexibank_mixtecansubgrouping'],
     include_package_data=True,
     zip_safe=False,
     entry_points={
         'cldfbench.dataset': [
-            'mixtecansubgrouping=cldfbench_mixtecansubgrouping:Dataset',
+            'mixtecansubgrouping=lexibank_mixtecansubgrouping:Dataset',
         ],
         'cldfbench.commands': [
             'mixtecansubgrouping=mixtecansubgroupingcommands',
