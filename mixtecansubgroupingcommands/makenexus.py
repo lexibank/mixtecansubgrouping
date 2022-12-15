@@ -49,16 +49,29 @@ def get_cognates(cldf_dataset):
         - a dict of words to language sets (word -> {l1, l2, l3})
         - a dict of cognates to language sets (cogset -> [l1, l2, l3])
     """
+    # TODO check if there is a parameter, form, and cognate table
+    concepts = {
+        row['id']: row['name']
+        for row in cldf_dataset.iter_rows(
+            'ParameterTable', 'id', 'name')}
+    form_info = {
+        row['id']: (row['languageReference'], row['parameterReference'])
+        for row in cldf_dataset.iter_rows(
+            'FormTable', 'id', 'languageReference', 'parameterReference')}
+
     # collect cognate sets and language varieties
     doculects, cognates, words = set(), defaultdict(set), defaultdict(set)
-    for row in read(filename):
-        if cognate_column not in row:
-            raise ValueError('Unknown column %s' % cognate_column)
+    for row in cldf_dataset.iter_rows(
+        'CognateTable', 'formReference', 'cognatesetReference'
+    ):
+        language_id, concept_id = form_info[row['formReference']]
+        concept = concepts[concept_id]
+        cognateset = row['cognatesetReference']
 
-        doculects.add(row['DOCULECT'])
-        words[row['CONCEPT']].add(row['DOCULECT'])
-        for cog in parse_cognates(row[cognate_column]):
-            cognates[(row['CONCEPT'], cog)].add(row['DOCULECT'])
+        doculects.add(language_id)
+        words[concept].add(language_id)
+        cognates[(concept, cognateset)].add(language_id)
+
     return (doculects, cognates, words)
 
 
@@ -171,7 +184,7 @@ def register(parser):
         default='none')
 
 
-def makenexus(dataset, args):
+def run_makenexus(dataset, args):
     if args.ascertainment.lower() in ("none", "overall", "word"):
         asc = args.ascertainment.lower()
     elif Path(args.ascertainment).is_file():
@@ -187,7 +200,6 @@ def makenexus(dataset, args):
             file=sys.stderr)
         return
 
-    # TODO get cognates from cldf dataset
     cogs = get_cognates(cldf_dataset)
     nex = make_nexus(*cogs, ascertainment=asc)
     nex.write_to_file(args.output, charblock=True)
@@ -200,4 +212,4 @@ def makenexus(dataset, args):
 
 
 def run(args):
-    with_dataset(args, makenexus)
+    with_dataset(args, run_makenexus)
