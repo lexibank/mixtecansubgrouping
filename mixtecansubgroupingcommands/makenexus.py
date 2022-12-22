@@ -172,6 +172,10 @@ def register(parser):
         default=argparse.SUPPRESS,
         help='Output file [default: ./<id>.nex]')
     parser.add_argument(
+        '-c', '--cognate-coding', dest='cognate_coding',
+        help='set cognate coding (broad, fine, or any)', action='store',
+        default='broad')
+    parser.add_argument(
         '-a', "--ascertainment", dest='ascertainment',
         help="set ascertainment correction mode", action='store',
         default='none')
@@ -185,6 +189,19 @@ def run_makenexus(dataset, args):
     else:
         print(
             'Unknown Ascertainment type %s' % args.ascertainment,
+            file=sys.stderr)
+        return
+
+    if args.cognate_coding == 'broad':
+        cognate_coding = 'broad'
+    elif args.cognate_coding == 'fine':
+        cognate_coding = 'fine'
+    elif args.cognate_coding == 'any':
+        cognate_coding = None
+    else:
+        print(
+            "Unkown cognate coding: '{}'.".format(args.cognate_coding),
+            "Must be 'broad', 'fine', or 'any'.",
             file=sys.stderr)
         return
 
@@ -206,7 +223,7 @@ def run_makenexus(dataset, args):
         print('{}: no ParameterTable'.format(dataset.cldf_dir), file=sys.stderr)
         return
 
-    cogs = get_cognates(cldf_dataset, 'broad')
+    cogs = get_cognates(cldf_dataset, cognate_coding)
     nex = make_nexus(*cogs, ascertainment=asc)
     nex.write_to_file(args.output, charblock=True)
 
