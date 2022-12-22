@@ -32,10 +32,10 @@ class CustomLexeme(Lexeme):
 
 @attr.s
 class CustomCognate(Cognate):
-    Granularity = attr.ib(
+    Cognate_Coding = attr.ib(
         default=attr.Factory(list),
         validator=attr.validators.instance_of(list),
-        metadata={'separator': ' ; '})
+        metadata={'separator': ';'})
 
 
 class Dataset(BaseDataset):
@@ -109,7 +109,7 @@ class Dataset(BaseDataset):
                     for id_ in fine_cognate_ids
                     if id_ not in broad_cognate_ids)
 
-                def _granularity(id_):
+                def _cognate_coding(id_):
                     in_broad = id_ in broad_cognate_ids
                     in_fine = id_ in fine_cognate_ids
                     if in_broad and in_fine:
@@ -123,7 +123,7 @@ class Dataset(BaseDataset):
                     args.writer.add_cognate(
                         lexeme=lexeme,
                         Cognateset_ID=cognate_id,
-                        Granularity=_granularity(cognate_id))
+                        Cognate_Coding=_cognate_coding(cognate_id))
 
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
