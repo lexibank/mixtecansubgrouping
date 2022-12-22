@@ -1,4 +1,3 @@
-import collections
 from pathlib import Path
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.models import Language, Concept, Lexeme, Cognate
