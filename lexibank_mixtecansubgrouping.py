@@ -32,7 +32,10 @@ class CustomLexeme(Lexeme):
 
 @attr.s
 class CustomCognate(Cognate):
-    Granularity = attr.ib(default=None)
+    Granularity = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ' ; '})
 
 
 class Dataset(BaseDataset):
@@ -110,11 +113,11 @@ class Dataset(BaseDataset):
                     in_broad = id_ in broad_cognate_ids
                     in_fine = id_ in fine_cognate_ids
                     if in_broad and in_fine:
-                        return 'both'
+                        return ['broad', 'fine']
                     elif in_broad:
-                        return 'broad'
+                        return ['broad']
                     else:
-                        return 'fine'
+                        return ['fine']
 
                 for cognate_id in cognate_ids:
                     args.writer.add_cognate(
