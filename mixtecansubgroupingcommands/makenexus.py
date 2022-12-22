@@ -39,7 +39,7 @@ def read_partitions(filename):
     return parts
 
 
-def get_cognates(cldf_dataset):
+def get_cognates(cldf_dataset, cognate_coding=None):
     """
     Collect cognate sets from column `cognate_column` in `filename`.
 
@@ -58,11 +58,17 @@ def get_cognates(cldf_dataset):
         for row in cldf_dataset.iter_rows(
             'FormTable', 'id', 'languageReference', 'parameterReference')}
 
+    # TODO switch to a less ad-hoc solution once a standard is established
+    cognate_columns = ['formReference', 'cognatesetReference', 'Cognate_Coding']
+    if cognate_coding is not None:
+        cognate_columns.append('Cognate_Coding')
+
     # collect cognate sets and language varieties
     doculects, cognates, words = set(), defaultdict(set), defaultdict(set)
-    for row in cldf_dataset.iter_rows(
-        'CognateTable', 'formReference', 'cognatesetReference'
-    ):
+    for row in cldf_dataset.iter_rows('CognateTable', *cognate_columns):
+        # TODO less ad-hoc solution for filtering cognates
+        if cognate_coding and cognate_coding not in row['Cognate_Coding']:
+            continue
         language_id, concept_id = form_info[row['formReference']]
         concept = concepts[concept_id]
         cognateset = row['cognatesetReference']
@@ -182,7 +188,6 @@ def run_makenexus(dataset, args):
             file=sys.stderr)
         return
 
-
     try:
         cldf_dataset = next(iter_datasets(dataset.cldf_dir))
     except StopIteration:
@@ -201,7 +206,7 @@ def run_makenexus(dataset, args):
         print('{}: no ParameterTable'.format(dataset.cldf_dir), file=sys.stderr)
         return
 
-    cogs = get_cognates(cldf_dataset)
+    cogs = get_cognates(cldf_dataset, 'broad')
     nex = make_nexus(*cogs, ascertainment=asc)
     nex.write_to_file(args.output, charblock=True)
 
