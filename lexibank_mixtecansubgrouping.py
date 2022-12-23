@@ -25,8 +25,14 @@ class CustomLexeme(Lexeme):
     Floating_Tone = attr.ib(default=None)
     Loan = attr.ib(default=None)
     Loan_Source = attr.ib(default=None)
-    Partial_Cognacy_Broad = attr.ib(default=None)
-    Partial_Cognacy_Fine = attr.ib(default=None)
+    Partial_Cognacy_Broad = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ' '})
+    Partial_Cognacy_Fine = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ' '})
 
 
 @attr.s
@@ -99,8 +105,8 @@ class Dataset(BaseDataset):
                     Form=word_list[key, 'form'],
                     Segments=word_list[key, "tokens"],
                     Source=word_list[key, 'source'],
-                    Partial_Cognacy_Broad=broad_cognate_id_str,
-                    Partial_Cognacy_Fine=fine_cognate_id_str)
+                    Partial_Cognacy_Broad=broad_cognate_ids,
+                    Partial_Cognacy_Fine=fine_cognate_ids)
 
                 cognate_ids = broad_cognate_ids[::]
                 cognate_ids.extend(
