@@ -37,6 +37,7 @@ class CustomLexeme(Lexeme):
 
 @attr.s
 class CustomCognate(Cognate):
+    Morpheme_Index = attr.ib(default=None)
     Cognate_Coding = attr.ib(
         default=attr.Factory(list),
         validator=attr.validators.instance_of(list),
@@ -108,10 +109,10 @@ class Dataset(BaseDataset):
                     Partial_Cognacy_Broad=broad_cognate_ids,
                     Partial_Cognacy_Fine=fine_cognate_ids)
 
-                cognate_ids = broad_cognate_ids[::]
+                cognate_ids = list(enumerate(broad_cognate_ids))
                 cognate_ids.extend(
-                    id_
-                    for id_ in fine_cognate_ids
+                    (morpheme_index, id_)
+                    for morpheme_index, id_ in enumerate(fine_cognate_ids)
                     if id_ not in broad_cognate_ids)
 
                 def _cognate_coding(id_):
@@ -124,11 +125,12 @@ class Dataset(BaseDataset):
                     else:
                         return ['fine']
 
-                for cognate_id in cognate_ids:
+                for morpheme_index, cognate_id in cognate_ids:
                     args.writer.add_cognate(
                         lexeme=lexeme,
                         Cognateset_ID=cognate_id,
-                        Cognate_Coding=_cognate_coding(cognate_id))
+                        Cognate_Coding=_cognate_coding(cognate_id),
+                        Morpheme_Index=morpheme_index)
 
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
