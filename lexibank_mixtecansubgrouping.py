@@ -1,6 +1,6 @@
 from pathlib import Path
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.models import Language, Concept, Lexeme
+from pylexibank.models import Language, Concept, Lexeme, Cognate
 from clldutils.misc import slug
 import attr
 
@@ -25,7 +25,23 @@ class CustomLexeme(Lexeme):
     Floating_Tone = attr.ib(default=None)
     Loan = attr.ib(default=None)
     Loan_Source = attr.ib(default=None)
-    Partial_Cognacy = attr.ib(default=None)
+    Partial_Cognacy_Broad = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ' '})
+    Partial_Cognacy_Fine = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ' '})
+
+
+@attr.s
+class CustomCognate(Cognate):
+    Morpheme_Index = attr.ib(default=None)
+    Cognate_Coding = attr.ib(
+        default=attr.Factory(list),
+        validator=attr.validators.instance_of(list),
+        metadata={'separator': ';'})
 
 
 class Dataset(BaseDataset):
@@ -34,6 +50,7 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     concept_class = CustomConcept
     lexeme_class = CustomLexeme
+    cognate_class = CustomCognate
 
     def cmd_makecldf(self, args):
         word_list = lingpy.Wordlist(
@@ -67,13 +84,20 @@ class Dataset(BaseDataset):
                     word_list[key, "concept"]))
             elif word_list[key, 'form']:
                 segmented_word = word_list[key, "tokens"]
-                cognate_id_str = word_list[key, "cogids_broad"]
                 form_count = len(segmented_word.n)
-                cognate_ids = cognate_id_str.split()
-                cognate_id_count = len(cognate_ids)
-                if form_count != cognate_id_count:
+
+                broad_cognate_id_str = word_list[key, 'cogids_broad']
+                broad_cognate_ids = broad_cognate_id_str.split()
+                if form_count != len(broad_cognate_ids):
                     errors.add("partial cognates: {0} / {1} / {2}".format(
-                        key, str(segmented_word), cognate_id_str))
+                        key, str(segmented_word), broad_cognate_id_str))
+
+                fine_cognate_id_str = word_list[key, 'cogids_fine']
+                fine_cognate_ids = fine_cognate_id_str.split()
+                if form_count != len(fine_cognate_ids):
+                    errors.add("partial cognates: {0} / {1} / {2}".format(
+                        key, str(segmented_word), fine_cognate_id_str))
+
                 lexeme = args.writer.add_form_with_segments(
                     Local_ID=key,
                     Language_ID=languages[word_list[key, 'doculect']],
@@ -82,11 +106,30 @@ class Dataset(BaseDataset):
                     Form=word_list[key, 'form'],
                     Segments=word_list[key, "tokens"],
                     Source=word_list[key, 'source'],
-                    Partial_Cognacy=word_list[key, "cogids_broad"])
-                for cognate_id in cognate_ids:
+                    Partial_Cognacy_Broad=broad_cognate_ids,
+                    Partial_Cognacy_Fine=fine_cognate_ids)
+
+                cognate_ids = list(enumerate(broad_cognate_ids))
+                cognate_ids.extend(
+                    (morpheme_index, id_)
+                    for morpheme_index, id_ in enumerate(fine_cognate_ids)
+                    if id_ not in broad_cognate_ids)
+
+                for morpheme_index, cognate_id in cognate_ids:
+                    is_broad = cognate_id in broad_cognate_ids
+                    is_fine = cognate_id in fine_cognate_ids
+                    if is_broad and is_fine:
+                        cognate_coding = ['broad', 'fine']
+                    elif is_broad:
+                        cognate_coding = ['broad']
+                    else:
+                        cognate_coding = ['fine']
+
                     args.writer.add_cognate(
                         lexeme=lexeme,
-                        Cognateset_ID=cognate_id)
+                        Cognateset_ID=cognate_id,
+                        Cognate_Coding=cognate_coding,
+                        Morpheme_Index=morpheme_index)
 
         for i, error in enumerate(sorted(errors)):
             print("{0:4}".format(i + 1), error)
