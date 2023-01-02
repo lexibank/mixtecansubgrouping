@@ -128,7 +128,7 @@ class Dataset(BaseDataset):
                     args.writer.add_cognate(
                         lexeme=lexeme,
                         Cognateset_ID=cognate_id,
-                        Cognate_Coding=cognate_id,
+                        Cognate_Coding=cognate_coding,
                         Morpheme_Index=morpheme_index)
 
         for i, error in enumerate(sorted(errors)):
