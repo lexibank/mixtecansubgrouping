@@ -115,21 +115,20 @@ class Dataset(BaseDataset):
                     for morpheme_index, id_ in enumerate(fine_cognate_ids)
                     if id_ not in broad_cognate_ids)
 
-                def _cognate_coding(id_):
-                    in_broad = id_ in broad_cognate_ids
-                    in_fine = id_ in fine_cognate_ids
-                    if in_broad and in_fine:
-                        return ['broad', 'fine']
-                    elif in_broad:
-                        return ['broad']
-                    else:
-                        return ['fine']
-
                 for morpheme_index, cognate_id in cognate_ids:
+                    is_broad = cognate_id in broad_cognate_ids
+                    is_fine = cognate_id in fine_cognate_ids
+                    if is_broad and is_fine:
+                        cognate_coding = ['broad', 'fine']
+                    elif is_broad:
+                        cognate_coding = ['broad']
+                    else:
+                        cognate_coding = ['fine']
+
                     args.writer.add_cognate(
                         lexeme=lexeme,
                         Cognateset_ID=cognate_id,
-                        Cognate_Coding=_cognate_coding(cognate_id),
+                        Cognate_Coding=cognate_id,
                         Morpheme_Index=morpheme_index)
 
         for i, error in enumerate(sorted(errors)):
