@@ -1,4 +1,6 @@
 from pathlib import Path
+import re
+
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.models import Language, Concept, Lexeme, Cognate
 from clldutils.misc import slug
@@ -59,8 +61,11 @@ class Dataset(BaseDataset):
 
         languages = {}
         for language in self.languages:
-            args.writer.add_language(**language)
-            languages[language["Name"]] = language["ID"]
+            language['ID'] = re.sub('_[A-Z]+$', '', language['ID'])
+            language['Name'] = re.sub('_[A-Z]+$', '', language['Name'])
+            if language['Name'] not in languages:
+                languages[language['Name']] = language['ID']
+                args.writer.add_language(**language)
 
         concepts = {}
         for concept in self.concepts:
