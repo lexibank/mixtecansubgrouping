@@ -5434,137 +5434,137 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19030	38_four	FOUR	SanJuanCopalaTriqui	Triqui	kahanx¹³	kahanx¹³	k a ʔ ãʰ ¹³	kaʔãʰ¹³	261	261	17.187222	-97.962778	hollenbach1992syntactic
 19144	35_five	FIVE	SanJuanCopalaTriqui	Triqui	hunh¹	hunh¹	u ʔ ũ ʔ ¹	uʔũʔ¹	244	244	17.187222	-97.962778	hollenbach1992syntactic
 21961	92_six	SIX	SanJuanCopalaTriqui	Triqui	watanh¹	watanh¹	w a t ã ʔ ¹	watãʔ¹	654	654	17.187222	-97.962778	hollenbach1992syntactic
-2039	58_mother	MOTHER	SanJuanDiuxiMixtec	Mixtec	ðɨ́’hɨ́	ðɨ́hɨ́	ð ɨ ⁵ ʔ ɨ ⁵	ðɨ⁵ʔɨ⁵	433	433	17.3596	-97.3861	kuiper1991syntacticO
-2040	59_mothervocative	MOTHER VOCATIVE	SanJuanDiuxiMixtec	Mixtec	nána	nána	n a ⁵ n a ¹	na⁵na¹	432	432	17.3596	-97.3861	kuiper1991syntacticK
-2041	32_father	FATHER	SanJuanDiuxiMixtec	Mixtec	tá’á	táá	t a ⁵ a ⁵	ta⁵a⁵	220	220	17.3596	-97.3861	kuiper1991syntacticO
-2043	15_childdescendant	CHILD (DESCENDANT)	SanJuanDiuxiMixtec	Mixtec	ðichi	ðichi	ð i ¹ tʃ i ¹	ði¹tʃi¹	105	105	17.3596	-97.3861	kuiper1991syntacticK
-2044	15_childdescendant	CHILD (DESCENDANT)	SanJuanDiuxiMixtec	Mixtec	ðá’hyá	ðáhyá	ð a ⁵ ʔ ʒ a ⁵	ða⁵ʔʒa⁵	103	103	17.3596	-97.3861	kuiper1991syntacticO
-2045	12_brotherofman	BROTHER (OF MAN)	SanJuanDiuxiMixtec	Mixtec	ñá'ní	ñání	ɲ a ⁵ n i ⁵	ɲa⁵ni⁵	84	84	17.3596	-97.3861	kuiper1991syntacticO
-2046	148_sisterofwoman	SISTER (OF WOMAN)	SanJuanDiuxiMixtec	Mixtec	kú'hú	kúhú	k u ⁵ ʔ u ⁵	ku⁵ʔu⁵	651	651	17.3596	-97.3861	kuiper1991syntacticO
-2047	119_aunt	AUNT	SanJuanDiuxiMixtec	Mixtec	ðí’ðí	ðíðí	ð i ⁵ ð i ⁵	ði⁵ði⁵	6	6	17.3596	-97.3861	kuiper1991syntacticO
-2048	151_uncle	UNCLE	SanJuanDiuxiMixtec	Mixtec	ðítô	ðítô	ð i ⁵ t o ⁵¹	ði⁵to⁵¹	824	824	17.3596	-97.3861	kuiper1991syntacticK
-2049	53_man	MAN	SanJuanDiuxiMixtec	Mixtec	té-yɨ̄ɨ	té-yɨ̄ɨ	t e ⁵ + ʒ ɨ ³ ɨ ¹	te⁵+ʒɨ³ɨ¹	385 408	385 408	17.3596	-97.3861	kuiper1991syntacticK
-2050	113_woman	WOMAN	SanJuanDiuxiMixtec	Mixtec	ña-ðɨhɨ́	ña-ðɨhɨ́	ɲ a ¹ + ð ɨ ¹ ʔ ɨ ⁵	ɲa¹+ðɨ¹ʔɨ⁵	858 433	858 433	17.3596	-97.3861	kuiper1991syntacticO
-2051	144_owner	OWNER	SanJuanDiuxiMixtec	Mixtec	stóhó	stóhó	s + t o ⁵ ʔ o ⁵	s+to⁵ʔo⁵	485 512	485 512	17.3596	-97.3861	kuiper1991syntacticO
-2052	79_priest	PRIEST	SanJuanDiuxiMixtec	Mixtec	ðú’tú	ðútú	ð u ⁵ t u ⁵	ðu⁵tu⁵	568	568	17.3596	-97.3861	kuiper1991syntacticO
-2053	158_blood	BLOOD	SanJuanDiuxiMixtec	Mixtec	ñɨ́'ñɨ́	ñɨ́ñɨ́	ɲ ɨ ⁵ ɲ ɨ ⁵	ɲɨ⁵ɲɨ⁵	65	65	17.3596	-97.3861	kuiper1991syntacticO
-2054	136_hair	HAIR	SanJuanDiuxiMixtec	Mixtec	íðí	íðí	i ⁵ ð i ⁵	i⁵ði⁵	311	311	17.3596	-97.3861	kuiper1991syntacticO
-2055	29_face	FACE	SanJuanDiuxiMixtec	Mixtec	nú’ú	núú	n u ⁵ u ⁵	nu⁵u⁵	210	210	17.3596	-97.3861	kuiper1991syntacticO
-2056	61_mouth	MOUTH	SanJuanDiuxiMixtec	Mixtec	yúhu	yúhu	ʒ u ⁵ ʔ u ¹	ʒu⁵ʔu¹	447	447	17.3596	-97.3861	kuiper1991syntacticO
-2057	131_ear	EAR	SanJuanDiuxiMixtec	Mixtec	ðó’hó	ðóhó	ð o ⁵ ʔ o ⁵	ðo⁵ʔo⁵	194	194	17.3596	-97.3861	kuiper1991syntacticO
-2058	69_nose	NOSE	SanJuanDiuxiMixtec	Mixtec	ðínhni	ðínhni	ð ĩ ⁵ ʔ n i ¹	ðĩ⁵ʔni¹	496	496	17.3596	-97.3861	kuiper1991syntacticK
-2059	43_hand	HAND	SanJuanDiuxiMixtec	Mixtec	ndáhá	ndáhá	ⁿd a ⁵ ʔ a ⁵	ⁿda⁵ʔa⁵	320	320	17.3596	-97.3861	kuiper1991syntacticO
-2060	205_fingernail	FINGERNAIL	SanJuanDiuxiMixtec	Mixtec	tnɨ́ñɨ	tnɨ́ñɨ	tⁿ ɨ ⁵ ɲ ɨ ¹	tⁿɨ⁵ɲɨ¹	237	237	17.3596	-97.3861	kuiper1991syntacticK
-2061	3_back	BACK	SanJuanDiuxiMixtec	Mixtec	yá’tá	yátá	ʒ a ⁵ t a ⁵	ʒa⁵ta⁵	11	11	17.3596	-97.3861	kuiper1991syntacticO
-2062	6_bellyorstomach	BELLY OR STOMACH	SanJuanDiuxiMixtec	Mixtec	shí’tí	shítí	ʃ i ⁵ t i ⁵	ʃi⁵ti⁵	367	367	17.3596	-97.3861	kuiper1991syntacticO
-2063	37_foot	FOOT	SanJuanDiuxiMixtec	Mixtec	shé’hé	shéhé	ʃ e ⁵ ʔ e ⁵	ʃe⁵ʔe⁵	258	258	17.3596	-97.3861	kuiper1991syntacticO
-2064	25_disease	DISEASE	SanJuanDiuxiMixtec	Mixtec	kwé’hé	kwéhé	kʷ e ⁵ ʔ e ⁵	kʷe⁵ʔe⁵	172	172	17.3596	-97.3861	kuiper1991syntacticO
-2065	55_medicine	MEDICINE	SanJuanDiuxiMixtec	Mixtec	tátná	tátná	t a ⁵ tⁿ a ⁵	ta⁵tⁿa⁵	424	424	17.3596	-97.3861	kuiper1991syntacticK
-2066	16_clothorclothes	CLOTH OR CLOTHES	SanJuanDiuxiMixtec	Mixtec	ðán’hmá	ðánhmá	ð ã ⁵ ʔ m a ⁵	ðã⁵ʔma⁵	112	112	17.3596	-97.3861	kuiper1991syntacticO
-2067	147_sandal	SANDAL	SanJuanDiuxiMixtec	Mixtec	ndíshâ	ndíshâ	ⁿd i ⁵ ʃ a ⁵¹	ⁿdi⁵ʃa⁵¹	631	631	17.3596	-97.3861	kuiper1991syntacticK
-2068	223_trousers	TROUSERS	SanJuanDiuxiMixtec	Mixtec	shá'tú	shátú	ʃ a ⁵ t u ⁵	ʃa⁵tu⁵	802	802	17.3596	-97.3861	kuiper1991syntacticO
-2069	159_blousewoven	BLOUSE (WOVEN)	SanJuanDiuxiMixtec	Mixtec	ðún'hnú	ðúnhnú	ð ũ ⁵ ʔ n u ⁵	ðũ⁵ʔnu⁵	69	69	17.3596	-97.3861	kuiper1991syntacticO
-2070	104_townorvillage	TOWN OR VILLAGE	SanJuanDiuxiMixtec	Mixtec	ñú’ú	ñúú	ɲ u ⁵ u ⁵	ɲu⁵u⁵	794	794	17.3596	-97.3861	kuiper1991syntacticO
-2071	49_house	HOUSE	SanJuanDiuxiMixtec	Mixtec	véhé	véhé	β e ⁵ ʔ e ⁵	βe⁵ʔe⁵	363	363	17.3596	-97.3861	kuiper1991syntacticO
-2072	73_path	PATH	SanJuanDiuxiMixtec	Mixtec	íchí	íchí	i ⁵ tʃ i ⁵	i⁵tʃi⁵	523	523	17.3596	-97.3861	kuiper1991syntacticO
-2073	177_mat	MAT	SanJuanDiuxiMixtec	Mixtec	yúú	yúú	ʒ u ⁵ u ⁵	ʒu⁵u⁵	416	416	17.3596	-97.3861	kuiper1991syntacticO
-2075	1_animal	ANIMAL	SanJuanDiuxiMixtec	Mixtec	kɨ́’tɨ́	kɨ́tɨ́	k ɨ ⁵ t ɨ ⁵	kɨ⁵tɨ⁵	2	2	17.3596	-97.3861	kuiper1991syntacticO
-2076	9_bird	BIRD	SanJuanDiuxiMixtec	Mixtec	chili-ðáá	chili-ðáá	tʃ i ¹ l i ¹ + ð a ⁵ a ⁵	tʃi¹li¹+ða⁵a⁵	894 49	894 49	17.3596	-97.3861	kuiper1991syntacticO
-2077	34_fish	FISH	SanJuanDiuxiMixtec	Mixtec	chāka	chāka	tʃ a ³ k a ¹	tʃa³ka¹	9 242	9 242	17.3596	-97.3861	kuiper1991syntacticK
-2078	95_snake	SNAKE	SanJuanDiuxiMixtec	Mixtec	kó'ó	kóó	k o ⁵ o ⁵	ko⁵o⁵	689	689	17.3596	-97.3861	kuiper1991syntacticO
-2079	155_bee	BEE	SanJuanDiuxiMixtec	Mixtec	tndáka	tndáka	t + ⁿd a ⁵ k a ¹	t+ⁿda⁵ka¹	9 891	9 891	17.3596	-97.3861	kuiper1991syntacticO
-2080	155_bee	BEE	SanJuanDiuxiMixtec	Mixtec	ñú'ñú	ñúñú	ɲ u ⁵ ɲ u ⁵	ɲu⁵ɲu⁵	29	29	17.3596	-97.3861	kuiper1991syntacticO
-2081	63_mouse	MOUSE	SanJuanDiuxiMixtec	Mixtec	tɨ-tnɨ́ñɨ	tɨ-tnɨ́ñɨ	t ɨ ¹ + tⁿ ɨ ⁵ ɲ ɨ ¹	tɨ¹+tⁿɨ⁵ɲɨ¹	9 444	9 444	17.3596	-97.3861	kuiper1991syntacticK
-2082	23_deer	DEER	SanJuanDiuxiMixtec	Mixtec	í'ðú	íðú	i ⁵ ð u ⁵	i⁵ðu⁵	164	164	17.3596	-97.3861	kuiper1991syntacticO
-2084	215_vulture	VULTURE	SanJuanDiuxiMixtec	Mixtec	chó'kó	chókó	tʃ + o ⁵ k o ⁵	tʃ+o⁵ko⁵	9 321	9 321	17.3596	-97.3861	kuiper1991syntacticO
-2085	26_dog	DOG	SanJuanDiuxiMixtec	Mixtec	í'ná	íná	i ⁵ n a ⁵	i⁵na⁵	174	174	17.3596	-97.3861	kuiper1991syntacticO
-2086	26_dog	DOG	SanJuanDiuxiMixtec	Mixtec	ti-hína	ti-hína	t i ¹ + ʔ i ⁵ n a ¹	ti¹+ʔi⁵na¹	9 174	9 174	17.3596	-97.3861	kuiper1991syntacticK
-2087	13_cat	CAT	SanJuanDiuxiMixtec	Mixtec	vílu	vílu	β i ⁵ l u ¹	βi⁵lu¹	91	91	17.3596	-97.3861	kuiper1991syntacticO
-2088	85_rooster	ROOSTER	SanJuanDiuxiMixtec	Mixtec	lihí	lihí	l i ¹ ʔ i ⁵	li¹ʔi⁵	616	616	17.3596	-97.3861	kuiper1991syntacticK
-2089	224_chicken	CHICKEN	SanJuanDiuxiMixtec	Mixtec	chú’ún	chúún	tʃ + ũ ⁵ ũ ⁵	tʃ+ũ⁵ũ⁵	9 100	9 100	17.3596	-97.3861	kuiper1991syntacticO
-2090	91_sheep	SHEEP	SanJuanDiuxiMixtec	Mixtec	t-káchi	t-káchi	t + k a ⁵ tʃ i ¹	t+ka⁵tʃi¹	9 157	9 157	17.3596	-97.3861	kuiper1991syntacticO
-2091	150_tail	TAIL	SanJuanDiuxiMixtec	Mixtec	ðú'hán	ðúhán	ð u ⁵ ʔ ã ⁵	ðu⁵ʔã⁵	635	635	17.3596	-97.3861	kuiper1991syntacticO
-2092	105_tree	TREE	SanJuanDiuxiMixtec	Mixtec	yútnú	yútnú	ʒ u ⁵ tⁿ u ⁵	ʒu⁵tⁿu⁵	799	799	17.3596	-97.3861	kuiper1991syntacticO
-2093	36_flower	FLOWER	SanJuanDiuxiMixtec	Mixtec	í’tá	ítá	i ⁵ t a ⁵	i⁵ta⁵	246	246	17.3596	-97.3861	kuiper1991syntacticO
-2094	218_maguey	MAGUEY	SanJuanDiuxiMixtec	Mixtec	yáú	yáú	ʒ a ⁵ u ⁵	ʒa⁵u⁵	409	409	17.3596	-97.3861	kuiper1991syntacticO
-2095	186_root	ROOT	SanJuanDiuxiMixtec	Mixtec	yoho	yoho	ʒ o ¹ ʔ o ¹	ʒo¹ʔo¹	619	1048 619	17.3596	-97.3861	kuiper1991syntacticK
-2096	195_thorn	THORN	SanJuanDiuxiMixtec	Mixtec	íñú	íñú	i ⁵ ɲ u ⁵	i⁵ɲu⁵	764	764	17.3596	-97.3861	kuiper1991syntacticO
-2097	18_corn	CORN	SanJuanDiuxiMixtec	Mixtec	nú’ní	núní	n u ⁵ n i ⁵	nu⁵ni⁵	141	141	17.3596	-97.3861	kuiper1991syntacticO
-2098	19_cornfield	CORN FIELD	SanJuanDiuxiMixtec	Mixtec	í’tú	ítú	i ⁵ t u ⁵	i⁵tu⁵	145	145	17.3596	-97.3861	kuiper1991syntacticO
-2099	132_earofcornfresh	EAR OF CORN (FRESH)	SanJuanDiuxiMixtec	Mixtec	ñɨ́ñɨ́	ñɨ́ñɨ́	ɲ ɨ ⁵ ɲ ɨ ⁵	ɲɨ⁵ɲɨ⁵	200	200	17.3596	-97.3861	kuiper1991syntacticO
-2100	203_corndough	CORN DOUGH	SanJuanDiuxiMixtec	Mixtec	yūsha	yūsha	ʒ u ³ ʃ a ¹	ʒu³ʃa¹	142	142	17.3596	-97.3861	kuiper1991syntacticK
-2101	103_tortilla	TORTILLA	SanJuanDiuxiMixtec	Mixtec	ðí’tá	ðítá	ð i ⁵ t a ⁵	ði⁵ta⁵	789	789	17.3596	-97.3861	kuiper1991syntacticO
-2102	121_bean	BEAN	SanJuanDiuxiMixtec	Mixtec	ndúchí	ndúchí	ⁿd u ⁵ tʃ i ⁵	ⁿdu⁵tʃi⁵	24	24	17.3596	-97.3861	kuiper1991syntacticO
-2103	206_greenbean	GREEN BEAN	SanJuanDiuxiMixtec	Mixtec	ndí'chí	ndíchí	ⁿd i ⁵ tʃ i ⁵	ⁿdi⁵tʃi⁵	308	308	17.3596	-97.3861	kuiper1991syntacticO
-2104	124_chilipepper	CHILI PEPPER	SanJuanDiuxiMixtec	Mixtec	yáhá	yáhá	ʒ a ⁵ ʔ a ⁵	ʒa⁵ʔa⁵	107	107	17.3596	-97.3861	kuiper1991syntacticO
-2105	87_salt	SALT	SanJuanDiuxiMixtec	Mixtec	ñɨ́'ɨ́	ñɨ́ɨ́	ɲ ɨ ⁵ ɨ ⁵	ɲɨ⁵ɨ⁵	624	624	17.3596	-97.3861	kuiper1991syntacticO
-2106	31_fatfromanimals	FAT (FROM ANIMALS)	SanJuanDiuxiMixtec	Mixtec	ðé'hén	ðéhén	ð e ⁵ ʔ ẽ ⁵	ðe⁵ʔẽ⁵	216	216	17.3596	-97.3861	kuiper1991syntacticO
-2107	27_egg	EGG	SanJuanDiuxiMixtec	Mixtec	ndɨ́’ú	ndɨ́ú	ⁿd ɨ ⁵ u ⁵	ⁿdɨ⁵u⁵	204	204	17.3596	-97.3861	kuiper1991syntacticO
-2108	102_tomato	TOMATO	SanJuanDiuxiMixtec	Mixtec	t-nána	t-nána	t + n a ⁵ n a ¹	t+na⁵na¹	9 775	9 775	17.3596	-97.3861	kuiper1991syntacticK
-2109	2_avocado	AVOCADO	SanJuanDiuxiMixtec	Mixtec	tɨ́chɨ	tɨ́chɨ	t ɨ ⁵ tʃ ɨ ¹	tɨ⁵tʃɨ¹	8	8	17.3596	-97.3861	kuiper1991syntacticK
-2110	4_banana	BANANA	SanJuanDiuxiMixtec	Mixtec	kwí'hí	kwíhí	kʷ i ⁵ ʔ i ⁵	kʷi⁵ʔi⁵	16	16	17.3596	-97.3861	kuiper1991syntacticO
-2111	78_pricklypearcactus	PRICKLY PEAR CACTUS	SanJuanDiuxiMixtec	Mixtec	víhndê	víhndê	β i ⁵ ʔ ⁿd e ⁵¹	βi⁵ʔⁿde⁵¹	564	564	17.3596	-97.3861	kuiper1991syntacticK
-2112	54_meat	MEAT	SanJuanDiuxiMixtec	Mixtec	kú'ñú	kúñú	k u ⁵ ɲ u ⁵	ku⁵ɲu⁵	418	418	17.3596	-97.3861	kuiper1991syntacticO
-2113	17_cookingpot	COOKING POT	SanJuanDiuxiMixtec	Mixtec	kɨ́ðɨ́	kɨ́ðɨ́	k ɨ ⁵ ð ɨ ⁵	kɨ⁵ðɨ⁵	138	138	17.3596	-97.3861	kuiper1991syntacticK
-2114	134_fire	FIRE	SanJuanDiuxiMixtec	Mixtec	ñú’hú	ñúhú	ɲ u ⁵ ʔ u ⁵	ɲu⁵ʔu⁵	240	240	17.3596	-97.3861	kuiper1991syntacticO
-2115	168_garbage	GARBAGE	SanJuanDiuxiMixtec	Mixtec	mí’hí	mí’hí	m i ⁵ ʔ i ⁵	mi⁵ʔi⁵	279	279	17.3596	-97.3861	kuiper1991syntacticO
-2116	75_plate	PLATE	SanJuanDiuxiMixtec	Mixtec	kóhó	kóhó	k o ⁵ ʔ o ⁵	ko⁵ʔo⁵	545	545	17.3596	-97.3861	kuiper1991syntacticO
-2117	120_basket	BASKET	SanJuanDiuxiMixtec	Mixtec	yɨ̄ka	yɨ̄ka	ʒ ɨ ³ k a ¹	ʒɨ³ka¹	18	18	17.3596	-97.3861	kuiper1991syntacticK
-2118	200_boxorchest	BOX OR CHEST	SanJuanDiuxiMixtec	Mixtec	shá'tnú	shátnú	ʃ a ⁵ tⁿ u ⁵	ʃa⁵tⁿu⁵	79	79	17.3596	-97.3861	kuiper1991syntacticO
-2120	46_hole	HOLE	SanJuanDiuxiMixtec	Mixtec	yau	yau	ʒ a ¹ u ¹	ʒa¹u¹	341	341	17.3596	-97.3861	kuiper1991syntacticK
-2121	142_netbag	NETBAG	SanJuanDiuxiMixtec	Mixtec	ñúnú	ñúnú	ɲ u ⁵ n u ⁵	ɲu⁵nu⁵	469	469	17.3596	-97.3861	kuiper1991syntacticO
-2122	190_soap	SOAP	SanJuanDiuxiMixtec	Mixtec	ná'má	námá	n a ⁵ m a ⁵	na⁵ma⁵	690	690	17.3596	-97.3861	kuiper1991syntacticO
-2123	140_moon	MOON	SanJuanDiuxiMixtec	Mixtec	yó’ó	yóó	ʒ o ⁵ o ⁵	ʒo⁵o⁵	430	430	17.3596	-97.3861	kuiper1991syntacticO
-2124	126_cloud	CLOUD	SanJuanDiuxiMixtec	Mixtec	víkô	víkô	β i ⁵ k o ⁵¹	βi⁵ko⁵¹	120	120	17.3596	-97.3861	kuiper1991syntacticK
-2125	109_water	WATER	SanJuanDiuxiMixtec	Mixtec	ndúté	ndúté	ⁿd u ⁵ t e ⁵	ⁿdu⁵te⁵	402	402	17.3596	-97.3861	kuiper1991syntacticO
-2126	82_rainprecipitation	RAIN (PRECIPITATION)	SanJuanDiuxiMixtec	Mixtec	ðá'ú	ðáú	ð a ⁵ u ⁵	ða⁵u⁵	586	586	17.3596	-97.3861	kuiper1991syntacticO
-2127	146_river	RIVER	SanJuanDiuxiMixtec	Mixtec	yú’té	yúté	ʒ u ⁵ t e ⁵	ʒu⁵te⁵	607	607	17.3596	-97.3861	kuiper1991syntacticO
-2128	60_mountainorhill	MOUNTAIN OR HILL	SanJuanDiuxiMixtec	Mixtec	yúkú	yúkú	ʒ u ⁵ k u ⁵	ʒu⁵ku⁵	437	437	17.3596	-97.3861	kuiper1991syntacticO
-2129	96_stoneorrock	STONE OR ROCK	SanJuanDiuxiMixtec	Mixtec	yú’ú	yúú	ʒ u ⁵ u ⁵	ʒu⁵u⁵	710	710	17.3596	-97.3861	kuiper1991syntacticO
-2130	127_cotton	COTTON	SanJuanDiuxiMixtec	Mixtec	káchi	káchi	k a ⁵ tʃ i ¹	ka⁵tʃi¹	157	157	17.3596	-97.3861	kuiper1991syntacticK
-2131	56_metal	METAL	SanJuanDiuxiMixtec	Mixtec	ká’á	káá	k a ⁵ a ⁵	ka⁵a⁵	368	368	17.3596	-97.3861	kuiper1991syntacticO
-2132	72_paper	PAPER	SanJuanDiuxiMixtec	Mixtec	tú’tú	tú’tú	t u ⁵ t u ⁵	tu⁵tu⁵	520	520	17.3596	-97.3861	kuiper1991syntacticO
-2133	122_beeswax	BEESWAX	SanJuanDiuxiMixtec	Mixtec	ñú'á	ñúá	ɲ u ⁵ a ⁵	ɲu⁵a⁵	33	33	17.3596	-97.3861	kuiper1991syntacticO
-2134	62_mud	MUD	SanJuanDiuxiMixtec	Mixtec	ndé’hyú	ndéhyú	ⁿd e ⁵ ʔ ʒ u ⁵	ⁿde⁵ʔʒu⁵	449	449	17.3596	-97.3861	kuiper1991syntacticO
-2135	83_red	RED	SanJuanDiuxiMixtec	Mixtec	kwehé	kwehé	kʷ e ¹ ʔ e ⁵	kʷe¹ʔe⁵	595	595	17.3596	-97.3861	kuiper1991syntacticO
-2136	169_green	GREEN	SanJuanDiuxiMixtec	Mixtec	kwíī	kwíī	kʷ i ⁵ i ³	kʷi⁵i³	305	305	17.3596	-97.3861	kuiper1991syntacticK
-2137	117_yellow	YELLOW	SanJuanDiuxiMixtec	Mixtec	kwaán	kwaán	kʷ ã ¹ ã ⁵	kʷã¹ã⁵	876	876	17.3596	-97.3861	kuiper1991syntacticO
-2138	10_black	BLACK	SanJuanDiuxiMixtec	Mixtec	tnúū	tnúū	tⁿ u ⁵ u ³	tⁿu⁵u³	93	1044 93	17.3596	-97.3861	kuiper1991syntacticK
-2139	111_white	WHITE	SanJuanDiuxiMixtec	Mixtec	kwishí	kwishí	kʷ i ¹ ʃ i ⁵	kʷi¹ʃi⁵	844	844	17.3596	-97.3861	kuiper1991syntacticO
-2140	71_one	ONE	SanJuanDiuxiMixtec	Mixtec	ɨ́ɨ́n	ɨ́ɨ́n	ɨ ⁵ ɨ̃ ⁵	ɨ⁵ɨ̃⁵	507	507	17.3596	-97.3861	kuiper1991syntacticO
-2141	107_two	TWO	SanJuanDiuxiMixtec	Mixtec	ú’ú	úú	u ⁵ u ⁵	u⁵u⁵	811	811	17.3596	-97.3861	kuiper1991syntacticO
-2142	101_three	THREE	SanJuanDiuxiMixtec	Mixtec	ú’ní	úní	u ⁵ n i ⁵	u⁵ni⁵	771	771	17.3596	-97.3861	kuiper1991syntacticO
-2143	38_four	FOUR	SanJuanDiuxiMixtec	Mixtec	kó’ón	kóón	k õ ⁵ õ ⁵	kõ⁵õ⁵	260	260	17.3596	-97.3861	kuiper1991syntacticO
-2144	35_five	FIVE	SanJuanDiuxiMixtec	Mixtec	ó’hón	óhón	o ⁵ ʔ õ ⁵	o⁵ʔõ⁵	244	244	17.3596	-97.3861	kuiper1991syntacticO
-2145	92_six	SIX	SanJuanDiuxiMixtec	Mixtec	í’ñú	íñú	i ⁵ ɲ u ⁵	i⁵ɲu⁵	652	652	17.3596	-97.3861	kuiper1991syntacticO
-2146	90_seven	SEVEN	SanJuanDiuxiMixtec	Mixtec	ú’shá	úshá	u ⁵ ʃ a ⁵	u⁵ʃa⁵	638	638	17.3596	-97.3861	kuiper1991syntacticO
-2147	28_eight	EIGHT	SanJuanDiuxiMixtec	Mixtec	ú’ná	úná	u ⁵ n a ⁵	u⁵na⁵	207	207	17.3596	-97.3861	kuiper1991syntacticO
-2148	68_nine	NINE	SanJuanDiuxiMixtec	Mixtec	ɨ́’ɨ́n	ɨ́ɨ́n	ɨ ⁵ ɨ̃ ⁵	ɨ⁵ɨ̃⁵	490	490	17.3596	-97.3861	kuiper1991syntacticO
-2149	99_ten	TEN	SanJuanDiuxiMixtec	Mixtec	ú’shí	úshí	u ⁵ ʃ i ⁵	u⁵ʃi⁵	761	761	17.3596	-97.3861	kuiper1991syntacticO
-2150	33_fifteen	FIFTEEN	SanJuanDiuxiMixtec	Mixtec	shán’hún	shánhún	ʃ ã ⁵ ʔ ũ ⁵	ʃã⁵ʔũ⁵	234	234	17.3596	-97.3861	kuiper1991syntacticO
-2151	106_twenty	TWENTY	SanJuanDiuxiMixtec	Mixtec	ó’kó	ókó	o ⁵ k o ⁵	o⁵ko⁵	809	809	17.3596	-97.3861	kuiper1991syntacticO
-2152	76_poor	POOR	SanJuanDiuxiMixtec	Mixtec	ndahú	ndahú	ⁿd a ¹ ʔ u ⁵	ⁿda¹ʔu⁵	548	548	17.3596	-97.3861	kuiper1991syntacticO
-2153	160_cold	COLD	SanJuanDiuxiMixtec	Mixtec	ví’shí	víshí	β i ⁵ ʃ i ⁵	βi⁵ʃi⁵	129	129	17.3596	-97.3861	kuiper1991syntacticO
-2154	48_hot	HOT	SanJuanDiuxiMixtec	Mixtec	ínhní	ínhní	ĩ ⁵ ʔ n i ⁵	ĩ⁵ʔni⁵	357	357	17.3596	-97.3861	kuiper1991syntacticO
-2155	8_bigsingular	BIG (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	kánhnú	kánhnú	k ã ⁵ ʔ n u ⁵	kã⁵ʔnu⁵	44	44	17.3596	-97.3861	kuiper1991syntacticO
-2156	7_bigplural	BIG (PLURAL)	SanJuanDiuxiMixtec	Mixtec	nánhnú	nánhnú	n a ⁵ n ʔ n u ⁵	na⁵nʔnu⁵	42	42	17.3596	-97.3861	kuiper1991syntacticO
-2157	94_smallsingular	SMALL (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	luchí	luchí	l u ¹ tʃ i ⁵	lu¹tʃi⁵	673	673T	17.3596	-97.3861	kuiper1991syntacticO
-2158	212_smallplural	SMALL (PLURAL)	SanJuanDiuxiMixtec	Mixtec	kwechí	kwechí	kʷ e ¹ tʃ i ⁵	kʷe¹tʃi⁵	669	669	17.3596	-97.3861	kuiper1991syntacticO
-2159	51_longsingular	LONG (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	kaní	kaní	k a ¹ n i ⁵	ka¹ni⁵	406	406	17.3596	-97.3861	kuiper1991syntacticO
-2160	50_longplural	LONG (PLURAL)	SanJuanDiuxiMixtec	Mixtec	naní	naní	n a ¹ n i ⁵	na¹ni⁵	405	405	17.3596	-97.3861	kuiper1991syntacticO
-2161	39_good	GOOD	SanJuanDiuxiMixtec	Mixtec	vá’há	váhá	β a ⁵ ʔ a ⁵	βa⁵ʔa⁵	286	286	17.3596	-97.3861	kuiper1991syntacticO
-2162	139_lazy	LAZY	SanJuanDiuxiMixtec	Mixtec	kúðí	kúðí	k u ⁵ ð i ⁵	ku⁵ði⁵	379	379	17.3596	-97.3861	kuiper1991syntacticO
-2163	173_jealous	JEALOUS	SanJuanDiuxiMixtec	Mixtec	kwiñā	kwiñā	kʷ i ¹ ɲ a ³	kʷi¹ɲa³	374	374	17.3596	-97.3861	kuiper1991syntacticK
-2164	30_far	FAR	SanJuanDiuxiMixtec	Mixtec	shíká	shíká	ʃ i ⁵ k a ⁵	ʃi⁵ka⁵	212	212	17.3596	-97.3861	kuiper1991syntacticO
-2165	93_slow	SLOW	SanJuanDiuxiMixtec	Mixtec	kweé	kweé	kʷ e ¹ e ⁵	kʷe¹e⁵	662	662	17.3596	-97.3861	kuiper1991syntacticO
-2166	116_year	YEAR	SanJuanDiuxiMixtec	Mixtec	kwi'á	kwiá	kʷ i ¹ a ⁵	kʷi¹a⁵	872	872	17.3596	-97.3861	kuiper1991syntacticO
-2168	67_nighttime	NIGHT TIME	SanJuanDiuxiMixtec	Mixtec	niu	niu	n i ¹ u ¹	ni¹u¹	481	481	17.3596	-97.3861	kuiper1991syntacticK
-2169	21_day24hours	DAY (24 HOURS)	SanJuanDiuxiMixtec	Mixtec	kɨ́’ú	kɨ́ú	k ɨ ⁵ u ⁵	kɨ⁵u⁵	163	163	17.3596	-97.3861	kuiper1991syntacticO
-2170	130_daynotnight	DAY (NOT NIGHT)	SanJuanDiuxiMixtec	Mixtec	ndúú	ndúú	ⁿd u ⁵ u ⁵	ⁿdu⁵u⁵	1	1	17.3596	-97.3861	kuiper1991syntacticO
-2171	115_workingorwork	WORKING OR WORK	SanJuanDiuxiMixtec	Mixtec	tníú	tníú	tⁿ i ⁵ u ⁵	tⁿi⁵u⁵	870	870	17.3596	-97.3861	kuiper1991syntacticO
-2172	114_word	WORD	SanJuanDiuxiMixtec	Mixtec	tnú’hú	tnúhú	tⁿ u ⁵ ʔ u ⁵	tⁿu⁵ʔu⁵	863	863	17.3596	-97.3861	kuiper1991syntacticO
-2173	133_blame	BLAME	SanJuanDiuxiMixtec	Mixtec	kwéchí	kwéchí	kʷ e ⁵ tʃ i ⁵	kʷe⁵tʃi⁵	61	61	17.3596	-97.3861	kuiper1991syntacticO
-2174	110_when	WHEN	SanJuanDiuxiMixtec	Mixtec	ná	ná	n a ⁵	na⁵	839	839	17.3596	-97.3861	kuiper1991syntacticO
+2039	58_mother	MOTHER	SanJuanDiuxiMixtec	Mixtec	ðɨ́’hɨ́	ðɨ́hɨ́	ð ɨ ⁵ ʔ ɨ ⁵	ðɨ⁵ʔɨ⁵	433	433	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2040	59_mothervocative	MOTHER VOCATIVE	SanJuanDiuxiMixtec	Mixtec	nána	nána	n a ⁵ n a ¹	na⁵na¹	432	432	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2041	32_father	FATHER	SanJuanDiuxiMixtec	Mixtec	tá’á	táá	t a ⁵ a ⁵	ta⁵a⁵	220	220	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2043	15_childdescendant	CHILD (DESCENDANT)	SanJuanDiuxiMixtec	Mixtec	ðichi	ðichi	ð i ¹ tʃ i ¹	ði¹tʃi¹	105	105	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2044	15_childdescendant	CHILD (DESCENDANT)	SanJuanDiuxiMixtec	Mixtec	ðá’hyá	ðáhyá	ð a ⁵ ʔ ʒ a ⁵	ða⁵ʔʒa⁵	103	103	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2045	12_brotherofman	BROTHER (OF MAN)	SanJuanDiuxiMixtec	Mixtec	ñá'ní	ñání	ɲ a ⁵ n i ⁵	ɲa⁵ni⁵	84	84	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2046	148_sisterofwoman	SISTER (OF WOMAN)	SanJuanDiuxiMixtec	Mixtec	kú'hú	kúhú	k u ⁵ ʔ u ⁵	ku⁵ʔu⁵	651	651	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2047	119_aunt	AUNT	SanJuanDiuxiMixtec	Mixtec	ðí’ðí	ðíðí	ð i ⁵ ð i ⁵	ði⁵ði⁵	6	6	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2048	151_uncle	UNCLE	SanJuanDiuxiMixtec	Mixtec	ðítô	ðítô	ð i ⁵ t o ⁵¹	ði⁵to⁵¹	824	824	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2049	53_man	MAN	SanJuanDiuxiMixtec	Mixtec	té-yɨ̄ɨ	té-yɨ̄ɨ	t e ⁵ + ʒ ɨ ³ ɨ ¹	te⁵+ʒɨ³ɨ¹	385 408	385 408	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2050	113_woman	WOMAN	SanJuanDiuxiMixtec	Mixtec	ña-ðɨhɨ́	ña-ðɨhɨ́	ɲ a ¹ + ð ɨ ¹ ʔ ɨ ⁵	ɲa¹+ðɨ¹ʔɨ⁵	858 433	858 433	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2051	144_owner	OWNER	SanJuanDiuxiMixtec	Mixtec	stóhó	stóhó	s + t o ⁵ ʔ o ⁵	s+to⁵ʔo⁵	485 512	485 512	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2052	79_priest	PRIEST	SanJuanDiuxiMixtec	Mixtec	ðú’tú	ðútú	ð u ⁵ t u ⁵	ðu⁵tu⁵	568	568	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2053	158_blood	BLOOD	SanJuanDiuxiMixtec	Mixtec	ñɨ́'ñɨ́	ñɨ́ñɨ́	ɲ ɨ ⁵ ɲ ɨ ⁵	ɲɨ⁵ɲɨ⁵	65	65	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2054	136_hair	HAIR	SanJuanDiuxiMixtec	Mixtec	íðí	íðí	i ⁵ ð i ⁵	i⁵ði⁵	311	311	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2055	29_face	FACE	SanJuanDiuxiMixtec	Mixtec	nú’ú	núú	n u ⁵ u ⁵	nu⁵u⁵	210	210	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2056	61_mouth	MOUTH	SanJuanDiuxiMixtec	Mixtec	yúhu	yúhu	ʒ u ⁵ ʔ u ¹	ʒu⁵ʔu¹	447	447	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2057	131_ear	EAR	SanJuanDiuxiMixtec	Mixtec	ðó’hó	ðóhó	ð o ⁵ ʔ o ⁵	ðo⁵ʔo⁵	194	194	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2058	69_nose	NOSE	SanJuanDiuxiMixtec	Mixtec	ðínhni	ðínhni	ð ĩ ⁵ ʔ n i ¹	ðĩ⁵ʔni¹	496	496	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2059	43_hand	HAND	SanJuanDiuxiMixtec	Mixtec	ndáhá	ndáhá	ⁿd a ⁵ ʔ a ⁵	ⁿda⁵ʔa⁵	320	320	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2060	205_fingernail	FINGERNAIL	SanJuanDiuxiMixtec	Mixtec	tnɨ́ñɨ	tnɨ́ñɨ	tⁿ ɨ ⁵ ɲ ɨ ¹	tⁿɨ⁵ɲɨ¹	237	237	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2061	3_back	BACK	SanJuanDiuxiMixtec	Mixtec	yá’tá	yátá	ʒ a ⁵ t a ⁵	ʒa⁵ta⁵	11	11	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2062	6_bellyorstomach	BELLY OR STOMACH	SanJuanDiuxiMixtec	Mixtec	shí’tí	shítí	ʃ i ⁵ t i ⁵	ʃi⁵ti⁵	367	367	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2063	37_foot	FOOT	SanJuanDiuxiMixtec	Mixtec	shé’hé	shéhé	ʃ e ⁵ ʔ e ⁵	ʃe⁵ʔe⁵	258	258	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2064	25_disease	DISEASE	SanJuanDiuxiMixtec	Mixtec	kwé’hé	kwéhé	kʷ e ⁵ ʔ e ⁵	kʷe⁵ʔe⁵	172	172	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2065	55_medicine	MEDICINE	SanJuanDiuxiMixtec	Mixtec	tátná	tátná	t a ⁵ tⁿ a ⁵	ta⁵tⁿa⁵	424	424	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2066	16_clothorclothes	CLOTH OR CLOTHES	SanJuanDiuxiMixtec	Mixtec	ðán’hmá	ðánhmá	ð ã ⁵ ʔ m a ⁵	ðã⁵ʔma⁵	112	112	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2067	147_sandal	SANDAL	SanJuanDiuxiMixtec	Mixtec	ndíshâ	ndíshâ	ⁿd i ⁵ ʃ a ⁵¹	ⁿdi⁵ʃa⁵¹	631	631	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2068	223_trousers	TROUSERS	SanJuanDiuxiMixtec	Mixtec	shá'tú	shátú	ʃ a ⁵ t u ⁵	ʃa⁵tu⁵	802	802	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2069	159_blousewoven	BLOUSE (WOVEN)	SanJuanDiuxiMixtec	Mixtec	ðún'hnú	ðúnhnú	ð ũ ⁵ ʔ n u ⁵	ðũ⁵ʔnu⁵	69	69	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2070	104_townorvillage	TOWN OR VILLAGE	SanJuanDiuxiMixtec	Mixtec	ñú’ú	ñúú	ɲ u ⁵ u ⁵	ɲu⁵u⁵	794	794	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2071	49_house	HOUSE	SanJuanDiuxiMixtec	Mixtec	véhé	véhé	β e ⁵ ʔ e ⁵	βe⁵ʔe⁵	363	363	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2072	73_path	PATH	SanJuanDiuxiMixtec	Mixtec	íchí	íchí	i ⁵ tʃ i ⁵	i⁵tʃi⁵	523	523	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2073	177_mat	MAT	SanJuanDiuxiMixtec	Mixtec	yúú	yúú	ʒ u ⁵ u ⁵	ʒu⁵u⁵	416	416	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2075	1_animal	ANIMAL	SanJuanDiuxiMixtec	Mixtec	kɨ́’tɨ́	kɨ́tɨ́	k ɨ ⁵ t ɨ ⁵	kɨ⁵tɨ⁵	2	2	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2076	9_bird	BIRD	SanJuanDiuxiMixtec	Mixtec	chili-ðáá	chili-ðáá	tʃ i ¹ l i ¹ + ð a ⁵ a ⁵	tʃi¹li¹+ða⁵a⁵	894 49	894 49	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2077	34_fish	FISH	SanJuanDiuxiMixtec	Mixtec	chāka	chāka	tʃ a ³ k a ¹	tʃa³ka¹	9 242	9 242	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2078	95_snake	SNAKE	SanJuanDiuxiMixtec	Mixtec	kó'ó	kóó	k o ⁵ o ⁵	ko⁵o⁵	689	689	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2079	155_bee	BEE	SanJuanDiuxiMixtec	Mixtec	tndáka	tndáka	t + ⁿd a ⁵ k a ¹	t+ⁿda⁵ka¹	9 891	9 891	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2080	155_bee	BEE	SanJuanDiuxiMixtec	Mixtec	ñú'ñú	ñúñú	ɲ u ⁵ ɲ u ⁵	ɲu⁵ɲu⁵	29	29	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2081	63_mouse	MOUSE	SanJuanDiuxiMixtec	Mixtec	tɨ-tnɨ́ñɨ	tɨ-tnɨ́ñɨ	t ɨ ¹ + tⁿ ɨ ⁵ ɲ ɨ ¹	tɨ¹+tⁿɨ⁵ɲɨ¹	9 444	9 444	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2082	23_deer	DEER	SanJuanDiuxiMixtec	Mixtec	í'ðú	íðú	i ⁵ ð u ⁵	i⁵ðu⁵	164	164	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2084	215_vulture	VULTURE	SanJuanDiuxiMixtec	Mixtec	chó'kó	chókó	tʃ + o ⁵ k o ⁵	tʃ+o⁵ko⁵	9 321	9 321	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2085	26_dog	DOG	SanJuanDiuxiMixtec	Mixtec	í'ná	íná	i ⁵ n a ⁵	i⁵na⁵	174	174	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2086	26_dog	DOG	SanJuanDiuxiMixtec	Mixtec	ti-hína	ti-hína	t i ¹ + ʔ i ⁵ n a ¹	ti¹+ʔi⁵na¹	9 174	9 174	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2087	13_cat	CAT	SanJuanDiuxiMixtec	Mixtec	vílu	vílu	β i ⁵ l u ¹	βi⁵lu¹	91	91	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2088	85_rooster	ROOSTER	SanJuanDiuxiMixtec	Mixtec	lihí	lihí	l i ¹ ʔ i ⁵	li¹ʔi⁵	616	616	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2089	224_chicken	CHICKEN	SanJuanDiuxiMixtec	Mixtec	chú’ún	chúún	tʃ + ũ ⁵ ũ ⁵	tʃ+ũ⁵ũ⁵	9 100	9 100	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2090	91_sheep	SHEEP	SanJuanDiuxiMixtec	Mixtec	t-káchi	t-káchi	t + k a ⁵ tʃ i ¹	t+ka⁵tʃi¹	9 157	9 157	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2091	150_tail	TAIL	SanJuanDiuxiMixtec	Mixtec	ðú'hán	ðúhán	ð u ⁵ ʔ ã ⁵	ðu⁵ʔã⁵	635	635	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2092	105_tree	TREE	SanJuanDiuxiMixtec	Mixtec	yútnú	yútnú	ʒ u ⁵ tⁿ u ⁵	ʒu⁵tⁿu⁵	799	799	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2093	36_flower	FLOWER	SanJuanDiuxiMixtec	Mixtec	í’tá	ítá	i ⁵ t a ⁵	i⁵ta⁵	246	246	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2094	218_maguey	MAGUEY	SanJuanDiuxiMixtec	Mixtec	yáú	yáú	ʒ a ⁵ u ⁵	ʒa⁵u⁵	409	409	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2095	186_root	ROOT	SanJuanDiuxiMixtec	Mixtec	yoho	yoho	ʒ o ¹ ʔ o ¹	ʒo¹ʔo¹	619	1048 619	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2096	195_thorn	THORN	SanJuanDiuxiMixtec	Mixtec	íñú	íñú	i ⁵ ɲ u ⁵	i⁵ɲu⁵	764	764	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2097	18_corn	CORN	SanJuanDiuxiMixtec	Mixtec	nú’ní	núní	n u ⁵ n i ⁵	nu⁵ni⁵	141	141	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2098	19_cornfield	CORN FIELD	SanJuanDiuxiMixtec	Mixtec	í’tú	ítú	i ⁵ t u ⁵	i⁵tu⁵	145	145	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2099	132_earofcornfresh	EAR OF CORN (FRESH)	SanJuanDiuxiMixtec	Mixtec	ñɨ́ñɨ́	ñɨ́ñɨ́	ɲ ɨ ⁵ ɲ ɨ ⁵	ɲɨ⁵ɲɨ⁵	200	200	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2100	203_corndough	CORN DOUGH	SanJuanDiuxiMixtec	Mixtec	yūsha	yūsha	ʒ u ³ ʃ a ¹	ʒu³ʃa¹	142	142	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2101	103_tortilla	TORTILLA	SanJuanDiuxiMixtec	Mixtec	ðí’tá	ðítá	ð i ⁵ t a ⁵	ði⁵ta⁵	789	789	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2102	121_bean	BEAN	SanJuanDiuxiMixtec	Mixtec	ndúchí	ndúchí	ⁿd u ⁵ tʃ i ⁵	ⁿdu⁵tʃi⁵	24	24	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2103	206_greenbean	GREEN BEAN	SanJuanDiuxiMixtec	Mixtec	ndí'chí	ndíchí	ⁿd i ⁵ tʃ i ⁵	ⁿdi⁵tʃi⁵	308	308	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2104	124_chilipepper	CHILI PEPPER	SanJuanDiuxiMixtec	Mixtec	yáhá	yáhá	ʒ a ⁵ ʔ a ⁵	ʒa⁵ʔa⁵	107	107	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2105	87_salt	SALT	SanJuanDiuxiMixtec	Mixtec	ñɨ́'ɨ́	ñɨ́ɨ́	ɲ ɨ ⁵ ɨ ⁵	ɲɨ⁵ɨ⁵	624	624	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2106	31_fatfromanimals	FAT (FROM ANIMALS)	SanJuanDiuxiMixtec	Mixtec	ðé'hén	ðéhén	ð e ⁵ ʔ ẽ ⁵	ðe⁵ʔẽ⁵	216	216	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2107	27_egg	EGG	SanJuanDiuxiMixtec	Mixtec	ndɨ́’ú	ndɨ́ú	ⁿd ɨ ⁵ u ⁵	ⁿdɨ⁵u⁵	204	204	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2108	102_tomato	TOMATO	SanJuanDiuxiMixtec	Mixtec	t-nána	t-nána	t + n a ⁵ n a ¹	t+na⁵na¹	9 775	9 775	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2109	2_avocado	AVOCADO	SanJuanDiuxiMixtec	Mixtec	tɨ́chɨ	tɨ́chɨ	t ɨ ⁵ tʃ ɨ ¹	tɨ⁵tʃɨ¹	8	8	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2110	4_banana	BANANA	SanJuanDiuxiMixtec	Mixtec	kwí'hí	kwíhí	kʷ i ⁵ ʔ i ⁵	kʷi⁵ʔi⁵	16	16	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2111	78_pricklypearcactus	PRICKLY PEAR CACTUS	SanJuanDiuxiMixtec	Mixtec	víhndê	víhndê	β i ⁵ ʔ ⁿd e ⁵¹	βi⁵ʔⁿde⁵¹	564	564	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2112	54_meat	MEAT	SanJuanDiuxiMixtec	Mixtec	kú'ñú	kúñú	k u ⁵ ɲ u ⁵	ku⁵ɲu⁵	418	418	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2113	17_cookingpot	COOKING POT	SanJuanDiuxiMixtec	Mixtec	kɨ́ðɨ́	kɨ́ðɨ́	k ɨ ⁵ ð ɨ ⁵	kɨ⁵ðɨ⁵	138	138	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2114	134_fire	FIRE	SanJuanDiuxiMixtec	Mixtec	ñú’hú	ñúhú	ɲ u ⁵ ʔ u ⁵	ɲu⁵ʔu⁵	240	240	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2115	168_garbage	GARBAGE	SanJuanDiuxiMixtec	Mixtec	mí’hí	mí’hí	m i ⁵ ʔ i ⁵	mi⁵ʔi⁵	279	279	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2116	75_plate	PLATE	SanJuanDiuxiMixtec	Mixtec	kóhó	kóhó	k o ⁵ ʔ o ⁵	ko⁵ʔo⁵	545	545	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2117	120_basket	BASKET	SanJuanDiuxiMixtec	Mixtec	yɨ̄ka	yɨ̄ka	ʒ ɨ ³ k a ¹	ʒɨ³ka¹	18	18	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2118	200_boxorchest	BOX OR CHEST	SanJuanDiuxiMixtec	Mixtec	shá'tnú	shátnú	ʃ a ⁵ tⁿ u ⁵	ʃa⁵tⁿu⁵	79	79	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2120	46_hole	HOLE	SanJuanDiuxiMixtec	Mixtec	yau	yau	ʒ a ¹ u ¹	ʒa¹u¹	341	341	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2121	142_netbag	NETBAG	SanJuanDiuxiMixtec	Mixtec	ñúnú	ñúnú	ɲ u ⁵ n u ⁵	ɲu⁵nu⁵	469	469	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2122	190_soap	SOAP	SanJuanDiuxiMixtec	Mixtec	ná'má	námá	n a ⁵ m a ⁵	na⁵ma⁵	690	690	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2123	140_moon	MOON	SanJuanDiuxiMixtec	Mixtec	yó’ó	yóó	ʒ o ⁵ o ⁵	ʒo⁵o⁵	430	430	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2124	126_cloud	CLOUD	SanJuanDiuxiMixtec	Mixtec	víkô	víkô	β i ⁵ k o ⁵¹	βi⁵ko⁵¹	120	120	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2125	109_water	WATER	SanJuanDiuxiMixtec	Mixtec	ndúté	ndúté	ⁿd u ⁵ t e ⁵	ⁿdu⁵te⁵	402	402	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2126	82_rainprecipitation	RAIN (PRECIPITATION)	SanJuanDiuxiMixtec	Mixtec	ðá'ú	ðáú	ð a ⁵ u ⁵	ða⁵u⁵	586	586	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2127	146_river	RIVER	SanJuanDiuxiMixtec	Mixtec	yú’té	yúté	ʒ u ⁵ t e ⁵	ʒu⁵te⁵	607	607	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2128	60_mountainorhill	MOUNTAIN OR HILL	SanJuanDiuxiMixtec	Mixtec	yúkú	yúkú	ʒ u ⁵ k u ⁵	ʒu⁵ku⁵	437	437	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2129	96_stoneorrock	STONE OR ROCK	SanJuanDiuxiMixtec	Mixtec	yú’ú	yúú	ʒ u ⁵ u ⁵	ʒu⁵u⁵	710	710	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2130	127_cotton	COTTON	SanJuanDiuxiMixtec	Mixtec	káchi	káchi	k a ⁵ tʃ i ¹	ka⁵tʃi¹	157	157	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2131	56_metal	METAL	SanJuanDiuxiMixtec	Mixtec	ká’á	káá	k a ⁵ a ⁵	ka⁵a⁵	368	368	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2132	72_paper	PAPER	SanJuanDiuxiMixtec	Mixtec	tú’tú	tú’tú	t u ⁵ t u ⁵	tu⁵tu⁵	520	520	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2133	122_beeswax	BEESWAX	SanJuanDiuxiMixtec	Mixtec	ñú'á	ñúá	ɲ u ⁵ a ⁵	ɲu⁵a⁵	33	33	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2134	62_mud	MUD	SanJuanDiuxiMixtec	Mixtec	ndé’hyú	ndéhyú	ⁿd e ⁵ ʔ ʒ u ⁵	ⁿde⁵ʔʒu⁵	449	449	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2135	83_red	RED	SanJuanDiuxiMixtec	Mixtec	kwehé	kwehé	kʷ e ¹ ʔ e ⁵	kʷe¹ʔe⁵	595	595	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2136	169_green	GREEN	SanJuanDiuxiMixtec	Mixtec	kwíī	kwíī	kʷ i ⁵ i ³	kʷi⁵i³	305	305	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2137	117_yellow	YELLOW	SanJuanDiuxiMixtec	Mixtec	kwaán	kwaán	kʷ ã ¹ ã ⁵	kʷã¹ã⁵	876	876	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2138	10_black	BLACK	SanJuanDiuxiMixtec	Mixtec	tnúū	tnúū	tⁿ u ⁵ u ³	tⁿu⁵u³	93	1044 93	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2139	111_white	WHITE	SanJuanDiuxiMixtec	Mixtec	kwishí	kwishí	kʷ i ¹ ʃ i ⁵	kʷi¹ʃi⁵	844	844	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2140	71_one	ONE	SanJuanDiuxiMixtec	Mixtec	ɨ́ɨ́n	ɨ́ɨ́n	ɨ ⁵ ɨ̃ ⁵	ɨ⁵ɨ̃⁵	507	507	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2141	107_two	TWO	SanJuanDiuxiMixtec	Mixtec	ú’ú	úú	u ⁵ u ⁵	u⁵u⁵	811	811	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2142	101_three	THREE	SanJuanDiuxiMixtec	Mixtec	ú’ní	úní	u ⁵ n i ⁵	u⁵ni⁵	771	771	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2143	38_four	FOUR	SanJuanDiuxiMixtec	Mixtec	kó’ón	kóón	k õ ⁵ õ ⁵	kõ⁵õ⁵	260	260	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2144	35_five	FIVE	SanJuanDiuxiMixtec	Mixtec	ó’hón	óhón	o ⁵ ʔ õ ⁵	o⁵ʔõ⁵	244	244	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2145	92_six	SIX	SanJuanDiuxiMixtec	Mixtec	í’ñú	íñú	i ⁵ ɲ u ⁵	i⁵ɲu⁵	652	652	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2146	90_seven	SEVEN	SanJuanDiuxiMixtec	Mixtec	ú’shá	úshá	u ⁵ ʃ a ⁵	u⁵ʃa⁵	638	638	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2147	28_eight	EIGHT	SanJuanDiuxiMixtec	Mixtec	ú’ná	úná	u ⁵ n a ⁵	u⁵na⁵	207	207	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2148	68_nine	NINE	SanJuanDiuxiMixtec	Mixtec	ɨ́’ɨ́n	ɨ́ɨ́n	ɨ ⁵ ɨ̃ ⁵	ɨ⁵ɨ̃⁵	490	490	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2149	99_ten	TEN	SanJuanDiuxiMixtec	Mixtec	ú’shí	úshí	u ⁵ ʃ i ⁵	u⁵ʃi⁵	761	761	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2150	33_fifteen	FIFTEEN	SanJuanDiuxiMixtec	Mixtec	shán’hún	shánhún	ʃ ã ⁵ ʔ ũ ⁵	ʃã⁵ʔũ⁵	234	234	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2151	106_twenty	TWENTY	SanJuanDiuxiMixtec	Mixtec	ó’kó	ókó	o ⁵ k o ⁵	o⁵ko⁵	809	809	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2152	76_poor	POOR	SanJuanDiuxiMixtec	Mixtec	ndahú	ndahú	ⁿd a ¹ ʔ u ⁵	ⁿda¹ʔu⁵	548	548	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2153	160_cold	COLD	SanJuanDiuxiMixtec	Mixtec	ví’shí	víshí	β i ⁵ ʃ i ⁵	βi⁵ʃi⁵	129	129	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2154	48_hot	HOT	SanJuanDiuxiMixtec	Mixtec	ínhní	ínhní	ĩ ⁵ ʔ n i ⁵	ĩ⁵ʔni⁵	357	357	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2155	8_bigsingular	BIG (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	kánhnú	kánhnú	k ã ⁵ ʔ n u ⁵	kã⁵ʔnu⁵	44	44	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2156	7_bigplural	BIG (PLURAL)	SanJuanDiuxiMixtec	Mixtec	nánhnú	nánhnú	n a ⁵ n ʔ n u ⁵	na⁵nʔnu⁵	42	42	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2157	94_smallsingular	SMALL (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	luchí	luchí	l u ¹ tʃ i ⁵	lu¹tʃi⁵	673	673T	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2158	212_smallplural	SMALL (PLURAL)	SanJuanDiuxiMixtec	Mixtec	kwechí	kwechí	kʷ e ¹ tʃ i ⁵	kʷe¹tʃi⁵	669	669	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2159	51_longsingular	LONG (SINGULAR)	SanJuanDiuxiMixtec	Mixtec	kaní	kaní	k a ¹ n i ⁵	ka¹ni⁵	406	406	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2160	50_longplural	LONG (PLURAL)	SanJuanDiuxiMixtec	Mixtec	naní	naní	n a ¹ n i ⁵	na¹ni⁵	405	405	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2161	39_good	GOOD	SanJuanDiuxiMixtec	Mixtec	vá’há	váhá	β a ⁵ ʔ a ⁵	βa⁵ʔa⁵	286	286	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2162	139_lazy	LAZY	SanJuanDiuxiMixtec	Mixtec	kúðí	kúðí	k u ⁵ ð i ⁵	ku⁵ði⁵	379	379	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2163	173_jealous	JEALOUS	SanJuanDiuxiMixtec	Mixtec	kwiñā	kwiñā	kʷ i ¹ ɲ a ³	kʷi¹ɲa³	374	374	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2164	30_far	FAR	SanJuanDiuxiMixtec	Mixtec	shíká	shíká	ʃ i ⁵ k a ⁵	ʃi⁵ka⁵	212	212	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2165	93_slow	SLOW	SanJuanDiuxiMixtec	Mixtec	kweé	kweé	kʷ e ¹ e ⁵	kʷe¹e⁵	662	662	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2166	116_year	YEAR	SanJuanDiuxiMixtec	Mixtec	kwi'á	kwiá	kʷ i ¹ a ⁵	kʷi¹a⁵	872	872	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2168	67_nighttime	NIGHT TIME	SanJuanDiuxiMixtec	Mixtec	niu	niu	n i ¹ u ¹	ni¹u¹	481	481	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+2169	21_day24hours	DAY (24 HOURS)	SanJuanDiuxiMixtec	Mixtec	kɨ́’ú	kɨ́ú	k ɨ ⁵ u ⁵	kɨ⁵u⁵	163	163	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2170	130_daynotnight	DAY (NOT NIGHT)	SanJuanDiuxiMixtec	Mixtec	ndúú	ndúú	ⁿd u ⁵ u ⁵	ⁿdu⁵u⁵	1	1	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2171	115_workingorwork	WORKING OR WORK	SanJuanDiuxiMixtec	Mixtec	tníú	tníú	tⁿ i ⁵ u ⁵	tⁿi⁵u⁵	870	870	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2172	114_word	WORD	SanJuanDiuxiMixtec	Mixtec	tnú’hú	tnúhú	tⁿ u ⁵ ʔ u ⁵	tⁿu⁵ʔu⁵	863	863	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2173	133_blame	BLAME	SanJuanDiuxiMixtec	Mixtec	kwéchí	kwéchí	kʷ e ⁵ tʃ i ⁵	kʷe⁵tʃi⁵	61	61	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+2174	110_when	WHEN	SanJuanDiuxiMixtec	Mixtec	ná	ná	n a ⁵	na⁵	839	839	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
 2178	53_man	MAN	SanJuanDiuxiMixtec	Mixtec	se-yɨɨ	se-yɨɨ	s e + j ɨ ɨ	se+jɨɨ	386 408	386 408	17.3596	-97.3861	josserand1983mixtec
 2181	141_neck	NECK	SanJuanDiuxiMixtec	Mixtec	đuxu̧	đuxu̧	ð u x ũ	ðuxũ	465	465	17.3596	-97.3861	josserand1983mixtec
 2184	182_pimple	PIMPLE	SanJuanDiuxiMixtec	Mixtec	ⁿdɨʔyɨ	ⁿdɨʔyɨ	ⁿd ɨ ʔ j ɨ	ⁿdɨʔjɨ	529	529	17.3596	-97.3861	josserand1983mixtec
@@ -5580,17 +5580,17 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 2212	183_plain	PLAIN	SanJuanDiuxiMixtec	Mixtec	žođo	žođo	ʒ o ð o	ʒoðo	535	535	17.3596	-97.3861	josserand1983mixtec
 2217	165_foam	FOAM	SanJuanDiuxiMixtec	Mixtec	i̧ỹu̧	i̧ỹu̧	ĩ j̃ ũ	ĩj̃ũ	250	250	17.3596	-97.3861	josserand1983mixtec
 2231	93_slow	SLOW	SanJuanDiuxiMixtec	Mixtec	kʷee-ni̧	kʷee-ni̧	kʷ e e + n ĩ	kʷee+nĩ	662 1014	662 1014	17.3596	-97.3861	josserand1983mixtec
-4299	275_sweet	SWEET	SanJuanDiuxiMixtec	Mixtec	víðî	víðî	β i ⁵ ð i ⁵¹	βi⁵ði⁵¹	735	735	17.3596	-97.3861	kuiper1991syntacticK
-4315	199_wide	WIDE	SanJuanDiuxiMixtec	Mixtec	nunu	nunu	n u ¹ n u ¹	nu¹nu¹	850	850	17.3596	-97.3861	kuiper1991syntacticK
-4325	108_ugly	UGLY	SanJuanDiuxiMixtec	Mixtec	kwihá	kwihá	kʷ i ¹ ʔ a ⁵	kʷi¹ʔa⁵	818	818	17.3596	-97.3861	kuiper1991syntacticO
-4337	66_near	NEAR	SanJuanDiuxiMixtec	Mixtec	yátní	yátní	ʒ a ⁵ tⁿ i ⁵	ʒa⁵tⁿi⁵	459	459	17.3596	-97.3861	kuiper1991syntacticO
-4348	44_heavy	HEAVY	SanJuanDiuxiMixtec	Mixtec	vēé	vēé	β e ³ e ⁵	βe³e⁵	326	326	17.3596	-97.3861	kuiper1991syntacticO
-4362	118_yesterday	YESTERDAY	SanJuanDiuxiMixtec	Mixtec	íkú	íkú	i ⁵ k u ⁵	i⁵ku⁵	879	879	17.3596	-97.3861	kuiper1991syntacticO
-4446	221_music	MUSIC	SanJuanDiuxiMixtec	Mixtec	yáa	yáa	ʒ a ⁵ a ¹	ʒa⁵a¹	457	457	17.3596	-97.3861	kuiper1991syntacticK
+4299	275_sweet	SWEET	SanJuanDiuxiMixtec	Mixtec	víðî	víðî	β i ⁵ ð i ⁵¹	βi⁵ði⁵¹	735	735	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+4315	199_wide	WIDE	SanJuanDiuxiMixtec	Mixtec	nunu	nunu	n u ¹ n u ¹	nu¹nu¹	850	850	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
+4325	108_ugly	UGLY	SanJuanDiuxiMixtec	Mixtec	kwihá	kwihá	kʷ i ¹ ʔ a ⁵	kʷi¹ʔa⁵	818	818	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+4337	66_near	NEAR	SanJuanDiuxiMixtec	Mixtec	yátní	yátní	ʒ a ⁵ tⁿ i ⁵	ʒa⁵tⁿi⁵	459	459	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+4348	44_heavy	HEAVY	SanJuanDiuxiMixtec	Mixtec	vēé	vēé	β e ³ e ⁵	βe³e⁵	326	326	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+4362	118_yesterday	YESTERDAY	SanJuanDiuxiMixtec	Mixtec	íkú	íkú	i ⁵ k u ⁵	i⁵ku⁵	879	879	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+4446	221_music	MUSIC	SanJuanDiuxiMixtec	Mixtec	yáa	yáa	ʒ a ⁵ a ¹	ʒa⁵a¹	457	457	17.3596	-97.3861	kuiper1991syntactic[Kuiper's section]
 4593	213_squirrel	SQUIRREL	SanJuanDiuxiMixtec	Mixtec	kʷȩñu̧	kʷȩñu̧	kʷ ẽ ɲ ũ	kʷẽɲũ	698	698	17.3596	-97.3861	josserand1983mixtec
-5361	98_tasty	TASTY	SanJuanDiuxiMixtec	Mixtec	á’ðɨ́	áðɨ́	a ⁵ ð ɨ ⁵	a⁵ðɨ⁵	755	755	17.3596	-97.3861	kuiper1991syntacticO
-5599	70_nowortoday	NOW OR TODAY	SanJuanDiuxiMixtec	Mixtec	vítná	vítná	β i ⁵ tⁿ a ⁵	βi⁵tⁿa⁵	501	501A	17.3596	-97.3861	kuiper1991syntacticO
-5905	137_half	HALF	SanJuanDiuxiMixtec	Mixtec	ðává	ðává	ð a ⁵ β a ⁵	ða⁵βa⁵	314	314	17.3596	-97.3861	kuiper1991syntacticO
+5361	98_tasty	TASTY	SanJuanDiuxiMixtec	Mixtec	á’ðɨ́	áðɨ́	a ⁵ ð ɨ ⁵	a⁵ðɨ⁵	755	755	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+5599	70_nowortoday	NOW OR TODAY	SanJuanDiuxiMixtec	Mixtec	vítná	vítná	β i ⁵ tⁿ a ⁵	βi⁵tⁿa⁵	501	501A	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
+5905	137_half	HALF	SanJuanDiuxiMixtec	Mixtec	ðává	ðává	ð a ⁵ β a ⁵	ða⁵βa⁵	314	314	17.3596	-97.3861	kuiper1991syntactic[Oram's section]
 6332	20_crosssexsibling	CROSS-SEX SIBLING	SanJuanDiuxiMixtec	Mixtec	kú'ʔá	kúʔá	k u ⁵ ʔ a ⁵	ku⁵ʔa⁵	159	159	17.3596	-97.3861	durr1987preliminary
 6686	11_bone	BONE	SanJuanDiuxiMixtec	Mixtec	žɨ̀kɨ̀	žɨ̀kɨ̀	ʒ ɨ ¹ k ɨ ¹	ʒɨ¹kɨ¹	74	74	17.3596	-97.3861	durr1987preliminary
 7436	184_pus	PUS	SanJuanDiuxiMixtec	Mixtec	ⁿdakʷa	ⁿdakʷa	ⁿd a kʷ a	ⁿdakʷa	574	574	17.3596	-97.3861	josserand1983mixtec
