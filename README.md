@@ -1,4 +1,4 @@
-# CLDF dataset supplementing Audersets's "Mixteca"
+# CLDF dataset of the supplementary materials to "Subgrouping in a ‘dialect continuum’: A Bayesian phylogenetic analysis of the Mixtecan language family" (Auderset et al. 2023. JoLE)
 
 Cite the source dataset as
 
@@ -6,7 +6,6 @@ Cite the source dataset as
 
 This dataset is licensed under a CC-By-4.0 license
 
-Available online at https://github.com/sauderset/mixteca
 
 ## Statistics
 
