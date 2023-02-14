@@ -2,7 +2,8 @@
 
 Cite the source dataset as
 
-> BITTE EINTRAGEN
+Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. 2023. Supplementary Materials to "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family" [Data set]. Journal of Language Evolution, tbd. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6513506.svg)](https://doi.org/10.5281/zenodo.6513506)
 
 This dataset is licensed under a CC-By-4.0 license
 
