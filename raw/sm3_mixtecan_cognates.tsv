@@ -54,7 +54,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 54	85_rooster	ROOSTER	AbasoloValleMixtec	Mixtec	to'lo	to'lo	t o ³ ʔ l o ¹	to³ʔlo¹	615	615	17.78287	-95.54381	galindo-sanchez2009vocabulario
 55	45_hen	HEN	AbasoloValleMixtec	Mixtec	chata	chata	tʃ a ³ t a ³	tʃa³ta³	328	328	17.78287	-95.54381	galindo-sanchez2009vocabulario
 56	74_pig	PIG	AbasoloValleMixtec	Mixtec	kìni	kìni	k i ¹ n i ³	ki¹ni³	526	526	17.78287	-95.54381	galindo-sanchez2009vocabulario
-58	91_sheep	SHEEP	AbasoloValleMixtec	Mixtec	ntikachi	nti-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³	ⁿdi³+ka³tʃi³	35 1044 157	35 1044 157	17.78287	-95.54381	galindo-sanchez2009vocabulario
+58	91_sheep	SHEEP	AbasoloValleMixtec	Mixtec	ntikachi	nti-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³	ⁿdi³+Ø/³+ka³/¹tʃi³	35 1044 157	35 1044 157	17.78287	-95.54381	galindo-sanchez2009vocabulario
 59	152_ant	ANT	AbasoloValleMixtec	Mixtec	choko	choko	tʃ + o ³ k o ¹	tʃ+o³ko¹	9 882	9 882	17.78287	-95.54381	galindo-sanchez2009vocabulario
 60	47_hornanatomy	HORN (ANATOMY)	AbasoloValleMixtec	Mixtec	ntiki	ntiki	ⁿd i ³ k i ³	ⁿdi³ki³	350	350	17.78287	-95.54381	galindo-sanchez2009vocabulario
 61	164_feather	FEATHER	AbasoloValleMixtec	Mixtec	túmi	túmi	t u ⁵ m i ³	tu⁵mi³	227	227	17.78287	-95.54381	galindo-sanchez2009vocabulario
@@ -189,7 +189,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 191	1_animal	ANIMAL	AlacatlatzalaMixtec	Mixtec	kiti̠	kiti̠	k i ³ t i ¹	ki³ti¹	2	2	17.25	-98.58	zylstra2012gramatica
 192	166_frog	FROG	AlacatlatzalaMixtec	Mixtec	sa'va̠	sa'va̠	s a ³ ʔ β a ¹	sa³ʔβa¹	263	263	17.25	-98.58	zylstra2012gramatica
 193	207_hawk	HAWK	AlacatlatzalaMixtec	Mixtec	sí'ñá	sí'ñá	s i ⁵ ʔ ɲ a ⁵	si⁵ʔɲa⁵	193	193	17.25	-98.58	anderson2006vocabulario
-194	89_scorpion	SCORPION	AlacatlatzalaMixtec	Mixtec	tísi̠'ma	tí-si̠'ma	t i ⁵ + Ø/³ + s i ¹ ʔ m a ³/¹	ti⁵+si¹ʔma³	9 1044 635	9 1044 635	17.25	-98.58	zylstra2012gramatica
+194	89_scorpion	SCORPION	AlacatlatzalaMixtec	Mixtec	tísi̠'ma	tí-si̠'ma	t i ⁵ + Ø/³ + s i ¹ ʔ m a ³/¹	ti⁵+Ø/³+si¹ʔma³/¹	9 1044 635	9 1044 635	17.25	-98.58	zylstra2012gramatica
 195	155_bee	BEE	AlacatlatzalaMixtec	Mixtec	tí-ñóño̠	tí-ñóño̠	t i ⁵ + ɲ o ⁵ ɲ o ³	ti⁵+ɲo⁵ɲo³	9 29	9 29	17.25	-98.58	zylstra2012gramatica
 196	23_deer	DEER	AlacatlatzalaMixtec	Mixtec	yusu	yusu	j u ³ s u ³	ju³su³	164	164	17.25	-98.58	zylstra2012gramatica
 197	187_skunk	SKUNK	AlacatlatzalaMixtec	Mixtec	ti̠'ín	ti̠'ín	t + i ¹ ʔ ĩ ⁵	t+i¹ʔĩ⁵	9 655	9 655	17.25	-98.58	zylstra2012gramatica
@@ -670,8 +670,8 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 1125	226_rat	RAT	SanAndresChicahuaxtlaTriqui	Triqui	xutu⁴ güi³⁵	xutu⁴-güi³⁵	ʃ u + t u ² + g u i ³¹	ʃu+tu²+gui³¹	9 445 1042	9 445 1042	17.15612	-97.84007	good1978diccionario
 1141	47_hornanatomy	HORN (ANATOMY)	SanAndresChicahuaxtlaTriqui	Triqui	si-cu¹ xuj³	si-cu¹-xuj³	s i + k u ⁵ + ʃ u h ³	si+ku⁵+ʃuh³	340 350 22	340 350 22	17.15612	-97.84007	good1978diccionario
 1144	150_tail	TAIL	SanAndresChicahuaxtlaTriqui	Triqui	dune'³e xuj³	dune'³e-xuj³	d u n e ³ ʔ e + ʃ u h ³	dune³ʔe+ʃuh³	749 22	749 22	17.15612	-97.84007	good1978diccionario
-1148	40_grass	GRASS	SanAndresChicahuaxtlaTriqui	Triqui	chrin'³in	chrin'³in	gʷ i ²  ʔj o ¹	gʷi²ʔjo¹	297	297	17.15612	-97.84007	good1978diccionario
-1159	204_cornstalk	CORN STALK	SanAndresChicahuaxtlaTriqui	Triqui	gui'yo⁵³	gui'yo⁵³	gʷ i  ʔj o ¹³	gʷiʔjo¹³	153	153	17.15612	-97.84007	good1978diccionario
+1148	40_grass	GRASS	SanAndresChicahuaxtlaTriqui	Triqui	chrin'³in	chrin'³in	gʷ i ² ʔ j o ¹	gʷi²ʔjo¹	297	297	17.15612	-97.84007	good1978diccionario
+1159	204_cornstalk	CORN STALK	SanAndresChicahuaxtlaTriqui	Triqui	gui'yo⁵³	gui'yo⁵³	gʷ i ʔ j o ¹³	gʷiʔjo¹³	153	153	17.15612	-97.84007	good1978diccionario
 1163	206_greenbean	GREEN BEAN	SanAndresChicahuaxtlaTriqui	Triqui	natan³	natan³	n a t ã ³	natã³	308	308	17.15612	-97.84007	good1978diccionario
 1195	122_beeswax	BEESWAX	SanAndresChicahuaxtlaTriqui	Triqui	yanj³an	yanj³an	j ã h ³ ã	jãh³ã	22	22	17.15612	-97.84007	good1978diccionario
 1196	165_foam	FOAM	SanAndresChicahuaxtlaTriqui	Triqui	atan'⁴an	atan'⁴an	a t ã ² ʔ ã	atã²ʔã	254	254	17.15612	-97.84007	good1978diccionario
@@ -1042,7 +1042,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 1690	192_stool	STOOL	SanJuanColoradoMixtec	Mixtec	tyáyu	tyáyu	tʲ a ⁵ j u ³	tʲa⁵ju³	717	717	16.46073	-97.95446	stark1986diccionario
 1691	1_animal	ANIMAL	SanJuanColoradoMixtec	Mixtec	quɨtɨ	quɨtɨ	k ɨ ³ t ɨ ³	kɨ³tɨ³	2	2	16.46073	-97.95446	stark1986diccionario
 1692	95_snake	SNAKE	SanJuanColoradoMixtec	Mixtec	còò	còò	k o ¹ o ¹	ko¹o¹	689	689	16.46073	-97.95446	stark1986diccionario
-1693	89_scorpion	SCORPION	SanJuanColoradoMixtec	Mixtec	tujuhma	tu-juhma	t u ³ + Ø/¹ + h u ³ ʔ m a ³	tu³+hu³ʔma³	9 1044 635	9 1044 635	16.46073	-97.95446	stark1986diccionario
+1693	89_scorpion	SCORPION	SanJuanColoradoMixtec	Mixtec	tujuhma	tu-juhma	t u ³ + Ø/¹ + h u ³ ʔ m a ³	tu³+Ø/¹+hu³ʔma³	9 1044 635	9 1044 635	16.46073	-97.95446	stark1986diccionario
 1694	202_cockroach	COCKROACH	SanJuanColoradoMixtec	Mixtec	tucuáàn	tu-cuáàn	t u ³ + kʷ a ⁵ ã ¹	tu³+kʷa⁵ã¹	9 905	9 905	16.46073	-97.95446	stark1986diccionario
 1695	208_muroidmouseorrat	MUROID (MOUSE OR RAT)	SanJuanColoradoMixtec	Mixtec	tɨñɨ́	tɨñɨ́	t ɨ ³ ɲ ɨ ⁵	tɨ³ɲɨ⁵	444	444	16.46073	-97.95446	stark1986diccionario
 1696	23_deer	DEER	SanJuanColoradoMixtec	Mixtec	isù	isù	i ³ s u ¹	i³su¹	164	164	16.46073	-97.95446	stark1986diccionario
@@ -1614,7 +1614,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 2453	41_grasshopper	GRASSHOPPER	SanMartinItunyosoTriqui	Triqui	chi³ri³kij⁵	chi³ri³kij⁵	tʃ i ³ + ɾ i ³ k i h ⁵	tʃi³+ɾi³kih⁵	9 301	9 301	17.22887	-97.88125	dicanio2020vocabulario
 2454	63_mouse	MOUSE	SanMartinItunyosoTriqui	Triqui	chu³tu³²	chu³tu³²	tʃ u ³ + t u ³²	tʃu³+tu³²	9 445	9 445	17.22887	-97.88125	dicanio2020vocabulario
 2456	213_squirrel	SQUIRREL	SanMartinItunyosoTriqui	Triqui	chu³ba⁴	chu³ba⁴	tʃ u ³ β a ⁴	tʃu³βa⁴	701	701	17.22887	-97.88125	dicanio2020vocabulario
-2457	77_possum	POSSUM	SanMartinItunyosoTriqui	Triqui	cna⁴kinj⁴	cna⁴kinj⁴	ᶜn a ⁴ k ĩ h ⁴	ᶜna⁴kĩh⁴	557	557	17.22887	-97.88125	dicanio2020vocabulario
+2457	77_possum	POSSUM	SanMartinItunyosoTriqui	Triqui	cna⁴kinj⁴	cna⁴kinj⁴	c n a ⁴ k ĩ h ⁴	cna⁴kĩh⁴	557	557	17.22887	-97.88125	dicanio2020vocabulario
 2458	211_raccoon	RACCOON	SanMartinItunyosoTriqui	Triqui	kwi⁴yuj⁴	kwi⁴yuj⁴	kʷ i ⁴ j u h ⁴	kʷi⁴juh⁴	585	585	17.22887	-97.88125	dicanio2020vocabulario
 2459	215_vulture	VULTURE	SanMartinItunyosoTriqui	Triqui	lo³ti³	lo³ti³	l o ³ t i ³	lo³ti³	834	834	17.22887	-97.88125	dicanio2020vocabulario
 2460	26_dog	DOG	SanMartinItunyosoTriqui	Triqui	chu³be³	chu³be³	tʃ u ³ + β e ³	tʃu³+βe³	9 175	9 175	17.22887	-97.88125	dicanio2020vocabulario
@@ -1640,7 +1640,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 2481	80_pumpkin	PUMPKIN	SanMartinItunyosoTriqui	Triqui	kkan³	kkan³	kː ə̃ ³	kːə̃³	570	570	17.22887	-97.88125	dicanio2020vocabulario
 2482	97_sugarcane	SUGAR CANE	SanMartinItunyosoTriqui	Triqui	yo³²	yo³²	j o ³²	jo³²	734	734	17.22887	-97.88125	dicanio2020vocabulario
 2483	171_honey	HONEY	SanMartinItunyosoTriqui	Triqui	ka³tsih³	ka³tsih³	k a ³ ts iˀ ³	ka³tsiˀ³	347	347	17.22887	-97.88125	dicanio2020vocabulario
-2484	31_fatfromanimals	FAT (FROM ANIMALS)	SanMartinItunyosoTriqui	Triqui	cna³min³²	cna³min³²	ᶜn a ³ m ĩ ³²	ᶜna³mĩ³²	217	217	17.22887	-97.88125	dicanio2020vocabulario
+2484	31_fatfromanimals	FAT (FROM ANIMALS)	SanMartinItunyosoTriqui	Triqui	cna³min³²	cna³min³²	c n a ³ m ĩ ³²	cna³mĩ³²	217	217	17.22887	-97.88125	dicanio2020vocabulario
 2485	27_egg	EGG	SanMartinItunyosoTriqui	Triqui	cchruj³	cchruj³	ʈʂː u h ³	ʈʂːuh³	206	206	17.22887	-97.88125	dicanio2020vocabulario
 2486	102_tomato	TOMATO	SanMartinItunyosoTriqui	Triqui	ri³nij²	ri³nij²	n a ³ s ĩ ³	na³sĩ³	776	776	17.22887	-97.88125	dicanio2020vocabulario
 2487	2_avocado	AVOCADO	SanMartinItunyosoTriqui	Triqui	ru⁴ne⁴³	ru⁴ne⁴³	ɾ u ⁴ n e ⁴³	ɾu⁴ne⁴³	1040	1040	17.22887	-97.88125	dicanio2020vocabulario
@@ -2252,7 +2252,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 3370	85_rooster	ROOSTER	SantaMariaPapaloCuicatec	Cuicatec	tu¹sa¹'an⁴	tu-¹sa¹'an⁴	t u ⁵ + s a ⁵ ʔ ã ¹	tu⁵+sa⁵ʔã¹	101 716	101 716	17.26813	-96.56338	anderson1983diccionario
 3371	45_hen	HEN	SantaMariaPapaloCuicatec	Cuicatec	tu¹ta¹'an⁴	tu-¹ta¹'an⁴	t u ⁵ + t a ⁵ ʔ ã ¹	tu⁵+ta⁵ʔã¹	101 858	101 858	17.26813	-96.56338	anderson1983diccionario
 3373	138_horse	HORSE	SantaMariaPapaloCuicatec	Cuicatec	y'u²du⁴	y'u²du⁴	j ʔ u ⁴ ð u ¹	jʔu⁴ðu¹	164	164	17.26813	-96.56338	anderson1983diccionario
-3374	91_sheep	SHEEP	SantaMariaPapaloCuicatec	Cuicatec	i³tcu³⁴chi⁴	i³t-cu³⁴chi⁴	i ³ t + Ø/³¹ + k u ³¹/¹ tʃ i ¹	i³t+ku³¹tʃi¹	9 1044 157	9 1044 157	17.26813	-96.56338	anderson1983diccionario
+3374	91_sheep	SHEEP	SantaMariaPapaloCuicatec	Cuicatec	i³tcu³⁴chi⁴	i³t-cu³⁴chi⁴	i ³ t + Ø/³¹ + k u ³¹/¹ tʃ i ¹	i³t+Ø/³¹+ku³¹/¹tʃi¹	9 1044 157	9 1044 157	17.26813	-96.56338	anderson1983diccionario
 3375	152_ant	ANT	SantaMariaPapaloCuicatec	Cuicatec	i³cu⁴	i³cu⁴	i ³ + k u ¹	i³+ku¹	9 882	9 882	17.26813	-96.56338	anderson1983diccionario
 3376	47_hornanatomy	HORN (ANATOMY)	SantaMariaPapaloCuicatec	Cuicatec	du³ni³ni³	du³ni³ni³	ð u ³ n i ³ n i ³	ðu³ni³ni³	352	352	17.26813	-96.56338	anderson1983diccionario
 3378	112_wing	WING	SantaMariaPapaloCuicatec	Cuicatec	gue⁴che³	gue⁴che³	gʷ e ¹ tʃ e ³	gʷe¹tʃe³	854	854	17.26813	-96.56338	anderson1983diccionario
@@ -2263,7 +2263,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 3383	40_grass	GRASS	SantaMariaPapaloCuicatec	Cuicatec	yu³ni¹	yu³ni¹	j u ³ n i ⁵	ju³ni⁵	298	298	17.26813	-96.56338	anderson1983diccionario
 3384	36_flower	FLOWER	SantaMariaPapaloCuicatec	Cuicatec	na̠⁴nda̠⁴	na̠⁴nda̠⁴	n ɑ ¹ ⁿd ɑ ¹	nɑ¹ⁿdɑ¹	247	247	17.26813	-96.56338	anderson1983diccionario
 3385	218_maguey	MAGUEY	SantaMariaPapaloCuicatec	Cuicatec	yi⁴va⁴	yi⁴va⁴	j i ¹ β a ¹	ji¹βa¹	409	409	17.26813	-96.56338	anderson1983diccionario
-3386	186_root	ROOT	SantaMariaPapaloCuicatec	Cuicatec	d'i²yu²	d'i²yu²	ð + Ø/⁴ + ʔ i ⁴/¹ j u ⁴/¹	ð+ʔi⁴ju⁴	9 1048 619	9 1048 619	17.26813	-96.56338	anderson1983diccionario
+3386	186_root	ROOT	SantaMariaPapaloCuicatec	Cuicatec	d'i²yu²	d'i²yu²	ð + Ø/⁴ + ʔ i ⁴/¹ j u ⁴/¹	ð+Ø/⁴+ʔi⁴/¹ju⁴/¹	9 1048 619	9 1048 619	17.26813	-96.56338	anderson1983diccionario
 3387	195_thorn	THORN	SantaMariaPapaloCuicatec	Cuicatec	yan²	yan²	j ã ⁴	jã⁴	764	764	17.26813	-96.56338	anderson1983diccionario
 3388	18_corn	CORN	SantaMariaPapaloCuicatec	Cuicatec	ni²nu²	ni²nu²	n i ⁴ n u ⁴	ni⁴nu⁴	141	141	17.26813	-96.56338	anderson1983diccionario
 3389	19_cornfield	CORN FIELD	SantaMariaPapaloCuicatec	Cuicatec	yu²ndu⁴	yu²ndu⁴	j u ⁴ ⁿd u ¹	ju⁴ⁿdu¹	145	145	17.26813	-96.56338	anderson1983diccionario
@@ -2474,7 +2474,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 3674	45_hen	HEN	MagdalenaPenascoMixtec	Mixtec	tíla	tíla	t i ⁵ l a ³	ti⁵la³	102	102	17.2837	-97.5413	hollenbach2017diccionario
 3675	74_pig	PIG	MagdalenaPenascoMixtec	Mixtec	chíkinì	chí-kinì	tʃ i ⁵ + k i ³ n i ¹	tʃi⁵+ki³ni¹	9 526	9 526	17.2837	-97.5413	hollenbach2017diccionario
 3676	74_pig	PIG	MagdalenaPenascoMixtec	Mixtec	kuchi	kuchi	k i ³ n i ¹	ki³ni¹	526	526	17.2837	-97.5413	hollenbach2017diccionario
-3679	91_sheep	SHEEP	MagdalenaPenascoMixtec	Mixtec	ndíkachi	ndí-kachi	ⁿd i ⁵ + Ø/³ + k a ³ tʃ i ³/¹	ⁿdi⁵+ka³tʃi³	35 1044 157	35 1044 157	17.2837	-97.5413	hollenbach2017diccionario
+3679	91_sheep	SHEEP	MagdalenaPenascoMixtec	Mixtec	ndíkachi	ndí-kachi	ⁿd i ⁵ + Ø/³ + k a ³ tʃ i ³/¹	ⁿdi⁵+Ø/³+ka³tʃi³/¹	35 1044 157	35 1044 157	17.2837	-97.5413	hollenbach2017diccionario
 3680	152_ant	ANT	MagdalenaPenascoMixtec	Mixtec	tioko	tioko	tʲ + o ³ k o ³	tʲ+o³ko³	9 882	9 882	17.2837	-97.5413	hollenbach2017diccionario
 3681	47_hornanatomy	HORN (ANATOMY)	MagdalenaPenascoMixtec	Mixtec	ndiki	ndiki	ⁿd i ³ k i ³	ⁿdi³ki³	350	350	17.2837	-97.5413	hollenbach2017diccionario
 3682	164_feather	FEATHER	MagdalenaPenascoMixtec	Mixtec	tnùmi	tnùmi	tⁿ u ¹ m i ³	tⁿu¹mi³	227	227	17.2837	-97.5413	hollenbach2017diccionario
@@ -2556,7 +2556,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 3762	83_red	RED	MagdalenaPenascoMixtec	Mixtec	kuá'á	kuá'á	kʷ a ⁵ ʔ a ⁵	kʷa⁵ʔa⁵	595	595	17.2837	-97.5413	hollenbach2017diccionario
 3763	169_green	GREEN	MagdalenaPenascoMixtec	Mixtec	kuíá	kuíá	kʷ i ⁵ a ⁵	kʷi⁵a⁵	305	305	17.2837	-97.5413	hollenbach2017diccionario
 3764	117_yellow	YELLOW	MagdalenaPenascoMixtec	Mixtec	kuáán	kuáán	kʷ ã ⁵ ã ⁵	kʷã⁵ã⁵	876	876	17.2837	-97.5413	hollenbach2017diccionario
-3766	10_black	BLACK	MagdalenaPenascoMixtec	Mixtec	tnúú	tnúú	Ø/¹ + tⁿ u ⁵ u ⁵	tⁿu⁵u⁵	1044 93	1044 93	17.2837	-97.5413	hollenbach2017diccionario
+3766	10_black	BLACK	MagdalenaPenascoMixtec	Mixtec	tnúú	tnúú	Ø/¹ + tⁿ u ⁵ u ⁵	Ø/¹+tⁿu⁵u⁵	1044 93	1044 93	17.2837	-97.5413	hollenbach2017diccionario
 3767	111_white	WHITE	MagdalenaPenascoMixtec	Mixtec	kuíjín	kuíjín	kʷ i ⁵ h ĩ ⁵	kʷi⁵hĩ⁵	844	844	17.2837	-97.5413	hollenbach2017diccionario
 3768	111_white	WHITE	MagdalenaPenascoMixtec	Mixtec	yaa	yaa	ʒ a ³ a ³	ʒa³a³	843	843	17.2837	-97.5413	hollenbach2017diccionario
 3769	71_one	ONE	MagdalenaPenascoMixtec	Mixtec	in	in	ĩ ³	ĩ³	507	507	17.2837	-97.5413	hollenbach2017diccionario
@@ -2841,7 +2841,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 4137	83_red	RED	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	tay ydzi yaha	yaha	j a ʔ a	jaʔa	596	596	17.51167	-97.48883	alvarado1962vocabulario
 4140	169_green	GREEN	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	sacuii ~ yadza cuii yadzavuisi	cuii	kʷ i i	kʷii	305	305	17.51167	-97.48883	alvarado1962vocabulario
 4142	117_yellow	YELLOW	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	kʷa̧a̧	kʷa̧a̧	kʷ a a	kʷaa	876	876	17.51167	-97.48883	josserand1983mixtec
-4143	10_black	BLACK	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	sandayu satnoo ~ tnoo naa	tnoo	Ø/¹ + tⁿ o o	tⁿoo	1044 93	1044 93	17.51167	-97.48883	alvarado1962vocabulario
+4143	10_black	BLACK	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	sandayu satnoo ~ tnoo naa	tnoo	Ø/¹ + tⁿ o o	Ø/¹+tⁿoo	1044 93	1044 93	17.51167	-97.48883	alvarado1962vocabulario
 4144	111_white	WHITE	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	sacuisi	cuisi	kʷ i s i	kʷisi	844	844	17.51167	-97.48883	alvarado1962vocabulario
 4145	71_one	ONE	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	ee	ee	e e	ee	507	507	17.51167	-97.48883	alvarado1962vocabulario
 4146	107_two	TWO	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	vvui	vvui	u β i	uβi	811	811	17.51167	-97.48883	alvarado1962vocabulario
@@ -3012,7 +3012,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 4413	40_grass	GRASS	SanAgustinChayucoMixtec	Mixtec	itya	itya	i tʲ a	itʲa	294	294	16.42	-97.83	pensinger1974diccionario
 4414	104_townorvillage	TOWN OR VILLAGE	SantaMariaPenolesMixtec	Mixtec	ñùú	ñùú	ɲ u ¹ u ⁵	ɲu¹u⁵	794	794	17.07959	-97.00272	durr1987preliminary
 4416	262_leg	LEG	SanEstebanAtatlahucaMixtec	Mixtec	sɨ̄ʔɨ̧	sɨ̄ʔɨ̧	s ɨ ¹ ʔ ɨ̃	sɨ¹ʔɨ̃	387	387	17.07133	-97.67753	josserand1983mixtec
-4417	172_intestines	INTESTINES	SanMiguelPiedrasMixtec	Mixtec	itɨ(tà)	itɨ	i t ɨ	itɨ+ta¹	367	367	16.9944	-97.2056	josserand1983mixtec
+4417	172_intestines	INTESTINES	SanMiguelPiedrasMixtec	Mixtec	itɨ(tà)	itɨ	i t ɨ	itɨ	367	367	16.9944	-97.2056	josserand1983mixtec
 4418	107_two	TWO	SantiagoChazumbaMixtec	Mixtec	uwi	uwi	u w i	uwi	811	811	18.1541	-97.7873	josserand1983mixtec
 4419	114_word	WORD	SanJeronimoXayacatlanMixtec	Mixtec	tači	tači	t a tʃ i	tatʃi	866	866	18.22159	-97.91563	josserand1983mixtec
 4420	41_grasshopper	GRASSHOPPER	AlcozaucaGuerreroMixtec	Mixtec	ti²ka²	ti²ka²	t + i ² k a ²	t+i²ka²	9 300	9 300	17.3687	-98.3969	swanton2020observaciones
@@ -3141,7 +3141,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 4585	112_wing	WING	SantaMariaPenolesMixtec	Mixtec	ⁿdíší̧	ⁿdíší̧	ⁿd i ⁵ ʃ ĩ ⁵	ⁿdi⁵ʃĩ⁵	853	853	17.07959	-97.00272	josserand1983mixtec
 4586	105_tree	TREE	SanMiguelPiedrasMixtec	Mixtec	žu̧nu̧	žu̧nu̧	ʒ ũ n ũ	ʒũnũ	799	799	16.9944	-97.2056	josserand1983mixtec
 4587	137_half	HALF	SantiagoChazumbaMixtec	Mixtec	đawa	đawa	ð ã w a	ðãwa	314	314	18.1541	-97.7873	josserand1983mixtec
-4588	91_sheep	SHEEP	AlacatlatzalaMixtec	Mixtec	ndikachi	ndi-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹	ⁿdi³+ka³tʃi³	35 1044 157	35 1044 157	17.25	-98.58	zylstra2012gramatica
+4588	91_sheep	SHEEP	AlacatlatzalaMixtec	Mixtec	ndikachi	ndi-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹	ⁿdi³+Ø/³+ka³/¹tʃi³/¹	35 1044 157	35 1044 157	17.25	-98.58	zylstra2012gramatica
 4589	162_dream	DREAM	MagdalenaPenascoMixtec	Mixtec	ñùmà'ná	ñùmà'ná	ɲ u ¹ + m a ¹ ʔ n a ⁵	ɲu¹+ma¹ʔna⁵	982 176	982 176	17.2837	-97.5413	hollenbach2017diccionario
 4590	115_workingorwork	WORKING OR WORK	CahuatacheMixtec	Mixtec	čīñō	čīñō	tʃ i ³ ɲ o ³	tʃi³ɲo³	870	870	17.41506	-98.53192	durr1987preliminary
 4593	213_squirrel	SQUIRREL	SanJuanDiuxiMixtec	Mixtec	kʷȩñu̧	kʷȩñu̧	kʷ ẽ ɲ ũ	kʷẽɲũ	698	698	17.3596	-97.3861	josserand1983mixtec
@@ -4355,7 +4355,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 6393	181_oven	OVEN	SantiagoTlazoyaltepecMixtec	Mixtec	šitnu̧	šitnu̧	ʃ i tⁿ ũ	ʃitⁿũ	17	17	17.0274	-96.99583	josserand1983mixtec
 6394	70_nowortoday	NOW OR TODAY	SanAgustinTlacotepecMixtec	Mixtec	ƀitNa̧	ƀitNa̧	β i tⁿ̥ ã	βitⁿ̥ã	501	501A	17.20365	-97.51853	josserand1983mixtec
 6396	135_gourdbowl	GOURD BOWL	SantaCatarinaTlaltempanMixtec	Mixtec	ña̧ši̧	ña̧ši̧	ɲ ã ʃ ĩ	ɲãʃĩ	291	291	18.61485	-98.08867	josserand1983mixtec
-6397	69_nose	NOSE	SantiagoYosonduaMixtec	Mixtec	shiNni	shiNni	ʃ i ¹  hn i ¹	ʃi¹hni¹	496	496	16.9042	-97.5018	farris1992syntactic
+6397	69_nose	NOSE	SantiagoYosonduaMixtec	Mixtec	shiNni	shiNni	ʃ i ¹  n̥ i ¹	ʃi¹n̥i¹	496	496	16.9042	-97.5018	farris1992syntactic
 6398	53_man	MAN	SantoTomasOcotepecMixtec	Mixtec	tēe	tēe	t e ³ e ¹	te³e¹	414	414	17.14419	-97.76322	alexander1988syntactic
 6401	15_childdescendant	CHILD (DESCENDANT)	SanJorgeNuchitaMixtec	Mixtec	haʔži	haʔži	h a ʔ ʒ i	haʔʒi	103	103	17.65569	-98.10499	josserand1983mixtec
 6402	96_stoneorrock	STONE OR ROCK	XayacatlanBravoMixtec	Mixtec	yùù	yùù	j u ¹ u ¹	ju¹u¹	710	710	18.2353	-97.97435	josserand1983mixtec
@@ -4610,7 +4610,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 6746	168_garbage	GARBAGE	SanPedroYosonamaMixtec	Mixtec	mi'i	mi'i	m i ʔ i	miʔi	279	279	17.4272	-97.77267	gittlen2016gramatica
 6748	137_half	HALF	SanAgustinTlacotepecMixtec	Mixtec	saƀa	saƀa	s a β a	saβa	314	314	17.20365	-97.51853	josserand1983mixtec
 6750	100_thread	THREAD	SantaCatarinaTlaltempanMixtec	Mixtec	yuʔƀa	yuʔƀa	j u ʔ β a	juʔβa	768	768	18.61485	-98.08867	josserand1983mixtec
-6751	55_medicine	MEDICINE	SantiagoYosonduaMixtec	Mixtec	tāNna	tāNna	t a ³  hn a ¹	ta³hna¹	424	424	16.9042	-97.5018	farris1992syntactic
+6751	55_medicine	MEDICINE	SantiagoYosonduaMixtec	Mixtec	tāNna	tāNna	t a ³  n̥ a ¹	ta³n̥a¹	424	424	16.9042	-97.5018	farris1992syntactic
 6752	79_priest	PRIEST	SantoTomasOcotepecMixtec	Mixtec	sutu	sutu	s u ¹ t u ¹	su¹tu¹	568	568	17.14419	-97.76322	alexander1988syntactic
 6753	38_four	FOUR	TlahuapaMixtec	Mixtec	kòmí	kòmí	k o ¹ m i ⁵	ko¹mi⁵	260	260	17.37553	-98.33826	reyes-basurto2020tlahuapa
 6754	35_five	FIVE	TlahuapaMixtec	Mixtec	ù'ùn	ù'ùn	u ¹ ʔ ũ ¹	u¹ʔũ¹	244	244	17.37553	-98.33826	reyes-basurto2020tlahuapa
@@ -4696,13 +4696,13 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 6866	133_blame	BLAME	SanAntonioTepetlapaMixtec	Mixtec	kʷati	kʷati	kʷ a t i	kʷati	61	61	16.54182	-98.06578	josserand1983mixtec
 6868	75_plate	PLATE	SanPedroYosonamaMixtec	Mixtec	ko'o	ko'o	k o ʔ o	koʔo	545	545	17.4272	-97.77267	gittlen2016gramatica
 6870	115_workingorwork	WORKING OR WORK	SanAgustinTlacotepecMixtec	Mixtec	tNi̧ñu̧	tNi̧ñu̧	t n̥ ĩ ɲ ũ	tn̥ĩɲũ	870	870	17.20365	-97.51853	josserand1983mixtec
-6871	147_sandal	SANDAL	SantiagoYosonduaMixtec	Mixtec	ndíÑña	ndíÑña	ⁿd i ⁵  hɲ a ¹	ⁿdi⁵hɲa¹	631	631	16.9042	-97.5018	farris1992syntactic
+6871	147_sandal	SANDAL	SantiagoYosonduaMixtec	Mixtec	ndíÑña	ndíÑña	ⁿd i ⁵ ɲ̊ a ¹	ⁿdi⁵ɲ̊a¹	631	631	16.9042	-97.5018	farris1992syntactic
 6872	136_hair	HAIR	SantoTomasOcotepecMixtec	Mixtec	īshī	īshī	i ³ ʃ i ³	i³ʃi³	311	311	17.14419	-97.76322	alexander1988syntactic
 6873	92_six	SIX	TlahuapaMixtec	Mixtec	ìñù	ìñù	i ¹ ɲ u ¹	i¹ɲu¹	652	652	17.37553	-98.33826	reyes-basurto2020tlahuapa
 6875	197_tooth	TOOTH	SanJorgeNuchitaMixtec	Mixtec	nū̧ʔu̧	nū̧ʔu̧	n ũ ³ ʔ ũ	nũ³ʔũ	785	785	17.65569	-98.10499	josserand1983mixtec
 6876	62_mud	MUD	XayacatlanBravoMixtec	Mixtec	ⁿdeʔi	ⁿdeʔi	ⁿd e ʔ i	ⁿdeʔi	449	449	18.2353	-97.97435	josserand1983mixtec
 6877	99_ten	TEN	SantaMariaYolotepecMixtec	Mixtec	uši	uši	u ʃ i	uʃi	761	761	16.9648	-97.4537	josserand1983mixtec
-6878	89_scorpion	SCORPION	YoloxochitlMixtec	Mixtec	ti-su̧ʔma̧	ti-su̧ʔma̧	t i ¹ + Ø/¹ + s u ³/¹ ʔ m a ²/⁵	ti¹+su³ʔma²	9 1044 635	9 1044 635	16.8059	-98.6293	josserand1983mixtec
+6878	89_scorpion	SCORPION	YoloxochitlMixtec	Mixtec	ti-su̧ʔma̧	ti-su̧ʔma̧	t i ¹ + Ø/¹ + s u ³/¹ ʔ m a ²/⁵	ti¹+Ø/¹+su³/¹ʔma²/⁵	9 1044 635	9 1044 635	16.8059	-98.6293	josserand1983mixtec
 6879	207_hawk	HAWK	SantoDomingoHuendioMixtec	Mixtec	xí'ñà	xí'ñà	ʃ i ⁵ ʔ ɲ a ¹	ʃi⁵ʔɲa¹	193	193	17.25296	-97.5054	becerra-roldan2015un-estudio
 6880	118_yesterday	YESTERDAY	SanBartolomeYucuaneMixtec	Mixtec	iku	iku	i k u	iku	879	879	17.2832	-97.4285	josserand1983mixtec
 6882	218_maguey	MAGUEY	YucunaniMixtec	Mixtec	yavǐ	yavǐ	j a ³ β i ¹⁵	ja³βi¹⁵	409	409	17.300827	-97.893888	salazar2021vocabulario
@@ -5027,7 +5027,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 7317	135_gourdbowl	GOURD BOWL	SantiagoTlazoyaltepecMixtec	Mixtec	žaši̧	žaši̧	ʒ a ʃ ĩ	ʒaʃĩ	291	291	17.0274	-96.99583	josserand1983mixtec
 7318	58_mother	MOTHER	SanAndresChicahuaxtla1890Triqui	Triqui	Nni	nni	nː i	nːi	432	432	17.15612	-97.84007	belmar1897ensayo
 7319	46_hole	HOLE	SantaCatarinaTlaltempanMixtec	Mixtec	ⁿǰii	ⁿǰii	ⁿdʒ i i	ⁿdʒii	343	343	18.61485	-98.08867	josserand1983mixtec
-7320	89_scorpion	SCORPION	SantiagoYosonduaMixtec	Mixtec	tɨ̄suhmā	tɨ̄-suhmā	t ɨ ³ + Ø/³ + s u ¹ ʔ m a ³/¹	tɨ³+su¹ʔma³	9 1044 635	9 1044 635	16.9042	-97.5018	farris1992syntactic
+7320	89_scorpion	SCORPION	SantiagoYosonduaMixtec	Mixtec	tɨ̄suhmā	tɨ̄-suhmā	t ɨ ³ + Ø/³ + s u ¹ ʔ m a ³/¹	tɨ³+Ø/³+su¹ʔma³/¹	9 1044 635	9 1044 635	16.9042	-97.5018	farris1992syntactic
 7321	141_neck	NECK	SantoTomasOcotepecMixtec	Mixtec	sukun	sukun	s u ¹ k ũ ¹	su¹kũ¹	465	465	17.14419	-97.76322	alexander1988syntactic
 7322	68_nine	NINE	TlahuapaMixtec	Mixtec	iìn	iìn	i ³ ĩ ¹	i³ĩ¹	490	490	17.37553	-98.33826	reyes-basurto2020tlahuapa
 7324	69_nose	NOSE	SanJorgeNuchitaMixtec	Mixtec	šiti	šiti	ʃ i t i	ʃiti	496	496	17.65569	-98.10499	josserand1983mixtec
@@ -5343,7 +5343,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 7727	194_tassel	TASSEL	SanPedroMolinosMixtec	Mixtec	žoko	žoko	ʒ o k o	ʒoko	751	751	17.10495	-97.54152	josserand1983mixtec
 7728	1_animal	ANIMAL	SanPedroTidaaMixtec	Mixtec	kiti	kiti	k i t i	kiti	2	2	17.4142	-97.3333	josserand1983mixtec
 7729	134_fire	FIRE	SantiagoNuyooMixtec	Mixtec	ñū̧ʔū̧	ñū̧ʔū̧	ɲ ũ ³ ʔ ũ ³	ɲũ³ʔũ³	240	240	17.0147	-97.76674	josserand1983mixtec
-7730	186_root	ROOT	SanMarcoslaFlorMixtec	Mixtec	tsiò'o	tsiò'o	tsʲ +  Ø/¹ + o ¹/³ ʔ o ³/¹⁵	tsʲ+o¹ʔo³	9 1048 619	9 1048 619	17.418889	-98.268611	moises2020vocabulario
+7730	186_root	ROOT	SanMarcoslaFlorMixtec	Mixtec	tsiò'o	tsiò'o	tsʲ +  Ø/¹ + o ¹/³ ʔ o ³/¹⁵	tsʲ+Ø/¹+o¹/³ʔo³/¹⁵	9 1048 619	9 1048 619	17.418889	-98.268611	moises2020vocabulario
 7731	135_gourdbowl	GOURD BOWL	SantaCatarinaMechoacanMixtec	Mixtec	yači̧	yači̧	j a tʃ ĩ	jatʃĩ	291	291	16.33471	-97.83626	josserand1983mixtec
 7732	179_net	NET	GuadalupeVillahermosaMixtec	Mixtec	(ȼ̣i)-ñu̧nu̧	ȼ̣i-ñu̧nu̧	ʈʂ i + ɲ ũ n ũ	ʈʂi+ɲũnũ	4 469	4 469	17.75898	-98.01539	josserand1983mixtec
 7733	110_when	WHEN	SanJuanMixtepecMixtec	Mixtec	a̧ma̧	a̧ma̧	ã m ã	ãmã	840	840	17.3317	-97.8791	josserand1983mixtec
@@ -5913,7 +5913,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 8506	95_snake	SNAKE	SantiagoIxtayutlaMixtec	Mixtec	koo	koo	k o o	koo	689	689	16.5774	-97.5759	josserand1983mixtec
 8507	8_bigsingular	BIG (SINGULAR)	SanMiguelElGrandeMixtec	Mixtec	káʔnū	káʔnū	k a ⁵ ʔ n u ³	ka⁵ʔnu³	44	44	17.04688	-97.62248	durr1987preliminary
 8508	112_wing	WING	CoicoyanlasFloresMixtec	Mixtec	ⁿdiši̧	ⁿdiši̧	ⁿd i ʃ ĩ	ⁿdiʃĩ	853	853	17.27301	-98.27588	josserand1983mixtec
-8509	218_maguey	MAGUEY	SanJuanCoatzospamMixtec	Mixtec	šaƀi-(ñu̧ʔu̧)	šaƀi	ʃ a β i	ʃaβi+ɲũʔũ	409	409	18.04875	-96.76363	josserand1983mixtec
+8509	218_maguey	MAGUEY	SanJuanCoatzospamMixtec	Mixtec	šaƀi-(ñu̧ʔu̧)	šaƀi	ʃ a β i	ʃaβi	409	409	18.04875	-96.76363	josserand1983mixtec
 8511	93_slow	SLOW	SanJuanColoradoMixtec	Mixtec	láya	láya	l a ⁵ j a ³	la⁵ja³	665	665	16.46073	-97.95446	stark1986diccionario
 8512	213_squirrel	SQUIRREL	CuatzoquitengoMixtec	Mixtec	ⁿdi-kʷa̧ñu̧	ⁿdi-kʷa̧ñu̧	ⁿd i + kʷ ã ɲ ũ	ⁿdi+kʷãɲũ	35 698	35 698	17.28835	-98.61552	josserand1983mixtec
 8513	157_bitter	BITTER	SanPedroJocotipacMixtec	Mixtec	uwa	uwa	u w a	uwa	51	51	17.7687	-97.07983	josserand1983mixtec
@@ -5931,7 +5931,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 8526	204_cornstalk	CORN STALK	IxpantepecNievesMixtec	Mixtec	ña̧ma̧	ña̧ma̧	ɲ ã m ã	ɲãmã	150	150	17.50717	-98.04556	josserand1983mixtec
 8527	24_dew	DEW	SantaMariaHuazolotitlanMixtec	Mixtec	kači̧	kači̧	k a tʃ ĩ	katʃĩ	168	168	16.3019	-97.91488	josserand1983mixtec
 8528	46_hole	HOLE	SantaCruzItundujiaMixtec	Mixtec	yawɨ	yawɨ	j a w ɨ	jawɨ	341	341	16.77876	-97.59753	josserand1983mixtec
-8529	187_skunk	SKUNK	LaBateaMixtec	Mixtec	tí'inità	tí'in-ità	t + i ⁵ ʔ ĩ ³ + i ³ t a ¹	ti⁵ʔĩ³+i³ta¹	9 655 684	9 655 684	17.35948	-97.83233	ramirez2020vocabulario
+8529	187_skunk	SKUNK	LaBateaMixtec	Mixtec	tí'inità	tí'in-ità	t + i ⁵ ʔ ĩ ³ + i ³ t a ¹	t+i⁵ʔĩ³+i³ta¹	9 655 684	9 655 684	17.35948	-97.83233	ramirez2020vocabulario
 8530	213_squirrel	SQUIRREL	SantiagoJamiltepecMixtec	Mixtec	kʷa̧ñu̧	kʷa̧ñu̧	kʷ ã ɲ ũ	kʷãɲũ	698	698	16.2279	-97.8417	josserand1983mixtec
 8531	207_hawk	HAWK	SantiagoJamiltepecMixtec	Mixtec	tású	tású	t a ⁵ s u ⁵	ta⁵su⁵	192	192	16.2279	-97.8417	johnson1988syntactic
 8533	170_griddle	GRIDDLE	SantiagoJuxtlahuacaMixtec	Mixtec	sʸoo	sʸoo	sʲ o o	sʲoo	310	310	17.3518	-98.0146	josserand1983mixtec
@@ -6049,7 +6049,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 8694	60_mountainorhill	MOUNTAIN OR HILL	SantaMariaAcatepecMixtec	Mixtec	yuku	yuku	j u k u	juku	437	437	16.76337	-97.98945	josserand1983mixtec
 8696	70_nowortoday	NOW OR TODAY	SanMiguelChicahuaMixtec	Mixtec	wita	wita	w i t a	wita	501	501A	17.63719	-97.19479	josserand1983mixtec
 8697	67_nighttime	NIGHT TIME	SanMiguelChicahuaMixtec	Mixtec	ni̧ñu̧	ni̧ñu̧	n ĩ ɲ ũ	nĩɲũ	481	481	17.63719	-97.19479	josserand1983mixtec
-8698	186_root	ROOT	AlacatlatzalaMixtec	Mixtec	tio̠'o	tio̠'o	tʲ + Ø/¹ + o ¹/³ ʔ o ³/¹	tʲ+o¹ʔo³	9 1048 619	9 1048 619	17.25	-98.58	anderson2006vocabulario
+8698	186_root	ROOT	AlacatlatzalaMixtec	Mixtec	tio̠'o	tio̠'o	tʲ + Ø/¹ + o ¹/³ ʔ o ³/¹	tʲ+Ø/¹+o¹/³ʔo³/¹	9 1048 619	9 1048 619	17.25	-98.58	anderson2006vocabulario
 8700	98_tasty	TASTY	SanMiguelElGrandeMixtec	Mixtec	asū̧	asū̧	a ³ s ũ ¹	a³sũ¹	755	755	17.04688	-97.62248	josserand1983mixtec
 8701	82_rainprecipitation	RAIN (PRECIPITATION)	SantaMariaApazcoMixtec	Mixtec	(ko̧o̧)-đawi	ko̧o̧-đawi	ð a w i	ðawi	586	586	17.6143	-97.0657	josserand1983mixtec
 8702	51_longsingular	LONG (SINGULAR)	SantiagoCacaloxtepecMixtec	Mixtec	kánì̧	kánì̧	k a ⁵ n ĩ ¹	ka⁵nĩ¹	406	406	17.7248	-97.7637	durr1987preliminary
@@ -6235,7 +6235,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 8938	17_cookingpot	COOKING POT	SantiagoYosonduaMixtec	Mixtec	kɨsɨ	kɨsɨ	k ɨ ¹ s ɨ ¹	kɨ¹sɨ¹	138	138	16.9042	-97.5018	farris1992syntactic
 8939	135_gourdbowl	GOURD BOWL	SantiagoYosonduaMixtec	Mixtec	yāxīn	yāxīn	j a ³ x ĩ ¹	ja³xĩ¹	291	291	16.9042	-97.5018	farris1992syntactic
 8940	86_rope	ROPE	SantiagoYosonduaMixtec	Mixtec	yōhō	yōhō	j o ³ ʔ o ³	jo³ʔo³	619	619	16.9042	-97.5018	farris1992syntactic
-8941	89_scorpion	SCORPION	SantoTomasOcotepecMixtec	Mixtec	ti-sūhma	ti-sūhma	t i ¹ + Ø/³ + s u ³/¹ ʔ m a ¹	ti¹+su³ʔma¹	9 1044 635	9 1044 635	17.14419	-97.76322	alexander1988syntactic
+8941	89_scorpion	SCORPION	SantoTomasOcotepecMixtec	Mixtec	ti-sūhma	ti-sūhma	t i ¹ + Ø/³ + s u ³/¹ ʔ m a ¹	ti¹+Ø/³+su³/¹ʔma¹	9 1044 635	9 1044 635	17.14419	-97.76322	alexander1988syntactic
 8942	63_mouse	MOUSE	SantoTomasOcotepecMixtec	Mixtec	tí:ñí	tí:ñí	t i ⁵ i ⁵ ɲ i ⁵	ti⁵i⁵ɲi⁵	444	444	17.14419	-97.76322	alexander1988syntactic
 8944	39_good	GOOD	XayacatlanBravoMixtec	Mixtec	ƀàʔā	ƀàʔā	β a ¹ ʔ a ³	βa¹ʔa³	286	286	18.2353	-97.97435	josserand1983mixtec
 8945	69_nose	NOSE	SantaMariaYucuhitiMixtec	Mixtec	šītī̧	šītī̧	ʃ i ³ t ĩ ³	ʃi³tĩ³	496	496	17.03036	-97.78237	josserand1983mixtec
@@ -6293,7 +6293,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 9015	207_hawk	HAWK	SantosReyesTepejilloMixtec	Mixtec	čí-žáʔà	čí-žáʔà	tʃ i ⁵ + ʒ a ⁵ ʔ a ¹	tʃi⁵+ʒa⁵ʔa¹	9 1045	9 1045	17.43262	-97.93997	josserand1983mixtec
 9016	11_bone	BONE	SanAndresYutatioMixtec	Mixtec	yikí lásá	yikí-lásá	j i ³ k i ⁵ + l a ⁵ s a ⁵	ji³ki⁵+la⁵sa⁵	74 76	74 76	17.60626	-97.89428	williams2017diccionario
 9017	202_cockroach	COCKROACH	SantiagoTamazolaMixtec	Mixtec	tì-ⁿdìvà	tì-ⁿdìvà	t i ¹ + ⁿd i ¹ β a ¹	ti¹+ⁿdi¹βa¹	9 903	9 903	17.67041	-98.2216	josserand1983mixtec
-9018	186_root	ROOT	TepangoMixtec	Mixtec	tyoho	tyoho	tʲ + Ø/¹ + o ¹ ʔ o ¹/³	tʲ+o¹ʔo¹	9 1048 619	9 1048 619	16.90322	-99.08613	hills1990syntactic
+9018	186_root	ROOT	TepangoMixtec	Mixtec	tyoho	tyoho	tʲ + Ø/¹ + o ¹ ʔ o ¹/³	tʲ+Ø/¹+o¹ʔo¹/³	9 1048 619	9 1048 619	16.90322	-99.08613	hills1990syntactic
 9019	204_cornstalk	CORN STALK	SantaMariaPenolesMixtec	Mixtec	ñá̧má̧	ñá̧má̧	ɲ ã ⁵ m ã ⁵	ɲã⁵mã⁵	150	150	17.07959	-97.00272	josserand1983mixtec
 9020	121_bean	BEAN	SanPedroAtoyacMixtec	Mixtec	ⁿduti	ⁿduti	ⁿd u t i	ⁿduti	24	24	16.48865	-97.9864	josserand1983mixtec
 9021	202_cockroach	COCKROACH	SantiagoTilantongoMixtec	Mixtec	tita	tita	t + i t a	t+ita	9 77	9 77	17.3596	-97.3861	josserand1983mixtec
@@ -6511,7 +6511,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 9321	171_honey	HONEY	IxpantepecNievesMixtec	Mixtec	ñu̧ñu̧	ñu̧ñu̧	ɲ ũ ɲ ũ	ɲũɲũ	29	29	17.50717	-98.04556	josserand1983mixtec
 9322	83_red	RED	SantaMariaHuazolotitlanMixtec	Mixtec	kʷaʔa	kʷaʔa	kʷ a ʔ a	kʷaʔa	595	595	16.3019	-97.91488	josserand1983mixtec
 9324	183_plain	PLAIN	SantaCruzItundujiaMixtec	Mixtec	ⁿduʔƀe	ⁿduʔƀe	ⁿd u ʔ β e	ⁿduʔβe	537	537	16.77876	-97.59753	josserand1983mixtec
-9325	45_hen	HEN	LaBateaMixtec	Mixtec	chùún	chùún	tʃ + ũ ¹ ũ ⁵	tʃũ¹ũ⁵	9 100	9 100	17.35948	-97.83233	ramirez2020vocabulario
+9325	45_hen	HEN	LaBateaMixtec	Mixtec	chùún	chùún	tʃ + ũ ¹ ũ ⁵	tʃ+ũ¹ũ⁵	9 100	9 100	17.35948	-97.83233	ramirez2020vocabulario
 9326	217_herbaceousplant	HERBACEOUS PLANT	SantiagoJamiltepecMixtec	Mixtec	kuʔu	kuʔu	k u ʔ u	kuʔu	334	334	16.2279	-97.8417	josserand1983mixtec
 9327	152_ant	ANT	SantiagoJamiltepecMixtec	Mixtec	tɨ̄-yoko	tɨ̄-yoko	t ɨ ³ + j o ¹ k o ¹	tɨ³+jo¹ko¹	9 882	9 882	16.2279	-97.8417	johnson1988syntactic
 9329	46_hole	HOLE	SantiagoJuxtlahuacaMixtec	Mixtec	žaƀi	žaƀi	ʒ a β i	ʒaβi	341	341	17.3518	-98.0146	josserand1983mixtec
@@ -6634,12 +6634,12 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 9494	183_plain	PLAIN	SantiagoTlazoyaltepecMixtec	Mixtec	žođo	žođo	ʒ o ð o	ʒoðo	535	535	17.0274	-96.99583	josserand1983mixtec
 9495	61_mouth	MOUTH	SanAndresChicahuaxtla1890Triqui	Triqui	Duuaha	duuaha	d u a ʔ a	duaʔa	447	447	17.15612	-97.84007	belmar1897ensayo
 9496	60_mountainorhill	MOUNTAIN OR HILL	SantiagoYosonduaMixtec	Mixtec	yūkū	yūkū	j u ³ k u ³	ju³ku³	437	437	16.9042	-97.5018	farris1992syntactic
-9497	91_sheep	SHEEP	SantoTomasOcotepecMixtec	Mixtec	ti-kachí	ti-kachí	t i ¹ + Ø/¹ + k a ¹ tʃ i ⁵/¹	ti¹+ka¹tʃi⁵	9 1044 157	9 1044 157	17.14419	-97.76322	alexander1988syntactic
+9497	91_sheep	SHEEP	SantoTomasOcotepecMixtec	Mixtec	ti-kachí	ti-kachí	t i ¹ + Ø/¹ + k a ¹ tʃ i ⁵/¹	ti¹+Ø/¹+ka¹tʃi⁵/¹	9 1044 157	9 1044 157	17.14419	-97.76322	alexander1988syntactic
 9498	51_longsingular	LONG (SINGULAR)	TlahuapaMixtec	Mixtec	kâni	kâni	k a ⁵¹ n i ³	ka⁵¹ni³	406	406	17.37553	-98.33826	reyes-basurto2020tlahuapa
 9500	95_snake	SNAKE	SanJorgeNuchitaMixtec	Mixtec	kòò-káá	kòò-káá	k o ¹ o ¹ + k a ⁵ a ⁵	ko¹o¹+ka⁵a⁵	689 1015	689 1015	17.65569	-98.10499	josserand1983mixtec
 9501	236_loose	LOOSE	XayacatlanBravoMixtec	Mixtec	đaya	đaya	ð a j a	ðaja	407	407	18.2353	-97.97435	josserand1983mixtec
 9502	49_house	HOUSE	SantaMariaYucuhitiMixtec	Mixtec	vēʔī	vēʔī	β e ³ ʔ i ³	βe³ʔi³	363	363	17.03036	-97.78237	josserand1983mixtec
-9503	91_sheep	SHEEP	YoloxochitlMixtec	Mixtec	ndi³ka³chi³	ndi³-ka³chi³	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹	ⁿdi³+ka³tʃi³	35 1044 157	35 1044 157	16.8059	-98.6293	amith2021recursos
+9503	91_sheep	SHEEP	YoloxochitlMixtec	Mixtec	ndi³ka³chi³	ndi³-ka³chi³	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹	ⁿdi³+Ø/³+ka³/¹tʃi³/¹	35 1044 157	35 1044 157	16.8059	-98.6293	amith2021recursos
 9504	54_meat	MEAT	SantoDomingoHuendioMixtec	Mixtec	kúñu	kúñu	k u ⁵ ɲ u ³	ku⁵ɲu³	418	418	17.25296	-97.5054	becerra-roldan2015un-estudio
 9505	193_swelling	SWELLING	SanBartoloSoyaltepecMixtec	Mixtec	kʷi̧ño̧	kʷi̧ño̧	kʷ ĩ ɲ õ	kʷĩɲõ	742	742	17.5892	-97.1921	josserand1983mixtec
 9506	43_hand	HAND	SantaMariaZacatepecMixtec	Mixtec	nda'a'	nda'a'	ⁿd a ʔ a ʔ	ⁿdaʔaʔ	320	320	16.7003	-97.9484	towne2011gramatica
@@ -6778,7 +6778,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 9685	78_pricklypearcactus	PRICKLY PEAR CACTUS	IxpantepecNievesMixtec	Mixtec	ƀi̧ʔⁿdʸa	ƀi̧ʔⁿdʸa	β ĩ ʔ ⁿdʲ a	βĩʔⁿdʲa	564	564	17.50717	-98.04556	josserand1983mixtec
 9686	107_two	TWO	SantaMariaHuazolotitlanMixtec	Mixtec	uwi	uwi	u w i	uwi	811	811	16.3019	-97.91488	josserand1983mixtec
 9688	178_iron	IRON	SantaCruzItundujiaMixtec	Mixtec	tu̧ni̧	tu̧ni̧	t ũ n ĩ	tũnĩ	369	369	16.77876	-97.59753	josserand1983mixtec
-9689	91_sheep	SHEEP	LaBateaMixtec	Mixtec	ndikachi	ndi-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹⁵	ⁿdi³+ka³tʃi³	35 1044 157	35 1044 157	17.35948	-97.83233	ramirez2020vocabulario
+9689	91_sheep	SHEEP	LaBateaMixtec	Mixtec	ndikachi	ndi-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/¹⁵	ⁿdi³+Ø/³+ka³/¹tʃi³/¹⁵	35 1044 157	35 1044 157	17.35948	-97.83233	ramirez2020vocabulario
 9691	150_tail	TAIL	SantiagoJamiltepecMixtec	Mixtec	suhma	suhma	s u ¹ ʔ m a ¹	su¹ʔma¹	635	635	16.2279	-97.8417	johnson1988syntactic
 9693	178_iron	IRON	SantiagoJuxtlahuacaMixtec	Mixtec	tu̧ni̧	tu̧ni̧	t ũ n ĩ	tũnĩ	369	369	17.3518	-98.0146	josserand1983mixtec
 9696	24_dew	DEW	SantaMariaJicaltepecMixtec	Mixtec	kači̧	kači̧	k a tʃ ĩ	katʃĩ	168	168	16.38086	-98.04128	josserand1983mixtec
@@ -6977,7 +6977,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 9955	96_stoneorrock	STONE OR ROCK	SantiagoTlazoyaltepecMixtec	Mixtec	žuu	žuu	k a w a	kawa	711	711	17.0274	-96.99583	josserand1983mixtec
 9956	43_hand	HAND	SanAndresChicahuaxtla1890Triqui	Triqui	Traha	traha	t r a ʔ a	traʔa	320	320	17.15612	-97.84007	belmar1897ensayo
 9958	92_six	SIX	SantaCatarinaTlaltempanMixtec	Mixtec	i̧ñu̧	i̧ñu̧	ĩ ɲ ũ	ĩɲũ	652	652	18.61485	-98.08867	josserand1983mixtec
-9959	10_black	BLACK	SantiagoYosonduaMixtec	Mixtec	Nnúú	Nnúú	 hn u ⁵ u ⁵	hnu⁵u⁵	93	93	16.9042	-97.5018	farris1992syntactic
+9959	10_black	BLACK	SantiagoYosonduaMixtec	Mixtec	Nnúú	Nnúú	 n̥ u ⁵ u ⁵	n̥u⁵u⁵	93	93	16.9042	-97.5018	farris1992syntactic
 9960	36_flower	FLOWER	SantoTomasOcotepecMixtec	Mixtec	īta	īta	i ³ t a ¹	i³ta¹	246	246	17.14419	-97.76322	alexander1988syntactic
 9962	47_hornanatomy	HORN (ANATOMY)	SantaMariaYucuhitiMixtec	Mixtec	nī̧kɨ̄	nī̧kɨ̄	n ĩ ³ k ɨ ³	nĩ³kɨ³	350	350N	17.03036	-97.78237	josserand1983mixtec
 9963	164_feather	FEATHER	YoloxochitlMixtec	Mixtec	tu¹mi³²	tu¹mi³²	t u ¹ m i ³²	tu¹mi³²	227	227	16.8059	-98.6293	amith2021recursos
@@ -7951,7 +7951,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 11297	105_tree	TREE	SanJorgeNuchitaMixtec	Mixtec	žito	žito	ʒ i t o	ʒito	799	799	17.65569	-98.10499	josserand1983mixtec
 11298	133_blame	BLAME	XayacatlanBravoMixtec	Mixtec	kʷàčī	kʷàčī	kʷ a ¹ tʃ i ³	kʷa¹tʃi³	61	61	18.2353	-97.97435	josserand1983mixtec
 11299	17_cookingpot	COOKING POT	SantaMariaYucuhitiMixtec	Mixtec	kìsɨ̄	kìsɨ̄	k i ¹ s ɨ ³	ki¹sɨ³	138	138	17.03036	-97.78237	josserand1983mixtec
-11300	186_root	ROOT	YoloxochitlMixtec	Mixtec	tio'¹o³	tio'¹o³	tʲ + Ø/¹ + o ¹/³ ʔ o ³/⁵	tʲ+o¹ʔo³	9 1048 619	9 1048 619	16.8059	-98.6293	amith2021recursos
+11300	186_root	ROOT	YoloxochitlMixtec	Mixtec	tio'¹o³	tio'¹o³	tʲ + Ø/¹ + o ¹/³ ʔ o ³/⁵	tʲ+Ø/¹+o¹/³ʔo³/⁵	9 1048 619	9 1048 619	16.8059	-98.6293	amith2021recursos
 11301	83_red	RED	SantoDomingoHuendioMixtec	Mixtec	kua'à	kua'à	kʷ a ³ ʔ a ¹	kʷa³ʔa¹	595	595	17.25296	-97.5054	becerra-roldan2015un-estudio
 11302	207_hawk	HAWK	SanBartoloSoyaltepecMixtec	Mixtec	tađu̧	tađu̧	t a ð ũ	taðũ	192	192	17.5892	-97.1921	josserand1983mixtec
 11303	227_clothes	CLOTHES	SantaMariaZacatepecMixtec	Mixtec	ja'ma	ja'ma	j a ʔ m a	jaʔma	112	112	16.7003	-97.9484	towne2011gramatica
@@ -8348,7 +8348,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 11849	184_pus	PUS	PiedraAzulMixtec	Mixtec	ntajkuà	ntajkuà	ⁿd a ³ h kʷ a ¹	ⁿda³hkʷa¹	574	574	17.380833	-98.185833	mendoza2020vocabulario
 11850	66_near	NEAR	SanPedroYosonamaMixtec	Mixtec	yatni	yatni	ʒ a tⁿ i	ʒatⁿi	459	459	17.4272	-97.77267	gittlen2016gramatica
 11854	66_near	NEAR	SantaCatarinaTlaltempanMixtec	Mixtec	yatni̧	yatni̧	j a tⁿ ĩ	jatⁿĩ	459	459	18.61485	-98.08867	josserand1983mixtec
-11855	115_workingorwork	WORKING OR WORK	SantiagoYosonduaMixtec	Mixtec	Nnīñū	Nnīñū	 hn i ³ ɲ u ³	hni³ɲu³	870	870	16.9042	-97.5018	farris1992syntactic
+11855	115_workingorwork	WORKING OR WORK	SantiagoYosonduaMixtec	Mixtec	Nnīñū	Nnīñū	 n̥ i ³ ɲ u ³	n̥i³ɲu³	870	870	16.9042	-97.5018	farris1992syntactic
 11856	123_charcoal	CHARCOAL	SantoTomasOcotepecMixtec	Mixtec	ti-kayī	ti-kayī	t i ¹ + k a ¹ ʒ i ³	ti¹+ka¹ʒi³	4 39	4 39	17.14419	-97.76322	alexander1988syntactic
 11857	135_gourdbowl	GOURD BOWL	SantoTomasOcotepecMixtec	Mixtec	ñāxīn	ñāxīn	ɲ a ³ x ĩ ³	ɲa³xĩ³	291	291	17.14419	-97.76322	alexander1988syntactic
 11858	189_smooth	SMOOTH	TlahuapaMixtec	Mixtec	kaní	kaní	k a ³ n i ⁵	ka³ni⁵	686	686	17.37553	-98.33826	reyes-basurto2020tlahuapa
@@ -8845,8 +8845,8 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 12531	109_water	WATER	CuatzoquitengoMixtec	Mixtec	ti-kʷii	ti-kʷii	t i + kʷ i i	ti+kʷii	222 400	222 400	17.28835	-98.61552	josserand1983mixtec
 12533	108_ugly	UGLY	SantaAnaCuauhtemocMixtec	Mixtec	kini̧-kaa	kini̧-kaa	k i n ĩ	kinĩ	812	812	17.98379	-96.79439	josserand1983mixtec
 12534	96_stoneorrock	STONE OR ROCK	CuyamecalcoVillaZaragozaMixtec	Mixtec	yuu	yuu	j u u	juu	710	710	18.0821	-96.7314	josserand1983mixtec
-12535	91_sheep	SHEEP	ElJicaralMixtec	Mixtec	ntikachi	nti-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/⁵	ⁿdi³+ka³tʃi³	35 1044 157	35 1044 157	17.12602	-98.196842	martin2020diccionario
-12536	12_brotherofman	BROTHER (OF MAN)	SanMartinItunyosoTriqui	Triqui	cnanj⁵	cnanj⁵	ᶜn ə̃ h ⁵	ᶜnə̃h⁵	81	81	17.22887	-97.88125	dicanio2020vocabulario
+12535	91_sheep	SHEEP	ElJicaralMixtec	Mixtec	ntikachi	nti-kachi	ⁿd i ³ + Ø/³ + k a ³/¹ tʃ i ³/⁵	ⁿdi³+Ø/³+ka³/¹tʃi³/⁵	35 1044 157	35 1044 157	17.12602	-98.196842	martin2020diccionario
+12536	12_brotherofman	BROTHER (OF MAN)	SanMartinItunyosoTriqui	Triqui	cnanj⁵	cnanj⁵	c n ə̃ h ⁵	cnə̃h⁵	81	81	17.22887	-97.88125	dicanio2020vocabulario
 12537	210_post	POST	SanMartinPerasMixtec	Mixtec	si̧ʔi̧	si̧ʔi̧	s ĩ ʔ ĩ	sĩʔĩ	387	387	17.35912	-98.23725	josserand1983mixtec
 12538	44_heavy	HEAVY	SantaCatarinaEstetlaMixtec	Mixtec	wee	wee	w e e	wee	326	326	17.02627	-97.0974	josserand1983mixtec
 12540	117_yellow	YELLOW	IxpantepecNievesMixtec	Mixtec	kʷá̧á̧	kʷá̧á̧	kʷ ã ⁵ ã ⁵	kʷã⁵ã⁵	876	876	17.50717	-98.04556	josserand1983mixtec
@@ -9073,7 +9073,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 12837	137_half	HALF	AlcozaucaGuerreroMixtec	Mixtec	sawa	sawa	s a β a	saβa	314	314	17.3687	-98.3969	josserand1983mixtec
 12838	67_nighttime	NIGHT TIME	SantaCruzBravoMixtec	Mixtec	ñu̧u̧	ñu̧u̧	ɲ ũ ũ	ɲũũ	481	481	17.58093	-98.22383	josserand1983mixtec
 12839	19_cornfield	CORN FIELD	SantiagoIxtaltepecMixtec	Mixtec	itu	itu	i t u	itu	145	145	17.54171	-97.11437	josserand1983mixtec
-12840	89_scorpion	SCORPION	ChalcatongoHidalgoMixtec	Mixtec	tɨsúʔmá	tɨ-súʔmá	t ɨ ³ + Ø/⁵ + s u ⁵ ʔ m a ⁵/³	tɨ³+su⁵ʔma⁵	9 1044 635	9 1044 635	17.03226	-97.57074	macaulay1996grammar
+12840	89_scorpion	SCORPION	ChalcatongoHidalgoMixtec	Mixtec	tɨsúʔmá	tɨ-súʔmá	t ɨ ³ + Ø/⁵ + s u ⁵ ʔ m a ⁵/³	tɨ³+Ø/⁵+su⁵ʔma⁵/³	9 1044 635	9 1044 635	17.03226	-97.57074	macaulay1996grammar
 12842	39_good	GOOD	SanAgustinChayucoMixtec	Mixtec	ƀàʔā	ƀàʔā	β a ¹ ʔ a ³	βa¹ʔa³	286	286	16.42	-97.83	durr1987preliminary
 12843	47_hornanatomy	HORN (ANATOMY)	SanPedroJocotipacMixtec	Mixtec	ⁿdeke	ⁿdeke	ⁿd e k e	ⁿdeke	350	350	17.7687	-97.07983	josserand1983mixtec
 12844	134_fire	FIRE	SantiagoIxtayutlaMixtec	Mixtec	ñu̧ʔu̧	ñu̧ʔu̧	ɲ ũ ʔ ũ	ɲũʔũ	240	240	16.5774	-97.5759	josserand1983mixtec
@@ -9122,7 +9122,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 12906	44_heavy	HEAVY	SanJeronimoProgresoMixtec	Mixtec	ƀee	ƀee	β e e	βee	326	326	17.44616	-98.15466	josserand1983mixtec
 12909	204_cornstalk	CORN STALK	SantoTomasOcotepecMixtec	Mixtec	lōkò-ñà̧mà̧	lōkò-ñà̧mà̧	l o ³ k o ¹ + ɲ ã ¹ m ã ¹	lo³ko¹+ɲã¹mã¹	731 150	731 150	17.14419	-97.76322	josserand1983mixtec
 12910	103_tortilla	TORTILLA	SanJeronimoProgresoMixtec	Mixtec	xita	xita	h i ¹ t a ¹	hi¹ta¹	789	789	17.44616	-98.15466	shields1988syntactic
-12912	10_black	BLACK	SanJuanCoatzospamMixtec	Mixtec	tūún	tūún	Ø/⁵ + t ũ ¹/⁵ ũ ⁵/¹	tũ¹ũ⁵	1044 93	1044 93	18.04875	-96.76363	small1990syntactic
+12912	10_black	BLACK	SanJuanCoatzospamMixtec	Mixtec	tūún	tūún	Ø/⁵ + t ũ ¹/⁵ ũ ⁵/¹	Ø/⁵+tũ¹/⁵ũ⁵/¹	1044 93	1044 93	18.04875	-96.76363	small1990syntactic
 12914	122_beeswax	BEESWAX	SanJuanTepeuxila1900Cuicatec	Cuicatec	yain	yain	j ẽ	jẽ	1041	1041	18.72299	-95.84118	belmar1902el-cuicateco
 12915	202_cockroach	COCKROACH	SantiagoTlazoyaltepecMixtec	Mixtec	ta-koo	ta-koo	t a + k o o	ta+koo	9 908	9A 908	17.0274	-96.99583	josserand1983mixtec
 12916	37_foot	FOOT	SantaMariaYolotepecMixtec	Mixtec	šaʔa	šaʔa	ʃ a ʔ a	ʃaʔa	258	258	16.9648	-97.4537	josserand1983mixtec
@@ -9557,7 +9557,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 13507	114_word	WORD	SantaMariaHuazolotitlanMixtec	Mixtec	to̧ʔo̧	to̧ʔo̧	t õ ʔ õ	tõʔõ	863	863	16.3019	-97.91488	josserand1983mixtec
 13509	21_day24hours	DAY (24 HOURS)	SantaCruzItundujiaMixtec	Mixtec	kɨwɨ	kɨwɨ	k ɨ w ɨ	kɨwɨ	163	163	16.77876	-97.59753	josserand1983mixtec
 13510	137_half	HALF	SantaCruzItundujiaMixtec	Mixtec	saƀa	saƀa	s a β a	saβa	314	314	16.77876	-97.59753	josserand1983mixtec
-13512	10_black	BLACK	SantiagoJamiltepecMixtec	Mixtec	tōōn	tōōn	Ø/³ + t o ³/¹ õ ³/¹	to³õ³	1044 93	1044 93	16.2279	-97.8417	johnson1988syntactic
+13512	10_black	BLACK	SantiagoJamiltepecMixtec	Mixtec	tōōn	tōōn	Ø/³ + t o ³/¹ õ ³/¹	Ø/³+to³/¹õ³/¹	1044 93	1044 93	16.2279	-97.8417	johnson1988syntactic
 13514	275_sweet	SWEET	SantaMariaJicaltepecMixtec	Mixtec	ƀiši	ƀiši	β i ʃ i	βiʃi	735	735	16.38086	-98.04128	josserand1983mixtec
 13515	35_five	FIVE	SanPedroMolinosMixtec	Mixtec	ù̧ʔù̧	ù̧ʔù̧	ũ ¹ ʔ ũ ¹	ũ¹ʔũ¹	244	244	17.10495	-97.54152	durr1987preliminary
 13516	179_net	NET	SanPedroTidaaMixtec	Mixtec	ñu̧nu̧	ñu̧nu̧	ɲ ũ n ũ	ɲũnũ	469	469	17.4142	-97.3333	josserand1983mixtec
@@ -9801,7 +9801,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 13834	111_white	WHITE	SanEstebanAtatlahucaMixtec	Mixtec	cuíjín	cuíjín	kʷ i ⁵ x ĩ ⁵	kʷi⁵xĩ⁵	844	844	17.07133	-97.67753	alexander1980gramatica
 13836	115_workingorwork	WORKING OR WORK	SantaAnaCuauhtemocMixtec	Mixtec	ȼi̧ñu̧	ȼi̧ñu̧	ts ĩ ɲ ũ	tsĩɲũ	870	870	17.98379	-96.79439	josserand1983mixtec
 13838	90_seven	SEVEN	CuyamecalcoVillaZaragozaMixtec	Mixtec	uṣ̌e	uṣ̌e	u ʂ e	uʂe	638	638	18.0821	-96.7314	josserand1983mixtec
-13839	186_root	ROOT	ElJicaralMixtec	Mixtec	tio̠'o	tio̠'o	tʲ + Ø/⁵ + o ¹/³ ʔ o ³/⁵	tʲ+o¹ʔo³	9 1048 619	9 1048 619	17.12602	-98.196842	martin2020diccionario
+13839	186_root	ROOT	ElJicaralMixtec	Mixtec	tio̠'o	tio̠'o	tʲ + Ø/⁵ + o ¹/³ ʔ o ³/⁵	tʲ+Ø/⁵+o¹/³ʔo³/⁵	9 1048 619	9 1048 619	17.12602	-98.196842	martin2020diccionario
 13840	197_tooth	TOOTH	SanJuanMixtepecMixtec	Mixtec	nu̧ʔu̧	nu̧ʔu̧	n ũ ʔ ũ	nũʔũ	785	785	17.3317	-97.8791	josserand1983mixtec
 13841	159_blousewoven	BLOUSE (WOVEN)	SanMartinItunyosoTriqui	Triqui	chru³hnuhn⁴	chru³hnuhn⁴	ʈʂ u ³ ʔ n ũ ʔ ⁴	ʈʂu³ʔnũʔ⁴	69	69	17.22887	-97.88125	dicanio2020vocabulario
 13842	202_cockroach	COCKROACH	SanMartinPerasMixtec	Mixtec	ȼi-čeʔe	ȼi-čeʔe	ts i + tʃ e ʔ e	tsi+tʃeʔe	9 59	9 59	17.35912	-98.23725	josserand1983mixtec
@@ -11549,7 +11549,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 16277	109_water	WATER	SanBartoloSoyaltepecMixtec	Mixtec	ⁿduȼa	ⁿduȼa	ⁿd u ts a	ⁿdutsa	402	402	17.5892	-97.1921	josserand1983mixtec
 16278	13_cat	CAT	SantaMariaZacatepecMixtec	Mixtec	mi̧luʔ	mi̧luʔ	m ĩ l u ʔ	mĩluʔ	88	88L	16.7003	-97.9484	josserand1983mixtec
 16279	76_poor	POOR	YucunaniMixtec	Mixtec	ntá'vì	ntá'vì	ⁿd a ⁵ ʔ β i ¹	ⁿda⁵ʔβi¹	548	548	17.300827	-97.893888	salazar2021vocabulario
-16280	10_black	BLACK	SantaMariaZacatepecMixtec	Mixtec	tùun	tùun	Ø/¹ + t ũ ³ ũ ¹	tũ³ũ¹	1044 93	1044 93	16.7003	-97.9484	towne2011gramatica
+16280	10_black	BLACK	SantaMariaZacatepecMixtec	Mixtec	tùun	tùun	Ø/¹ + t ũ ³ ũ ¹	Ø/¹+tũ³ũ¹	1044 93	1044 93	16.7003	-97.9484	towne2011gramatica
 16281	44_heavy	HEAVY	YucunutiBenitoJuarezMixtec	Mixtec	vee	vee	β e e	βee	326	326	17.63409	-97.89151	josserand1983mixtec
 16282	109_water	WATER	YucuquimiOcampoMixtec	Mixtec	te-kʷii	te-kʷii	t e + kʷ i i	te+kʷii	222 400	222 400	17.57853	-97.89014	josserand1983mixtec
 16283	154_bed	BED	SanMarcoslaFlorMixtec	Mixtec	xìjto	xìjto	ʃ i ¹ h t o ³	ʃi¹hto³	26	26	17.418889	-98.268611	moises2020vocabulario
@@ -11849,7 +11849,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 16696	91_sheep	SHEEP	SanMartinDuraznosMixtec	Mixtec	lánchí	lánchí	l a ⁵ ⁿdʒ i ⁵	la⁵ⁿdʒi⁵	642	642	17.30502	-98.10188	hernandez2020san-martin
 16697	69_nose	NOSE	SanJuanCoatzospamMixtec	Mixtec	dítsīn	dítsīn	ð i ⁵ ts ĩ ¹	ði⁵tsĩ¹	496	496	18.04875	-96.76363	small1990syntactic
 16698	94_smallsingular	SMALL (SINGULAR)	SantosReyesTepejilloMixtec	Mixtec	luu	luu	l u u	luu	673	673	17.43262	-97.93997	josserand1983mixtec
-16699	186_root	ROOT	SanAndresYutatioMixtec	Mixtec	yo̠'o	yo̠'o	Ø/¹ + j o ¹/⁵ ʔ o ³/¹	jo¹ʔo³	1048 619	1048 619	17.60626	-97.89428	williams2017diccionario
+16699	186_root	ROOT	SanAndresYutatioMixtec	Mixtec	yo̠'o	yo̠'o	Ø/¹ + j o ¹/⁵ ʔ o ³/¹	Ø/¹+jo¹/⁵ʔo³/¹	1048 619	1048 619	17.60626	-97.89428	williams2017diccionario
 16702	70_nowortoday	NOW OR TODAY	SantaMariaPenolesMixtec	Mixtec	ƀìtà̧	ƀìtà̧	β i ¹ t ã ¹	βi¹tã¹	501	501A	17.07959	-97.00272	durr1987preliminary
 16703	115_workingorwork	WORKING OR WORK	SanPedroAtoyacMixtec	Mixtec	tiñu̧	tiñu̧	t i ɲ ũ	tiɲũ	870	870	16.48865	-97.9864	josserand1983mixtec
 16704	39_good	GOOD	SantiagoTilantongoMixtec	Mixtec	ƀaʔa	ƀaʔa	β a ʔ a	βaʔa	286	286	17.3596	-97.3861	josserand1983mixtec
@@ -11949,7 +11949,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 16839	143_night	NIGHT	SantoTomasOcotepecMixtec	Mixtec	xā-kwáa	xā-kwáa	x a ³ + kʷ a ⁵ a ¹	xa³+kʷa⁵a¹	475 480	475 480	17.14419	-97.76322	alexander1988syntactic
 16841	19_cornfield	CORN FIELD	XayacatlanBravoMixtec	Mixtec	ītū	ītū	i ³ t u ³	i³tu³	145	145	18.2353	-97.97435	josserand1983mixtec
 16842	28_eight	EIGHT	SanJorgeNuchitaMixtec	Mixtec	ʔù̧nà̧	ʔù̧nà̧	ũ ¹ n ã ¹	ũ¹nã¹	207	207	17.65569	-98.10499	josserand1983mixtec
-16843	89_scorpion	SCORPION	XochapaMixtec	Mixtec	tisǒ'ma	ti-sǒ'ma	t i ³ + Ø/¹⁵ + s o ¹⁵/³ ʔ m a ³/⁵	ti³+so¹⁵ʔma³	9 1044 635	9 1044 635	17.38134	-98.44988	stark2013diccionario
+16843	89_scorpion	SCORPION	XochapaMixtec	Mixtec	tisǒ'ma	ti-sǒ'ma	t i ³ + Ø/¹⁵ + s o ¹⁵/³ ʔ m a ³/⁵	ti³+Ø/¹⁵+so¹⁵/³ʔma³/⁵	9 1044 635	9 1044 635	17.38134	-98.44988	stark2013diccionario
 16844	171_honey	HONEY	SantaMariaYucunicocoMixtec	Mixtec	ⁿdūšì	ⁿdūšì	ⁿd u ³ ʃ i ¹	ⁿdu³ʃi¹	344	344	17.2372	-97.91806	josserand1983mixtec
 16845	153_ash	ASH	YoloxochitlMixtec	Mixtec	ya¹a⁴	ya¹a⁴	j a ¹ a ⁵	ja¹a⁵	5	5	16.8059	-98.6293	amith2021recursos
 16847	96_stoneorrock	STONE OR ROCK	SanBartoloSoyaltepecMixtec	Mixtec	žuu	žuu	ʒ u u	ʒuu	710	710	17.5892	-97.1921	josserand1983mixtec
@@ -12256,7 +12256,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 17271	207_hawk	HAWK	SanLorenzoMixtec	Mixtec	tasɨ	tasɨ	t a s ɨ	tasɨ	192	192	17.66757	-98.11901	josserand1983mixtec
 17272	19_cornfield	CORN FIELD	TepejilloMixtec	Mixtec	itu	itu	i t u	itu	145	145	18.05265	-97.83906	josserand1983mixtec
 17273	122_beeswax	BEESWAX	SanBartolomeYucuaneMixtec	Mixtec	ñu̧ma̧	ñu̧ma̧	ɲ ũ m ã	ɲũmã	33	33	17.2832	-97.4285	josserand1983mixtec
-17274	186_root	ROOT	PiedraAzulMixtec	Mixtec	tsiò'o	tsiò'o	tsʲ + Ø/¹ + o ¹/³ ʔ o ³/¹⁵	tsʲ+o¹ʔo³	9 1048 619	9 1048 619	17.380833	-98.185833	mendoza2020vocabulario
+17274	186_root	ROOT	PiedraAzulMixtec	Mixtec	tsiò'o	tsiò'o	tsʲ + Ø/¹ + o ¹/³ ʔ o ³/¹⁵	tsʲ+Ø/¹+o¹/³ʔo³/¹⁵	9 1048 619	9 1048 619	17.380833	-98.185833	mendoza2020vocabulario
 17275	6_bellyorstomach	BELLY OR STOMACH	SanPedroySanPabloTeposcolula1600Mixtec	Mixtec	chisi	chisi	tʃ i s i	tʃisi	36	36	17.51167	-97.48883	alvarado1962vocabulario
 17277	116_year	YEAR	SantiagoTlazoyaltepecMixtec	Mixtec	kʷia	kʷia	kʷ i a	kʷia	872	872	17.0274	-96.99583	josserand1983mixtec
 17278	4_banana	BANANA	SanAndresChicahuaxtla1890Triqui	Triqui	Naatoo	naatoo	n a t o	nato	15	15	17.15612	-97.84007	belmar1897ensayo
@@ -12869,7 +12869,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 18151	49_house	HOUSE	SanPedroYosonamaMixtec	Mixtec	ve'e	ve'e	β e ʔ e	βeʔe	363	363	17.4272	-97.77267	gittlen2016gramatica
 18152	95_snake	SNAKE	SanSebastianTecomaxtlahuacaMixtec	Mixtec	kòò-ká	kòò-ká	k o ¹ o ¹ + k a ⁵	ko¹o¹+ka⁵	689 1015	689 1015	17.34568	-98.0312	josserand1983mixtec
 18153	13_cat	CAT	SantaMariaAcatepecMixtec	Mixtec	(sumi̧)	sumi̧	s u m ĩ	sumĩ	92	92	16.76337	-97.98945	josserand1983mixtec
-18154	186_root	ROOT	SanMartinDuraznosMixtec	Mixtec	yò'o	yò'o	Ø/¹ + ʒ o ¹/³ ʔ o ³/¹	ʒo¹ʔo³	1048 619	1048 619	17.30502	-98.10188	hernandez2020san-martin
+18154	186_root	ROOT	SanMartinDuraznosMixtec	Mixtec	yò'o	yò'o	Ø/¹ + ʒ o ¹/³ ʔ o ³/¹	Ø/¹+ʒo¹/³ʔo³/¹	1048 619	1048 619	17.30502	-98.10188	hernandez2020san-martin
 18155	39_good	GOOD	SanAntonioTepetlapaMixtec	Mixtec	waʔa	waʔa	w a ʔ a	waʔa	286	286	16.54182	-98.06578	josserand1983mixtec
 18156	1_animal	ANIMAL	SanJuanCoatzospamMixtec	Mixtec	kɨtɨ	kɨtɨ	k ɨ t ɨ	kɨtɨ	2	2	18.04875	-96.76363	small1990syntactic
 18157	164_feather	FEATHER	SantaLuciaMonteverdeMixtec	Mixtec	tnu̧u̧	tnu̧u̧	tⁿ ũ ũ	tⁿũũ	227	227	16.9969	-97.6277	josserand1983mixtec
@@ -13180,7 +13180,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 18590	150_tail	TAIL	SantaMariaAcatepecMixtec	Mixtec	su̧ʔma̧	su̧ʔma̧	s ũ ʔ m ã	sũʔmã	635	635	16.76337	-97.98945	josserand1983mixtec
 18591	275_sweet	SWEET	SanAgustinTlacotepecMixtec	Mixtec	xa-ƀiši	xa-ƀiši	x a + β i ʃ i	xa+βiʃi	233 735	233 735	17.20365	-97.51853	josserand1983mixtec
 18592	132_earofcornfresh	EAR OF CORN (FRESH)	SanMartinDuraznosMixtec	Mixtec	nchishì	nchishì	ⁿdʒ i ³ ʃ i ¹	ⁿdʒi³ʃi¹	199	199	17.30502	-98.10188	hernandez2020san-martin
-18593	89_scorpion	SCORPION	SanJuanCoatzospamMixtec	Mixtec	tduhmé	t-duhmé	t + Ø/⁵ + ð u ʔ m e ⁵/¹	t+ðuʔme⁵	9 1044 635	9 1044 635	18.04875	-96.76363	small1990syntactic
+18593	89_scorpion	SCORPION	SanJuanCoatzospamMixtec	Mixtec	tduhmé	t-duhmé	t + Ø/⁵ + ð u ʔ m e ⁵/¹	t+Ø/⁵+ðuʔme⁵/¹	9 1044 635	9 1044 635	18.04875	-96.76363	small1990syntactic
 18594	21_day24hours	DAY (24 HOURS)	SantosReyesTepejilloMixtec	Mixtec	kìvì	kìvì	k i ¹ β i ¹	ki¹βi¹	163	163	17.43262	-97.93997	josserand1983mixtec
 18595	14_chayote	CHAYOTE	SanAndresYutatioMixtec	Mixtec	ti̠nei̠n	ti̠-nei̠n	t i ¹ + n e ³ ĩ ¹	ti¹+ne³ĩ¹	4 98	4 98	17.60626	-97.89428	williams2017diccionario
 18596	137_half	HALF	SantiagoTamazolaMixtec	Mixtec	θava	θava	θ a β a	θaβa	314	314	17.67041	-98.2216	josserand1983mixtec
@@ -13327,7 +13327,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 18806	35_five	FIVE	LaBateaMixtec	Mixtec	ù'ùn	ù'ùn	u ¹ ʔ ũ ¹	u¹ʔũ¹	244	244	17.35948	-97.83233	ramirez2020vocabulario
 18807	158_blood	BLOOD	SantiagoJuxtlahuacaMixtec	Mixtec	ni̧i̧	ni̧i̧	n ĩ ĩ	nĩĩ	65	65	17.3518	-98.0146	josserand1983mixtec
 18809	182_pimple	PIMPLE	SanPedroAtoyacMixtec	Mixtec	ⁿdiʔi	ⁿdiʔi	ⁿd i ʔ i	ⁿdiʔi	529	529	16.48865	-97.9864	josserand1983mixtec
-18810	89_scorpion	SCORPION	SantiagoNuyooMixtec	Mixtec	ti-sū̧ʔmā̧	ti-sū̧ʔmā̧	t i + Ø/³ + s ũ ³/¹ ʔ m ã ³/¹	ti+sũ³ʔmã³	9 1044 635	9 1044 635	17.0147	-97.76674	josserand1983mixtec
+18810	89_scorpion	SCORPION	SantiagoNuyooMixtec	Mixtec	ti-sū̧ʔmā̧	ti-sū̧ʔmā̧	t i + Ø/³ + s ũ ³/¹ ʔ m ã ³/¹	ti+Ø/³+sũ³/¹ʔmã³/¹	9 1044 635	9 1044 635	17.0147	-97.76674	josserand1983mixtec
 18811	154_bed	BED	SanFranciscoSayultepecMixtec	Mixtec	čito	čito	tʃ i t o	tʃito	26	26	16.59537	-98.12933	josserand1983mixtec
 18813	12_brotherofman	BROTHER (OF MAN)	SanPedroTidaaMixtec	Mixtec	ña̧ni̧	ña̧ni̧	ɲ ã n ĩ	ɲãnĩ	84	84	17.4142	-97.3333	josserand1983mixtec
 18814	70_nowortoday	NOW OR TODAY	SanPedroTidaaMixtec	Mixtec	witna̧	witna̧	w i tⁿ ã	witⁿã	501	501A	17.4142	-97.3333	josserand1983mixtec
@@ -13523,7 +13523,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19070	18_corn	CORN	SantaLuciaMonteverdeMixtec	Mixtec	nu̧ni̧	nu̧ni̧	n ũ n ĩ	nũnĩ	141	141	16.9969	-97.6277	josserand1983mixtec
 19071	137_half	HALF	SantiagoPinotepaNacionalMixtec	Mixtec	saƀa	saƀa	s a β a	saβa	314	314	16.3043	-97.9966	josserand1983mixtec
 19072	116_year	YEAR	SantoDomingoTonahuixtlaMixtec	Mixtec	kʷia	kʷia	kʷ i a	kʷia	872	872	18.20057	-97.89437	josserand1983mixtec
-19073	192_stool	STOOL	SantaMariaPapaloCuicatec	Cuicatec	yi²ta²³⁴	yi²ta²³⁴	j i ⁴ t a ⁴¹	ji⁴ta⁴³¹	732	732	17.26813	-96.56338	anderson1983diccionario
+19073	192_stool	STOOL	SantaMariaPapaloCuicatec	Cuicatec	yi²ta²³⁴	yi²ta²³⁴	j i ⁴ t a ⁴¹	ji⁴ta⁴¹	732	732	17.26813	-96.56338	anderson1983diccionario
 19074	133_blame	BLAME	SantosReyesTepejilloMixtec	Mixtec	kʷàči	kʷàči	kʷ a ¹ tʃ i	kʷa¹tʃi	61	61	17.43262	-97.93997	josserand1983mixtec
 19075	27_egg	EGG	SanAndresYutatioMixtec	Mixtec	nduu̠	nduu̠	ⁿd u ³ u ¹	ⁿdu³u¹	204	204	17.60626	-97.89428	williams2017diccionario
 19076	15_childdescendant	CHILD (DESCENDANT)	SantiagoTilantongoMixtec	Mixtec	θaʔya	θaʔya	θ a ʔ j a	θaʔja	103	103	17.3596	-97.3861	josserand1983mixtec
@@ -13742,7 +13742,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19361	46_hole	HOLE	TepejilloMixtec	Mixtec	yawi	yawi	j a w i	jawi	341	341	18.05265	-97.83906	josserand1983mixtec
 19362	220_zapote	ZAPOTE	PiedraAzulMixtec	Mixtec	ntòkǒ	ntòkǒ	ⁿd o ¹ k o ¹⁵	ⁿdo¹ko¹⁵	161	161	17.380833	-98.185833	mendoza2020vocabulario
 19364	179_net	NET	TepejilloMixtec	Mixtec	ñu̧ñu̧	ñu̧ñu̧	ɲ ũ ɲ ũ	ɲũɲũ	469	469	18.05265	-97.83906	josserand1983mixtec
-19365	128_custardapple	CUSTARD APPLE	PiedraAzulMixtec	Mixtec	ntokǒ	ntokǒ	Ø/³ + ⁿd o ¹/³ k o ¹⁵	ⁿdo³ko¹⁵	1048 161	1048 161	17.380833	-98.185833	mendoza2020vocabulario
+19365	128_custardapple	CUSTARD APPLE	PiedraAzulMixtec	Mixtec	ntokǒ	ntokǒ	Ø/³ + ⁿd o ¹/³ k o ¹⁵	Ø/³+ⁿdo¹/³ko¹⁵	1048 161	1048 161	17.380833	-98.185833	mendoza2020vocabulario
 19366	80_pumpkin	PUMPKIN	SanMartinDuraznosMixtec	Mixtec	yikìn	yikìn	ʒ i ³ k ĩ ¹	ʒi³kĩ¹	570	570	17.30502	-98.10188	hernandez2020san-martin
 19367	81_rabbit	RABBIT	SanSebastianMonteMixtec	Mixtec	isò	isò	i ³ s o ¹	i³so¹	578	578	17.6793	-98.02259	solano2020san-sebastian
 19368	271_liquid	LIQUID	TepejilloMixtec	Mixtec	ⁿdute	ⁿdute	ⁿd u t e	ⁿdute	402	402	18.05265	-97.83906	josserand1983mixtec
@@ -13808,7 +13808,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19434	101_three	THREE	TepejilloMixtec	Mixtec	u̧ni̧	u̧ni̧	ũ n ĩ	ũnĩ	771	771	18.05265	-97.83906	josserand1983mixtec
 19435	100_thread	THREAD	PiedraAzulMixtec	Mixtec	yi'và	yi'và	j i ³ ʔ β a ¹	ji³ʔβa¹	768	768	17.380833	-98.185833	mendoza2020vocabulario
 19436	54_meat	MEAT	SanMartinDuraznosMixtec	Mixtec	kùñu	kùñu	k u ¹ ɲ u ³	ku¹ɲu³	418	418	17.30502	-98.10188	hernandez2020san-martin
-19437	186_root	ROOT	SanSebastianMonteMixtec	Mixtec	yò'ò	yò'ò	Ø/¹ + j o ¹/³ ʔ o ¹	jo¹ʔo¹	1048 619	1048 619	17.6793	-98.02259	solano2020san-sebastian
+19437	186_root	ROOT	SanSebastianMonteMixtec	Mixtec	yò'ò	yò'ò	Ø/¹ + j o ¹/³ ʔ o ¹	Ø/¹+jo¹/³ʔo¹	1048 619	1048 619	17.6793	-98.02259	solano2020san-sebastian
 19438	39_good	GOOD	SanJuanMixtepecMixtec	Mixtec	ƀàʔā	ƀàʔā	β a ¹ ʔ a ³	βa¹ʔa³	286	286	17.3317	-97.8791	durr1987preliminary
 19439	38_four	FOUR	TepejilloMixtec	Mixtec	ku̧mi̧	ku̧mi̧	k ũ m ĩ	kũmĩ	260	260	18.05265	-97.83906	josserand1983mixtec
 19440	161_comb	COMB	PiedraAzulMixtec	Mixtec	kuijkà	kuijkà	kʷ i ³ h k a ¹	kʷi³hka¹	136	136	17.380833	-98.185833	mendoza2020vocabulario
@@ -13926,7 +13926,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19559	146_river	RIVER	SanMartinDuraznosMixtec	Mixtec	yìtxa	yìtxa	ʒ i ¹ tɕ a ³	ʒi¹tɕa³	607	607	17.30502	-98.10188	hernandez2020san-martin
 19560	100_thread	THREAD	SanSebastianMonteMixtec	Mixtec	yìvà	yìvà	j i ¹ β a ¹	ji¹βa¹	768	768	17.6793	-98.02259	solano2020san-sebastian
 19562	116_year	YEAR	TepejilloMixtec	Mixtec	kʷia	kʷia	kʷ i a	kʷia	872	872	18.05265	-97.83906	josserand1983mixtec
-19563	10_black	BLACK	PiedraAzulMixtec	Mixtec	tùjǔn	tùjǔn	Ø/¹⁵ + t u ¹ h ũ ¹⁵/⁵	tu¹hũ¹⁵	1044 93	1044 93	17.380833	-98.185833	mendoza2020vocabulario
+19563	10_black	BLACK	PiedraAzulMixtec	Mixtec	tùjǔn	tùjǔn	Ø/¹⁵ + t u ¹ h ũ ¹⁵/⁵	Ø/¹⁵+tu¹hũ¹⁵/⁵	1044 93	1044 93	17.380833	-98.185833	mendoza2020vocabulario
 19564	24_dew	DEW	SanMartinDuraznosMixtec	Mixtec	yíyí	yíyí	ʒ i ⁵ ʒ i ⁵	ʒi⁵ʒi⁵	167	167	17.30502	-98.10188	hernandez2020san-martin
 19565	86_rope	ROPE	SanSebastianMonteMixtec	Mixtec	yo'ò	yo'ò	j o ³ ʔ o ¹	jo³ʔo¹	619	619	17.6793	-98.02259	solano2020san-sebastian
 19567	70_nowortoday	NOW OR TODAY	TepejilloMixtec	Mixtec	wiči	wiči	w i tʃ i	witʃi	501	501	18.05265	-97.83906	josserand1983mixtec
@@ -14007,7 +14007,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19643	163_dust	DUST	SanSebastianMonteMixtec	Mixtec	yàká	yàká	j a ¹ k a ⁵	ja¹ka⁵	183	183	17.6793	-98.02259	solano2020san-sebastian
 19644	113_woman	WOMAN	TlahuapaMixtec	Mixtec	sí'i	sí'i	ɲ a ⁵ ʔ a ³	ɲa⁵ʔa³	858	858	17.37553	-98.33826	reyes-basurto2020tlahuapa
 19645	84_rich	RICH	PiedraAzulMixtec	Mixtec	kuíjka	kuíjka	kʷ i ⁵ h k a ³	kʷi⁵hka³	599	599	17.380833	-98.185833	mendoza2020vocabulario
-19646	10_black	BLACK	SanMartinDuraznosMixtec	Mixtec	tùún	tùún	Ø/⁵ + t ũ ¹ ũ ⁵/¹	tũ¹ũ⁵	1044 93	1044 93	17.30502	-98.10188	hernandez2020san-martin
+19646	10_black	BLACK	SanMartinDuraznosMixtec	Mixtec	tùún	tùún	Ø/⁵ + t ũ ¹ ũ ⁵/¹	Ø/⁵+tũ¹ũ⁵/¹	1044 93	1044 93	17.30502	-98.10188	hernandez2020san-martin
 19647	83_red	RED	SanSebastianMonteMixtec	Mixtec	kua'á	kua'á	kʷ a ³ ʔ a ⁵	kʷa³ʔa⁵	595	595	17.6793	-98.02259	solano2020san-sebastian
 19648	105_tree	TREE	SanJuanNumiMixtec	Mixtec	žutnu̧	žutnu̧	ʒ u tⁿ ũ	ʒutⁿũ	799	799	17.39759	-97.70603	josserand1983mixtec
 19649	113_woman	WOMAN	TlahuapaMixtec	Mixtec	ñá'a	ñá'a	s i ⁵ ʔ i ³	si⁵ʔi³	433	433	17.37553	-98.33826	reyes-basurto2020tlahuapa
@@ -14026,7 +14026,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19663	158_blood	BLOOD	TlahuapaMixtec	Mixtec	nìín	nìín	n ĩ ¹ ĩ ⁵	nĩ¹ĩ⁵	65	65	17.37553	-98.33826	reyes-basurto2020tlahuapa
 19664	94_smallsingular	SMALL (SINGULAR)	PiedraAzulMixtec	Mixtec	lo'o	lo'o	l o ³ ʔ o ³	lo³ʔo³	674	674	17.380833	-98.185833	mendoza2020vocabulario
 19665	101_three	THREE	SanMartinDuraznosMixtec	Mixtec	ùnì	ùnì	u ¹ n i ¹	u¹ni¹	771	771	17.30502	-98.10188	hernandez2020san-martin
-19666	10_black	BLACK	SanSebastianMonteMixtec	Mixtec	tòón	tòón	Ø/⁵ + t o ¹ õ ⁵/¹	to¹õ⁵	1044 93	1044 93	17.6793	-98.02259	solano2020san-sebastian
+19666	10_black	BLACK	SanSebastianMonteMixtec	Mixtec	tòón	tòón	Ø/⁵ + t o ¹ õ ⁵/¹	Ø/⁵+to¹õ⁵/¹	1044 93	1044 93	17.6793	-98.02259	solano2020san-sebastian
 19667	203_corndough	CORN DOUGH	SanJuanNumiMixtec	Mixtec	žuxa̧	žuxa̧	ʒ u x ã	ʒuxã	142	142	17.39759	-97.70603	josserand1983mixtec
 19668	11_bone	BONE	TlahuapaMixtec	Mixtec	leké	leké	l e ³ k e ⁵	le³ke⁵	456	456	17.37553	-98.33826	reyes-basurto2020tlahuapa
 19669	51_longsingular	LONG (SINGULAR)	PiedraAzulMixtec	Mixtec	kajnǐ	kajnǐ	k a ³ h n i ¹⁵	ka³hni¹⁵	406	406	17.380833	-98.185833	mendoza2020vocabulario
@@ -14304,7 +14304,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 19990	218_maguey	MAGUEY	TlahuapaMixtec	Mixtec	viìntyà víxin	vi'ìndyà-víxin	j a ³ β i ⁵	ja³βi⁵	409	409	17.37553	-98.33826	reyes-basurto2020tlahuapa
 19991	89_scorpion	SCORPION	PinotepaDonLuisMixtec	Mixtec	tɨ-su̧ʔma̧	tɨ-su̧ʔma̧	t ɨ + s ũ ʔ m ã	tɨ+sũʔmã	9 635	9 635	16.42666	-97.97647	josserand1983mixtec
 19994	9_bird	BIRD	SanJuanTamazolaMixtec	Mixtec	či-đaa	či-đaa	tʃ i + ð a a	tʃi+ðaa	9 49	9 49	17.1258	-97.0998	josserand1983mixtec
-19995	186_root	ROOT	TlahuapaMixtec	Mixtec	tyò'o	tyò'o	tʲ + Ø/¹ + o ¹/³ ʔ o ³/⁵	tʲ+o¹ʔo³	9 1048 619	9 1048 619	17.37553	-98.33826	reyes-basurto2020tlahuapa
+19995	186_root	ROOT	TlahuapaMixtec	Mixtec	tyò'o	tyò'o	tʲ + Ø/¹ + o ¹/³ ʔ o ³/⁵	tʲ+Ø/¹+o¹/³ʔo³/⁵	9 1048 619	9 1048 619	17.37553	-98.33826	reyes-basurto2020tlahuapa
 19996	202_cockroach	COCKROACH	PinotepaDonLuisMixtec	Mixtec	tu-koso	tu-koso	t u + k o s o	tu+koso	9 901	9 901	16.42666	-97.97647	josserand1983mixtec
 19997	184_pus	PUS	SanMartinDuraznosMixtec	Mixtec	ⁿdakʷa	ⁿdakʷa	ⁿd a kʷ a	ⁿdakʷa	574	574	17.30502	-98.10188	josserand1983mixtec
 19999	166_frog	FROG	SanJuanTamazolaMixtec	Mixtec	laʔⁿdu	laʔⁿdu	l a ʔ ⁿd u	laʔⁿdu	268	268	17.1258	-97.0998	josserand1983mixtec
@@ -14935,7 +14935,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 20892	207_hawk	HAWK	SantaMariaYucuhitiMixtec	Mixtec	ší̧ʔña̧	ší̧ʔña̧	ʃ ĩ ⁵ ʔ ɲ ã	ʃĩ⁵ʔɲã	193	193	17.03036	-97.78237	josserand1983mixtec
 20893	207_hawk	HAWK	SantaMariaYucuhitiMixtec	Mixtec	tàsú̧	tàsú̧	t a ¹ s ũ ⁵	ta¹sũ⁵	192	192	17.03036	-97.78237	josserand1983mixtec
 20894	215_vulture	VULTURE	SantaMariaYucuhitiMixtec	Mixtec	čìī-žāʔā	čìī-žāʔā	tʃ i ¹ i ³ + ʒ a ³ ʔ a ³	tʃi¹i³+ʒa³ʔa³	926 193	926 193	17.03036	-97.78237	josserand1983mixtec
-20895	89_scorpion	SCORPION	SantaMariaYucuhitiMixtec	Mixtec	tì-sū̧ʔmā̧	tì-sū̧ʔmā̧	t i ¹ + Ø/³ + s ũ ³/¹ ʔ m ã ³/¹	ti¹+sũ³ʔmã³	9 1044 635	9 1044 635	17.03036	-97.78237	josserand1983mixtec
+20895	89_scorpion	SCORPION	SantaMariaYucuhitiMixtec	Mixtec	tì-sū̧ʔmā̧	tì-sū̧ʔmā̧	t i ¹ + Ø/³ + s ũ ³/¹ ʔ m ã ³/¹	ti¹+Ø/³+sũ³/¹ʔmã³/¹	9 1044 635	9 1044 635	17.03036	-97.78237	josserand1983mixtec
 20896	202_cockroach	COCKROACH	SantaMariaYucuhitiMixtec	Mixtec	tì-tèʔyá	tì-tèʔyá	t i ¹ + t e ¹ ʔ j a ⁵	ti¹+te¹ʔja⁵	9 59	9 59	17.03036	-97.78237	josserand1983mixtec
 20897	226_rat	RAT	SantaMariaYucuhitiMixtec	Mixtec	tì̧ñɨ̧	tì̧ñɨ̧	t ĩ ¹ ɲ ɨ̃	tĩ¹ɲɨ̃	444	444	17.03036	-97.78237	josserand1983mixtec
 20898	23_deer	DEER	SantaMariaYucuhitiMixtec	Mixtec	ʔīsū	ʔīsū	i ³ s u ³	i³su³	164	164	17.03036	-97.78237	josserand1983mixtec
@@ -15343,7 +15343,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 21445	192_stool	STOOL	YucunaniMixtec	Mixtec	chaì	chaì	tʃ a ³ i ¹	tʃa³i¹	717	717	17.300827	-97.893888	salazar2021vocabulario
 21446	1_animal	ANIMAL	YucunaniMixtec	Mixtec	kitǐ	kitǐ	k i ³ t i ¹⁵	ki³ti¹⁵	2	2	17.300827	-97.893888	salazar2021vocabulario
 21447	9_bird	BIRD	YucunaniMixtec	Mixtec	saà	saà	s a ³ a ¹	sa³a¹	49	49	17.300827	-97.893888	salazar2021vocabulario
-21448	34_fish	FISH	YucunaniMixtec	Mixtec	chakǎ	chakǎ	tʃ + a ³ k a ¹⁵	tʃa³ka¹⁵	9 242	9 242	17.300827	-97.893888	salazar2021vocabulario
+21448	34_fish	FISH	YucunaniMixtec	Mixtec	chakǎ	chakǎ	tʃ + a ³ k a ¹⁵	tʃ+a³ka¹⁵	9 242	9 242	17.300827	-97.893888	salazar2021vocabulario
 21449	95_snake	SNAKE	YucunaniMixtec	Mixtec	kòó	kòó	k o ¹ o ⁵	ko¹o⁵	689	689	17.300827	-97.893888	salazar2021vocabulario
 21450	166_frog	FROG	YucunaniMixtec	Mixtec	sa'và	sa'và	s a ³ ʔ β a ¹	sa³ʔβa¹	263	263	17.300827	-97.893888	salazar2021vocabulario
 21451	207_hawk	HAWK	YucunaniMixtec	Mixtec	xí'an	xí'an	ʃ i ⁵ ʔ ã ³	ʃi⁵ʔã³	193	193	17.300827	-97.893888	salazar2021vocabulario
@@ -15354,7 +15354,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 21456	63_mouse	MOUSE	YucunaniMixtec	Mixtec	tǐ'in	tǐ'in	t i ¹⁵ ʔ ĩ ³	ti¹⁵ʔĩ³	444	444	17.300827	-97.893888	salazar2021vocabulario
 21457	23_deer	DEER	YucunaniMixtec	Mixtec	isù	isù	i ³ s u ¹	i³su¹	164	164	17.300827	-97.893888	salazar2021vocabulario
 21458	213_squirrel	SQUIRREL	YucunaniMixtec	Mixtec	ntikuáin	nti-kuáin	ⁿd i ³ + kʷ a ⁵ ĩ ³	ⁿdi³+kʷa⁵ĩ³	35 698	35 698	17.300827	-97.893888	salazar2021vocabulario
-21459	187_skunk	SKUNK	YucunaniMixtec	Mixtec	tǐ'in ità	tǐ'in-ità	t + i ¹⁵ ʔ ĩ ³ + i ³ t a ¹	ti¹⁵ʔĩ³+i³ta¹	9 655 684	9 655 684	17.300827	-97.893888	salazar2021vocabulario
+21459	187_skunk	SKUNK	YucunaniMixtec	Mixtec	tǐ'in ità	tǐ'in-ità	t + i ¹⁵ ʔ ĩ ³ + i ³ t a ¹	t+i¹⁵ʔĩ³+i³ta¹	9 655 684	9 655 684	17.300827	-97.893888	salazar2021vocabulario
 21460	77_possum	POSSUM	YucunaniMixtec	Mixtec	tsóko	tsóko	ts o ⁵ k o ³	tso⁵ko³	554	554	17.300827	-97.893888	salazar2021vocabulario
 21461	211_raccoon	RACCOON	YucunaniMixtec	Mixtec	má'à	má'à	m a ⁵ ʔ a ¹	ma⁵ʔa¹	582	582	17.300827	-97.893888	salazar2021vocabulario
 21462	81_rabbit	RABBIT	YucunaniMixtec	Mixtec	lesû	lesû	l e ³ s u ⁵¹	le³su⁵¹	578	578L	17.300827	-97.893888	salazar2021vocabulario
@@ -15842,14 +15842,14 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 22018	102_tomato	TOMATO	SantiagoYosonduaMixtec	Mixtec	tɨ́nānā	tɨ́-nānā	t ɨ ⁵ + n a ³ n a ³	tɨ⁵+na³na³	9 775	9 775	16.9042	-97.5018	farris1992syntactic
 22019	103_tortilla	TORTILLA	SantiagoYosonduaMixtec	Mixtec	staa	staa	s t a ¹ a ¹	sta¹a¹	789	789	16.9042	-97.5018	farris1992syntactic
 22020	104_townorvillage	TOWN OR VILLAGE	SantiagoYosonduaMixtec	Mixtec	ñūu	ñūu	ɲ u ³ u ¹	ɲu³u¹	794	794	16.9042	-97.5018	farris1992syntactic
-22021	105_tree	TREE	SantiagoYosonduaMixtec	Mixtec	yūNnū	yūNnū	j u ³  hn u ³	ju³hnu³	799	799	16.9042	-97.5018	farris1992syntactic
+22021	105_tree	TREE	SantiagoYosonduaMixtec	Mixtec	yūNnū	yūNnū	j u ³  n̥ u ³	ju³n̥u³	799	799	16.9042	-97.5018	farris1992syntactic
 22022	106_twenty	TWENTY	SantiagoYosonduaMixtec	Mixtec	ōko	ōko	o ³ k o ¹	o³ko¹	809	809	16.9042	-97.5018	farris1992syntactic
 22023	107_two	TWO	SantiagoYosonduaMixtec	Mixtec	ūu	ūu	u ³ u ¹	u³u¹	811	811	16.9042	-97.5018	farris1992syntactic
 22024	109_water	WATER	SantiagoYosonduaMixtec	Mixtec	ndūchā	ndūchā	ⁿd u ³ tʃ a ³	ⁿdu³tʃa³	402	402	16.9042	-97.5018	farris1992syntactic
 22025	11_bone	BONE	SantiagoYosonduaMixtec	Mixtec	yɨ̄kɨ̄	yɨ̄kɨ̄	j ɨ ³ k ɨ ³	jɨ³kɨ³	74	74	16.9042	-97.5018	farris1992syntactic
 22026	110_when	WHEN	SantiagoYosonduaMixtec	Mixtec	nāmā	nāmā	n + a ³ m a ³	n+a³ma³	839 840	839 840	16.9042	-97.5018	farris1992syntactic
 22027	111_white	WHITE	SantiagoYosonduaMixtec	Mixtec	kwíxín	kwíxín	kʷ i ⁵ x ĩ ⁵	kʷi⁵xĩ⁵	844	844	16.9042	-97.5018	farris1992syntactic
-22028	114_word	WORD	SantiagoYosonduaMixtec	Mixtec	Nnuhu	Nnuhu	 hn u ¹ ʔ u ¹	hnu¹ʔu¹	863	863	16.9042	-97.5018	farris1992syntactic
+22028	114_word	WORD	SantiagoYosonduaMixtec	Mixtec	Nnuhu	Nnuhu	 n̥ u ¹ ʔ u ¹	n̥u¹ʔu¹	863	863	16.9042	-97.5018	farris1992syntactic
 22029	117_yellow	YELLOW	SantiagoYosonduaMixtec	Mixtec	kwáán	kwáán	kʷ a ⁵ ã ⁵	kʷa⁵ã⁵	876	876	16.9042	-97.5018	farris1992syntactic
 22030	118_yesterday	YESTERDAY	SantiagoYosonduaMixtec	Mixtec	īkū	īkū	i ³ k u ³	i³ku³	879	879	16.9042	-97.5018	farris1992syntactic
 22031	119_aunt	AUNT	SantiagoYosonduaMixtec	Mixtec	shīshī	shīshī	ʃ i ³ ʃ i ³	ʃi³ʃi³	6	6	16.9042	-97.5018	farris1992syntactic
@@ -15889,10 +15889,10 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 22066	6_bellyorstomach	BELLY OR STOMACH	SantiagoYosonduaMixtec	Mixtec	chii	chii	tʃ i ¹ i ¹	tʃi¹i¹	36	36	16.9042	-97.5018	farris1992syntactic
 22067	62_mud	MUD	SantiagoYosonduaMixtec	Mixtec	ndēhyu	ndēhyu	ⁿd e ³ ʔ j u ¹	ⁿde³ʔju¹	449	449	16.9042	-97.5018	farris1992syntactic
 22068	63_mouse	MOUSE	SantiagoYosonduaMixtec	Mixtec	lúsū	lúsū	l u ⁵ s u ³	lu⁵su³	446	446	16.9042	-97.5018	farris1992syntactic
-22069	66_near	NEAR	SantiagoYosonduaMixtec	Mixtec	yāNnī	yāNnī	j a ³  hn i ³	ja³hni³	459	459	16.9042	-97.5018	farris1992syntactic
+22069	66_near	NEAR	SantiagoYosonduaMixtec	Mixtec	yāNnī	yāNnī	j a ³  n̥ i ³	ja³n̥i³	459	459	16.9042	-97.5018	farris1992syntactic
 22070	67_nighttime	NIGHT TIME	SantiagoYosonduaMixtec	Mixtec	ñúú	ñúú	ɲ u ⁵ u ⁵	ɲu⁵u⁵	481	481	16.9042	-97.5018	farris1992syntactic
 22071	7_bigplural	BIG (PLURAL)	SantiagoYosonduaMixtec	Mixtec	náhnū	náhnū	n a ⁵ ʔ n u ³	na⁵ʔnu³	42	42	16.9042	-97.5018	farris1992syntactic
-22072	70_nowortoday	NOW OR TODAY	SantiagoYosonduaMixtec	Mixtec	vīNnā	vīNnā	β i ³  hn a ³	βi³hna³	501	501A	16.9042	-97.5018	farris1992syntactic
+22072	70_nowortoday	NOW OR TODAY	SantiagoYosonduaMixtec	Mixtec	vīNnā	vīNnā	β i ³  n̥ a ³	βi³n̥a³	501	501A	16.9042	-97.5018	farris1992syntactic
 22073	72_paper	PAPER	SantiagoYosonduaMixtec	Mixtec	tūtū	tūtū	t u ³ t u ³	tu³tu³	520	520	16.9042	-97.5018	farris1992syntactic
 22074	73_path	PATH	SantiagoYosonduaMixtec	Mixtec	īchī	īchī	i ³ tʃ i ³	i³tʃi³	523	523	16.9042	-97.5018	farris1992syntactic
 22075	81_rabbit	RABBIT	SantiagoYosonduaMixtec	Mixtec	isō	isō	i ¹ s o ³	i¹so³	578	578	16.9042	-97.5018	farris1992syntactic
