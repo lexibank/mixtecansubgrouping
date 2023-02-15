@@ -1150,7 +1150,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 1881	227_clothes	CLOTHES	SanJuanCopalaTriqui	Triqui	sa³ganh¹	sa³ganh¹	s a ³ g ã ʔ ¹	sa³gãʔ¹	118	118	17.187222	-97.962778	hollenbach1992syntactic
 1882	227_clothes	CLOTHES	SanJuanCopalaTriqui	Triqui	yatsix⁵	yatsix⁵	j a ts e h ⁵	jatseh⁵	113	113	17.187222	-97.962778	hollenbach1992syntactic
 1883	159_blousewoven	BLOUSE (WOVEN)	SanJuanCopalaTriqui	Triqui	rohno⁴	rohno⁴	ʂ o ʔ n o ʔ ⁴	ʂoʔnoʔ⁴	69	69	17.187222	-97.962778	hollenbach1992syntactic
-1884	49_house	HOUSE	SanJuanCopalaTriqui	Triqui	weh³	weh³	w eʔ ³	weʔ³	363	363	17.187222	-97.962778	hollenbach1992syntactic
+1884	49_house	HOUSE	SanJuanCopalaTriqui	Triqui	weh³	weh³	w e ʔ ³	weʔ³	363	363	17.187222	-97.962778	hollenbach1992syntactic
 1885	1_animal	ANIMAL	SanJuanCopalaTriqui	Triqui	shkuu³	shkuu³	ʃ k u ³	ʃku³	3	3	17.187222	-97.962778	hollenbach1992syntactic
 1886	34_fish	FISH	SanJuanCopalaTriqui	Triqui	shkw-ax³²	shkw-ax³²	ʃ kʷ + a h ³²	ʃkʷ+ah³²	9 242	9 242	17.187222	-97.962778	hollenbach1992syntactic
 1887	95_snake	SNAKE	SanJuanCopalaTriqui	Triqui	shkw-aa⁵	shkw-aa⁵	ʃ kʷ + a ⁵	ʃkʷ+a⁵	9 689	9 689	17.187222	-97.962778	hollenbach1992syntactic
@@ -12602,7 +12602,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 17771	44_heavy	HEAVY	SantiagoIxtayutlaMixtec	Mixtec	ƀee	ƀee	β e e	βee	326	326	16.5774	-97.5759	josserand1983mixtec
 17775	40_grass	GRASS	SanJuanColoradoMixtec	Mixtec	ityà	ityà	i ³ tʲ a ¹	i³tʲa¹	294	294	16.46073	-97.95446	stark1986diccionario
 17776	204_cornstalk	CORN STALK	CosoltepecMixtec	Mixtec	tu-ña̧ma̧	tu-ña̧ma̧	t u + ɲ ã m ã	tu+ɲãmã	32 150	32 150	18.14291	-97.79059	josserand1983mixtec
-17777	188_smokeexhaust	SMOKE (EXHAUST)	SanJuanCopalaTriqui	Triqui	katseh³	katseh³	k a ts eʔ ³	katseʔ³	683	683	17.187222	-97.962778	hollenbach1992syntactic
+17777	188_smokeexhaust	SMOKE (EXHAUST)	SanJuanCopalaTriqui	Triqui	katseh³	katseh³	k a ts e ʔ ³	katseʔ³	683	683	17.187222	-97.962778	hollenbach1992syntactic
 17778	133_blame	BLAME	CuatzoquitengoMixtec	Mixtec	kʷači	kʷači	kʷ a tʃ i	kʷatʃi	61	61	17.28835	-98.61552	josserand1983mixtec
 17779	1_animal	ANIMAL	SanPedroMolinosMixtec	Mixtec	kiti	kiti	k i ³ t i ³	ki³ti³	2	2	17.10495	-97.54152	josserand1983mixtec
 17780	44_heavy	HEAVY	SanEstebanAtatlahucaMixtec	Mixtec	vēyɨ	vēyɨ	β e ¹ j ɨ ³	βe¹jɨ³	326	326	17.07133	-97.67753	alexander1980gramatica
@@ -12764,7 +12764,7 @@ ID	PARAMETER_ID	CONCEPT	DOCULECT	SUBGROUP	VALUE	FORM	TOKENS	IPA	COGIDS_BROAD	COG
 17993	12_brotherofman	BROTHER (OF MAN)	SanAgustinTlacotepecMixtec	Mixtec	ña̧ni̧	ña̧ni̧	ɲ ã n ĩ	ɲãnĩ	84	84	17.20365	-97.51853	josserand1983mixtec
 17998	18_corn	CORN	SanJuanColoradoMixtec	Mixtec	nùñì	nùñì	n u ¹ ɲ i ¹	nu¹ɲi¹	141	141	16.46073	-97.95446	stark1986diccionario
 17999	194_tassel	TASSEL	CosoltepecMixtec	Mixtec	yoko	yoko	j o k o	joko	751	751	18.14291	-97.79059	josserand1983mixtec
-18000	86_rope	ROPE	SanJuanCopalaTriqui	Triqui	neh³	neh³	n eʔ ³	neʔ³	622	622	17.187222	-97.962778	hollenbach1992syntactic
+18000	86_rope	ROPE	SanJuanCopalaTriqui	Triqui	neh³	neh³	n e ʔ ³	neʔ³	622	622	17.187222	-97.962778	hollenbach1992syntactic
 18001	142_netbag	NETBAG	SanJuanCopalaTriqui	Triqui	nanx³	nanx³	n ã h ³	nãh³	469	469	17.187222	-97.962778	hollenbach1992syntactic
 18004	147_sandal	SANDAL	CuyamecalcoVillaZaragozaMixtec	Mixtec	ⁿdi̧ñȩ	ⁿdi̧ñȩ	ⁿd ĩ ɲ ẽ	ⁿdĩɲẽ	631	631	18.0821	-96.7314	josserand1983mixtec
 18008	75_plate	PLATE	ElJicaralMixtec	Mixtec	ko̠'ó	ko̠'ó	k o ¹ ʔ o ⁵	ko¹ʔo⁵	545	545	17.12602	-98.196842	martin2020diccionario
