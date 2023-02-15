@@ -1,0 +1,45 @@
+{
+    "title": "CLDF dataset accompanying Auderset et al.'s \"Subgrouping in a \u2018dialect continuum\u2019\" from 2023",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Sandra Auderset"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
+        {
+            "name": "Johannes English",
+            "type": "Other"
+        },
+        {
+            "name": "Christoph Rzymski",
+            "type": "Other"
+        },
+        {
+            "name": "Eric W. Campbell",
+            "type": "Other"
+        },
+        {
+            "name": "Christian T. DiCanio",
+            "type": "Other"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) &quot;Subgrouping in a `dialect continuum&#x27;: A Bayesian phylogenetic analysis of the Mixtecan language family&quot;. Journal of Language Evolution.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
