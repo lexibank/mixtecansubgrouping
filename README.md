@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution.
+  > Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
