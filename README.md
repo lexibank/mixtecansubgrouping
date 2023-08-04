@@ -1,4 +1,4 @@
-# CLDF dataset accompanying Auderset et al.'s "Subgrouping in a ‘dialect continuum’" from 2023
+# CLDF dataset accompanying Auderset et al.'s "Subgrouping in a dialect continuum" from 2023
 
 ## How to cite
 
@@ -10,10 +10,13 @@ If you use these data please cite
 ## Description
 
 
-This dataset is licensed under a CC-By-4.0 license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://github.com/lexibank/mixtecansubgrouping
 
+
+Conceptlists in Concepticon:
+- [Auderset-2023-240](https://concepticon.clld.org/contributions/Auderset-2023-240)
 ## Statistics
 
 

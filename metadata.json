@@ -1,6 +1,7 @@
 {
-    "title": "CLDF dataset accompanying Auderset et al.'s \"Subgrouping in a ‘dialect continuum’\" from 2023",
+    "title": "CLDF dataset accompanying Auderset et al.'s \"Subgrouping in a dialect continuum\" from 2023",
     "url": "https://github.com/lexibank/mixtecansubgrouping",
-    "license": "CC-By-4.0",
+    "license": "CC-BY-4.0",
+    "conceptlist": "Auderset-2023-240",
     "citation": "Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) \"Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family\". Journal of Language Evolution."
 }

@@ -18,7 +18,6 @@ class CustomLanguage(Language):
 
 @attr.s
 class CustomConcept(Concept):
-    Spanish_Gloss = attr.ib(default=None)
     Number = attr.ib(default=None)
 
 
@@ -68,16 +67,15 @@ class Dataset(BaseDataset):
                 args.writer.add_language(**language)
 
         concepts = {}
-        for concept in self.concepts:
-            id_ = '{}_{}'.format(concept['NUMBER'], slug(concept['ENGLISH']))
+        for concept in self.conceptlists[0].concepts.values():
+            id_ = '{}_{}'.format(concept.number, slug(concept.english))
             args.writer.add_concept(
                 ID=id_,
-                Name=concept['ENGLISH'],
-                Number=concept['NUMBER'],
-                Concepticon_ID=concept['CONCEPTICON_ID'],
-                Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
-                Spanish_Gloss=concept['SPANISH'])
-            concepts[concept['ENGLISH']] = id_
+                Name=concept.english,
+                Number=concept.number,
+                Concepticon_ID=concept.concepticon_id,
+                Concepticon_Gloss=concept.concepticon_gloss)
+            concepts[concept.english] = id_
 
         errors = set()
         for key in word_list:
