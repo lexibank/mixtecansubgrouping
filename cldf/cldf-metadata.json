@@ -1,12 +1,12 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) \"Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family\". Journal of Language Evolution.",
+    "dc:bibliographicCitation": "Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) \"Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family\". Journal of Language Evolution 8 (1). 33\u2013-63. DOI: https://doi.org/10.1093/jole/lzad004.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Auderset-2023-240"
     ],
-    "dc:identifier": "https://github.com/lexibank/mixtecansubgrouping",
+    "dc:identifier": "https://doi.org/10.1093/jole/lzad004",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
@@ -17,25 +17,25 @@
         {
             "rdf:about": "https://github.com/lexibank/mixtecansubgrouping",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1",
+            "dc:created": "v0.1-5-g21f0170",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.7",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1.0-39-g35331580",
+            "dc:created": "v3.2.0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.2.0",
+            "dc:created": "v2.3.0",
             "dc:title": "CLTS"
         }
     ],
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.9.16"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",

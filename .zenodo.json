@@ -13,15 +13,15 @@
     "contributors": [
         {
             "name": "Johann-Mattis List",
-            "type": "Other"
+            "type": "Editor"
         },
         {
             "name": "Johannes English",
-            "type": "Other"
+            "type": "Editor"
         },
         {
             "name": "Christoph Rzymski",
-            "type": "Other"
+            "type": "Editor"
         },
         {
             "name": "Eric W. Campbell",
@@ -38,7 +38,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) &quot;Subgrouping in a `dialect continuum&#x27;: A Bayesian phylogenetic analysis of the Mixtecan language family&quot;. Journal of Language Evolution.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) &quot;Subgrouping in a `dialect continuum&#x27;: A Bayesian phylogenetic analysis of the Mixtecan language family&quot;. Journal of Language Evolution 8 (1). 33\u2013-63. DOI: https://doi.org/10.1093/jole/lzad004.</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }
