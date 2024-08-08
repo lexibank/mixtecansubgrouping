@@ -8,13 +8,13 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution 8 (1). 33–-63. DOI: https://doi.org/10.1093/jole/lzad004.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution 8 (1). 33–-63. DOI: https://doi.org/10.1093/jole/lzad004.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Auderset-2023-240</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://doi.org/10.1093/jole/lzad004
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/mixtecansubgrouping
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/mixtecansubgrouping/tree/21f0170">lexibank/mixtecansubgrouping v0.1-5-g21f0170</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/mixtecansubgrouping/tree/c01b8d8">lexibank/mixtecansubgrouping v0.1-6-gc01b8d8</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.2.0">Concepticon v3.2.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | mixtecansubgrouping
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution

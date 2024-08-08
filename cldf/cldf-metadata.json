@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) \"Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family\". Journal of Language Evolution 8 (1). 33\u2013-63. DOI: https://doi.org/10.1093/jole/lzad004.",
+    "dc:bibliographicCitation": "Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) \"Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family\". Journal of Language Evolution 8 (1). 33\u2013-63. DOI: https://doi.org/10.1093/jole/lzad004.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Auderset-2023-240"
@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/mixtecansubgrouping",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-5-g21f0170",
+            "dc:created": "v0.1-6-gc01b8d8",
             "dc:title": "Repository"
         },
         {

@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Auderset, Sandra, Simon J. Greehnhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution 8 (1). 33–-63. DOI: https://doi.org/10.1093/jole/lzad004.
+  > Auderset, Sandra, Simon J. Greenhill, Christian T. DiCanio, Eric W. Campbell. (2023) "Subgrouping in a `dialect continuum': A Bayesian phylogenetic analysis of the Mixtecan language family". Journal of Language Evolution 8 (1). 33–-63. DOI: https://doi.org/10.1093/jole/lzad004.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -43,14 +43,15 @@ Conceptlists in Concepticon:
 
 # Contributors
 
-Name | GitHub user | Role   | Description 
---- | --- |--------| ---
-Sandra Auderset | SAuderset | Author | data collection, cognate coding, author
-Johann-Mattis List | LinguList | Editor | CLDF data conversion, orthography profile creation
-Johannes English | johenglisch | Editor | CLDF data conversion
-Christoph Rzymski | chrzyki | Editor | CLDF data conversion
-Eric W. Campbell |  | Other  | cognate coding
-Christian T. DiCanio | | Other  | cognate coding 
+Name | GitHub user     | Role           | Description 
+--- |-----------------|----------------| ---
+Sandra Auderset | @SAuderset      | Author         | Data collection, cognate coding
+Johann-Mattis List | @LinguList      | Editor         | CLDF data conversion, orthography profile creation
+Johannes English | @johenglisch    | Editor         | CLDF data conversion
+Christoph Rzymski | @chrzyki        | Editor         | CLDF data conversion
+Eric W. Campbell |                 | Other          | Cognate coding
+Christian T. DiCanio |                 | Other          | Cognate coding
+Simon J. Greenhill | @SimonGreenhill | Author, Editor | 
 
 
 
