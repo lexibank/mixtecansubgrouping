@@ -52,6 +52,7 @@ class Dataset(BaseDataset):
     concept_class = CustomConcept
     lexeme_class = CustomLexeme
     cognate_class = CustomCognate
+    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_makecldf(self, args):
         word_list = lingpy.Wordlist(
